@@ -115,7 +115,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "1883 at Montgomery House": {
     "canonical_name": "1883 at Montgomery House",
@@ -227,7 +227,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "1907 Robbins Place Apartments": {
     "canonical_name": "1907 Robbins Place Apartments",
@@ -270,7 +270,7 @@
       }
     ],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "21 Pearl": {
     "canonical_name": "21 Pearl",
@@ -415,7 +415,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "21 Rio": {
     "canonical_name": "21 Rio",
@@ -545,7 +545,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "24 Longview": {
     "canonical_name": "24 Longview",
@@ -680,7 +680,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "2400 Nueces": {
     "canonical_name": "2400 Nueces",
@@ -812,7 +812,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "26 West": {
     "canonical_name": "26 West",
@@ -949,7 +949,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "3000 Guadalupe St": {
     "canonical_name": "3000 Guadalupe St",
@@ -983,7 +983,7 @@
     },
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "9HUNDRED": {
     "canonical_name": "9HUNDRED",
@@ -1060,7 +1060,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Aura Thirty2": {
     "canonical_name": "Aura Thirty2",
@@ -1103,8 +1103,13 @@
         "date": "2026-03-24"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Gym, pool, balcony, and sky lounge; close to campus (1 report)",
+        "sentiment": "positive"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Avon at 22nd": {
     "canonical_name": "Avon at 22nd",
@@ -1163,8 +1168,13 @@
         "date": "2026-05-01"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Washer/dryer and fridge included, no other amenities (1 report)",
+        "sentiment": "neutral"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Axis West Campus": {
     "canonical_name": "Axis West Campus",
@@ -1284,7 +1294,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Ballpark East": {
     "canonical_name": "Ballpark East",
@@ -1316,7 +1326,7 @@
     "lease_years": {},
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Ballpark North": {
     "canonical_name": "Ballpark North",
@@ -1387,8 +1397,17 @@
         "date": "2026-03-04"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Furnished with pool, hangout lounge, and gym (2 mentions)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Building smells bad; gym described as old (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Buena Vista Condominiums": {
     "canonical_name": "Buena Vista Condominiums",
@@ -1428,8 +1447,13 @@
         "date": "2026-02-19"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Close to campus but bugs/roaches reported (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Callaway House": {
     "canonical_name": "Callaway House",
@@ -1563,7 +1587,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Camino Flats": {
     "canonical_name": "Camino Flats",
@@ -1665,7 +1689,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Centennial Condos": {
     "canonical_name": "Centennial Condos",
@@ -1727,8 +1751,21 @@
         "date": "2026-04-11"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Close to campus (1 report)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Parking included and relatively cheap (1 report)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "No gym (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Crest at Pearl": {
     "canonical_name": "Crest at Pearl",
@@ -1843,7 +1880,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Croix Condominiums": {
     "canonical_name": "Croix Condominiums",
@@ -1885,7 +1922,7 @@
     },
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Delphi Condominiums": {
     "canonical_name": "Delphi Condominiums",
@@ -1958,8 +1995,17 @@
         "date": "2026-03-24"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Close to campus (1 report)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "No amenities (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Dobie Twenty21": {
     "canonical_name": "Dobie Twenty21",
@@ -2091,7 +2137,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Dos Rios": {
     "canonical_name": "Dos Rios",
@@ -2142,8 +2188,17 @@
         "date": "2026-03-05"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Good pricing for a 1x1; in-unit washer/dryer, no gym (1 report)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Bugs reported (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Duval Villas": {
     "canonical_name": "Duval Villas",
@@ -2201,8 +2256,13 @@
         "date": "2026-02-17"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Broken elevator (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "East Campus Graduate Apartments": {
     "canonical_name": "East Campus Graduate Apartments",
@@ -2250,7 +2310,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Elan East Apartments": {
     "canonical_name": "Elan East Apartments",
@@ -2273,7 +2333,7 @@
     "lease_years": {},
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Envoy Apartments": {
     "canonical_name": "Envoy Apartments",
@@ -2341,8 +2401,21 @@
         "date": "2026-02-22"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "No hidden fees, but ask about separate utility prices (1 report)",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Occasional utility problems; maintenance is quick (1 report)",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Quiet area; nice space for one person (1 report)",
+        "sentiment": "positive"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Escala Condominiums": {
     "canonical_name": "Escala Condominiums",
@@ -2376,7 +2449,7 @@
     },
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Estates at East Riverside": {
     "canonical_name": "Estates at East Riverside",
@@ -2422,7 +2495,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Gables Condominiums": {
     "canonical_name": "Gables Condominiums",
@@ -2467,8 +2540,13 @@
         "date": "2026-03-24"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Washer/dryer is older; rent split between two people (1 report)",
+        "sentiment": "neutral"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Galileo Condominiums": {
     "canonical_name": "Galileo Condominiums",
@@ -2510,8 +2588,13 @@
         "date": "2026-03-03"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Elevator tends to break every so often (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Gateway Apartments": {
     "canonical_name": "Gateway Apartments",
@@ -2534,7 +2617,7 @@
     "lease_years": {},
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "GrandMarc Austin": {
     "canonical_name": "GrandMarc Austin",
@@ -2637,7 +2720,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Greenwood Condominiums": {
     "canonical_name": "Greenwood Condominiums",
@@ -2679,8 +2762,13 @@
         "date": "2026-04-03"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Laundry room only; no other amenities. Very quiet (1 report)",
+        "sentiment": "neutral"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Halstead Co-op": {
     "canonical_name": "Halstead Co-op",
@@ -2722,8 +2810,13 @@
         "date": "2026-03-17"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Elevator frequently bad (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Haus 535": {
     "canonical_name": "Haus 535",
@@ -2784,7 +2877,7 @@
       }
     ],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "High Point Preserve": {
     "canonical_name": "High Point Preserve",
@@ -2832,7 +2925,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Hillside Creek": {
     "canonical_name": "Hillside Creek",
@@ -2880,7 +2973,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Hilltop": {
     "canonical_name": "Hilltop",
@@ -3026,7 +3119,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Hyde Park Court": {
     "canonical_name": "Hyde Park Court",
@@ -3060,7 +3153,7 @@
     },
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Icon at Austin": {
     "canonical_name": "Icon at Austin",
@@ -3184,7 +3277,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Inspire on 22nd": {
     "canonical_name": "Inspire on 22nd",
@@ -3305,7 +3398,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Ion Austin": {
     "canonical_name": "Ion Austin",
@@ -3432,7 +3525,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Keystone Apartments": {
     "canonical_name": "Keystone Apartments",
@@ -3474,8 +3567,13 @@
         "date": "2026-03-17"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Unfurnished, no amenities (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Landmark Square": {
     "canonical_name": "Landmark Square",
@@ -3523,7 +3621,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Lantern Lane Condominiums": {
     "canonical_name": "Lantern Lane Condominiums",
@@ -3583,7 +3681,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Lark Austin": {
     "canonical_name": "Lark Austin",
@@ -3735,7 +3833,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Laurel House Co-op": {
     "canonical_name": "Laurel House Co-op",
@@ -3781,7 +3879,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Legacy on Rio": {
     "canonical_name": "Legacy on Rio",
@@ -3923,7 +4021,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Leon Place Condominiums": {
     "canonical_name": "Leon Place Condominiums",
@@ -3957,7 +4055,7 @@
     },
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Littlefield Apartments": {
     "canonical_name": "Littlefield Apartments",
@@ -3991,7 +4089,7 @@
     },
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Lone Star Lofts": {
     "canonical_name": "Lone Star Lofts",
@@ -4076,7 +4174,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Marq Uptown": {
     "canonical_name": "Marq Uptown",
@@ -4141,7 +4239,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Marq on Burnet": {
     "canonical_name": "Marq on Burnet",
@@ -4186,8 +4284,13 @@
         "date": "2026-04-19"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "15-20 minute drive north of campus (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Montage Apartments": {
     "canonical_name": "Montage Apartments",
@@ -4236,8 +4339,13 @@
         "date": "2026-02-16"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Spacious rooms but no laundry (1 report)",
+        "sentiment": "neutral"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Moontower": {
     "canonical_name": "Moontower",
@@ -4365,7 +4473,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Noble 2500": {
     "canonical_name": "Noble 2500",
@@ -4482,7 +4590,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Nueces Co-op": {
     "canonical_name": "Nueces Co-op",
@@ -4532,7 +4640,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Nueces Corner Condos": {
     "canonical_name": "Nueces Corner Condos",
@@ -4572,8 +4680,13 @@
         "date": "2026-02-19"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Older building; 1-bed units do not get in-unit laundry (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Oak Grove Apartments": {
     "canonical_name": "Oak Grove Apartments",
@@ -4630,8 +4743,13 @@
         "date": "2026-03-23"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Great space but unreliable water heater and A/C (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Oaks at Chisholm Trail": {
     "canonical_name": "Oaks at Chisholm Trail",
@@ -4673,8 +4791,13 @@
         "date": "2026-03-16"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "In Round Rock — far from campus; whole house ~$3000 plus ~$350 utilities (1 report)",
+        "sentiment": "neutral"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Orange Tree Condominiums": {
     "canonical_name": "Orange Tree Condominiums",
@@ -4767,7 +4890,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Palmetto Condominiums": {
     "canonical_name": "Palmetto Condominiums",
@@ -4836,7 +4959,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Parapet Condominiums": {
     "canonical_name": "Parapet Condominiums",
@@ -4886,8 +5009,17 @@
         "date": "2026-03-03"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Free parking and a good courtyard (2 mentions)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "About a 20-minute walk from campus (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Park Place Condominiums": {
     "canonical_name": "Park Place Condominiums",
@@ -4946,8 +5078,17 @@
         "date": "2026-04-14"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Convenient location (1 report)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Free parking and elevator included (1 report)",
+        "sentiment": "positive"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Pecan Square Apartments": {
     "canonical_name": "Pecan Square Apartments",
@@ -4989,8 +5130,13 @@
         "date": "2026-06-07"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Far from campus (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Pecan Walks": {
     "canonical_name": "Pecan Walks",
@@ -5033,7 +5179,7 @@
       }
     ],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Penthouse Apartments": {
     "canonical_name": "Penthouse Apartments",
@@ -5081,7 +5227,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Piazza Navona Condominiums": {
     "canonical_name": "Piazza Navona Condominiums",
@@ -5115,7 +5261,7 @@
     },
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Point North": {
     "canonical_name": "Point North",
@@ -5194,7 +5340,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Preserve at Wells Branch": {
     "canonical_name": "Preserve at Wells Branch",
@@ -5236,8 +5382,13 @@
         "date": "2026-03-11"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Really far from campus (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Presidium Tech Ridge Apartments": {
     "canonical_name": "Presidium Tech Ridge Apartments",
@@ -5279,8 +5430,13 @@
         "date": "2026-03-05"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "New building, but maintenance is slow (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Promontory Point": {
     "canonical_name": "Promontory Point",
@@ -5322,8 +5478,13 @@
         "date": "2026-03-03"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "No elevators (1 report)",
+        "sentiment": "neutral"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Quarters on Campus – Grayson": {
     "canonical_name": "Quarters on Campus – Grayson",
@@ -5424,7 +5585,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Quarters on Campus – Karnes House": {
     "canonical_name": "Quarters on Campus – Karnes House",
@@ -5482,8 +5643,13 @@
         "date": "2026-02-17"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "On the edge of campus; cheap with random roommates (2 mentions)",
+        "sentiment": "neutral"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Quarters on Campus – Nueces": {
     "canonical_name": "Quarters on Campus – Nueces",
@@ -5600,7 +5766,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Quarters on Campus – Sterling House": {
     "canonical_name": "Quarters on Campus – Sterling House",
@@ -5719,7 +5885,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Rambler Apartments": {
     "canonical_name": "Rambler Apartments",
@@ -5851,7 +6017,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Redpoint San Marcos": {
     "canonical_name": "Redpoint San Marcos",
@@ -5893,8 +6059,17 @@
         "date": "2026-03-24"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Nice pool and sand volleyball; gym still developing (1 report)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Unreliable bus (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Regents West at 24th": {
     "canonical_name": "Regents West at 24th",
@@ -6014,7 +6189,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Regents West at 26th": {
     "canonical_name": "Regents West at 26th",
@@ -6123,7 +6298,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Rise at West Campus": {
     "canonical_name": "Rise at West Campus",
@@ -6267,7 +6442,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Sabina Condominiums": {
     "canonical_name": "Sabina Condominiums",
@@ -6290,7 +6465,7 @@
     "lease_years": {},
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "San Gabriel Square": {
     "canonical_name": "San Gabriel Square",
@@ -6385,7 +6560,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "San Pedro Flats": {
     "canonical_name": "San Pedro Flats",
@@ -6427,8 +6602,13 @@
         "date": "2026-02-26"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Large furnished rooms (1 report)",
+        "sentiment": "positive"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Signature 1909": {
     "canonical_name": "Signature 1909",
@@ -6555,7 +6735,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Skyloft Austin": {
     "canonical_name": "Skyloft Austin",
@@ -6689,7 +6869,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Sparq on Rio": {
     "canonical_name": "Sparq on Rio",
@@ -6859,7 +7039,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Speedway Condominiums": {
     "canonical_name": "Speedway Condominiums",
@@ -6894,7 +7074,7 @@
     },
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Texan 26": {
     "canonical_name": "Texan 26",
@@ -7027,7 +7207,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Texan Pearl": {
     "canonical_name": "Texan Pearl",
@@ -7061,7 +7241,7 @@
     },
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Texan Shoal Creek Condominiums": {
     "canonical_name": "Texan Shoal Creek Condominiums",
@@ -7121,8 +7301,21 @@
         "date": "2026-05-25"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Broken elevator and package theft reported; swimming pool on site (1 report)",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Quick response time (1 report)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "In-unit washer/dryer, community pool and parking; quiet area near Shoal Creek trail (1 report)",
+        "sentiment": "positive"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Texan Tower": {
     "canonical_name": "Texan Tower",
@@ -7215,7 +7408,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Texan & Vintage West Campus": {
     "canonical_name": "Texan & Vintage West Campus",
@@ -7263,7 +7456,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Block 23": {
     "canonical_name": "The Block 23",
@@ -7406,7 +7599,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Block on 25th East": {
     "canonical_name": "The Block on 25th East",
@@ -7514,7 +7707,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Block on 25th West": {
     "canonical_name": "The Block on 25th West",
@@ -7651,7 +7844,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Block on 28th": {
     "canonical_name": "The Block on 28th",
@@ -7751,7 +7944,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Block on Leon": {
     "canonical_name": "The Block on Leon",
@@ -7890,7 +8083,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Block on Pearl North": {
     "canonical_name": "The Block on Pearl North",
@@ -7986,7 +8179,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Block on Pearl South": {
     "canonical_name": "The Block on Pearl South",
@@ -8036,8 +8229,13 @@
         "date": "2026-03-02"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Elevator constantly breaks; frequent parties (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "The Block on Rio": {
     "canonical_name": "The Block on Rio",
@@ -8121,7 +8319,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Castilian": {
     "canonical_name": "The Castilian",
@@ -8235,7 +8433,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Marian Condominiums": {
     "canonical_name": "The Marian Condominiums",
@@ -8283,7 +8481,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Mark Austin": {
     "canonical_name": "The Mark Austin",
@@ -8435,7 +8633,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Nine at Rio": {
     "canonical_name": "The Nine at Rio",
@@ -8552,7 +8750,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Nine at West Campus": {
     "canonical_name": "The Nine at West Campus",
@@ -8652,7 +8850,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Sinclair": {
     "canonical_name": "The Sinclair",
@@ -8694,7 +8892,7 @@
     },
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Sondery": {
     "canonical_name": "The Sondery",
@@ -8743,7 +8941,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Standard": {
     "canonical_name": "The Standard",
@@ -8862,7 +9060,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "The Waller": {
     "canonical_name": "The Waller",
@@ -8904,8 +9102,13 @@
         "date": "2026-03-08"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Strong gym and pet-friendly (1 report)",
+        "sentiment": "positive"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Tom Green Condominiums": {
     "canonical_name": "Tom Green Condominiums",
@@ -8953,7 +9156,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Torre": {
     "canonical_name": "Torre",
@@ -9078,7 +9281,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Town Lake Apartments": {
     "canonical_name": "Town Lake Apartments",
@@ -9200,7 +9403,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Town Lake Condos": {
     "canonical_name": "Town Lake Condos",
@@ -9223,7 +9426,7 @@
     "lease_years": {},
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Town Lake at Austin": {
     "canonical_name": "Town Lake at Austin",
@@ -9246,7 +9449,7 @@
     "lease_years": {},
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Tradition on Rio": {
     "canonical_name": "Tradition on Rio",
@@ -9418,7 +9621,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Treehouse Condominiums": {
     "canonical_name": "Treehouse Condominiums",
@@ -9474,8 +9677,17 @@
         "date": "2026-04-24"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Assigned parking included (1 report)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Quiet building (1 report)",
+        "sentiment": "positive"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Troubadour": {
     "canonical_name": "Troubadour",
@@ -9551,7 +9763,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Twenty Two15": {
     "canonical_name": "Twenty Two15",
@@ -9668,7 +9880,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Union on 24th": {
     "canonical_name": "Union on 24th",
@@ -9835,7 +10047,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Union on San Antonio": {
     "canonical_name": "Union on San Antonio",
@@ -9965,7 +10177,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "VEER Apartments": {
     "canonical_name": "VEER Apartments",
@@ -10010,8 +10222,13 @@
         "date": "2026-06-15"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "About a 15-minute drive from campus (1 report)",
+        "sentiment": "negative"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Vanderbilt Condominiums": {
     "canonical_name": "Vanderbilt Condominiums",
@@ -10106,7 +10323,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Venue on Guadalupe": {
     "canonical_name": "Venue on Guadalupe",
@@ -10166,7 +10383,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Village at East Riverside": {
     "canonical_name": "Village at East Riverside",
@@ -10214,7 +10431,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Villas at San Gabriel": {
     "canonical_name": "Villas at San Gabriel",
@@ -10293,7 +10510,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Villas on 24th": {
     "canonical_name": "Villas on 24th",
@@ -10408,7 +10625,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Villas on 26th": {
     "canonical_name": "Villas on 26th",
@@ -10516,7 +10733,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Villas on Guadalupe": {
     "canonical_name": "Villas on Guadalupe",
@@ -10688,7 +10905,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Villas on Nueces": {
     "canonical_name": "Villas on Nueces",
@@ -10807,7 +11024,7 @@
         "sentiment": "positive"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Villas on Rio": {
     "canonical_name": "Villas on Rio",
@@ -10970,7 +11187,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Waterford Condominiums": {
     "canonical_name": "Waterford Condominiums",
@@ -11018,7 +11235,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Wedgewood Condominiums": {
     "canonical_name": "Wedgewood Condominiums",
@@ -11041,7 +11258,7 @@
     "lease_years": {},
     "top_reviews": [],
     "general_notes": [],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "West Campus Elloras": {
     "canonical_name": "West Campus Elloras",
@@ -11105,7 +11322,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "West Campus Flats": {
     "canonical_name": "West Campus Flats",
@@ -11170,7 +11387,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Windtree Condominiums": {
     "canonical_name": "Windtree Condominiums",
@@ -11210,8 +11427,13 @@
         "date": "2026-02-18"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Private bathroom; 5-minute walk from the CPE (1 report)",
+        "sentiment": "positive"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Yugo Austin Corner": {
     "canonical_name": "Yugo Austin Corner",
@@ -11334,7 +11556,7 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Yugo Austin Nueces": {
     "canonical_name": "Yugo Austin Nueces",
@@ -11413,8 +11635,17 @@
         "date": "2026-02-27"
       }
     ],
-    "general_notes": [],
-    "last_updated": "2026-07-22"
+    "general_notes": [
+      {
+        "text": "Gym included (2 mentions)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Fast maintenance (1 report)",
+        "sentiment": "positive"
+      }
+    ],
+    "last_updated": "2026-09-05"
   },
   "Yugo Austin Rio": {
     "canonical_name": "Yugo Austin Rio",
@@ -11504,7 +11735,7 @@
         "sentiment": "neutral"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   },
   "Yugo Austin Waterloo": {
     "canonical_name": "Yugo Austin Waterloo",
@@ -11622,6 +11853,6 @@
         "sentiment": "negative"
       }
     ],
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-09-05"
   }
 }
