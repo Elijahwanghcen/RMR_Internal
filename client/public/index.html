@@ -1,0 +1,2179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMR Internal Data Tool</title>
+    <meta name="description" content="Rate My Rent internal data management dashboard">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #1a1a2e;
+            --bg-card-hover: #222240;
+            --bg-input: #16162a;
+            --border: #2a2a45;
+            --border-hover: #3d3d6b;
+            --text-primary: #e8e8f0;
+            --text-secondary: #8888aa;
+            --text-muted: #55557a;
+            --accent: #6c5ce7;
+            --accent-glow: rgba(108, 92, 231, 0.3);
+            --accent-light: #a29bfe;
+            --success: #00cec9;
+            --success-glow: rgba(0, 206, 201, 0.2);
+            --warning: #fdcb6e;
+            --warning-glow: rgba(253, 203, 110, 0.2);
+            --danger: #ff6b6b;
+            --danger-glow: rgba(255, 107, 107, 0.2);
+            --info: #74b9ff;
+            --gradient-1: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+            --gradient-2: linear-gradient(135deg, #00cec9 0%, #74b9ff 100%);
+            --gradient-3: linear-gradient(135deg, #fd79a8 0%, #fdcb6e 100%);
+            --gradient-danger: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.4);
+            --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.5);
+            --radius: 12px;
+            --radius-sm: 8px;
+            --radius-lg: 16px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ─── HEADER ─────────────────────────────────────── */
+        .header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            padding: 16px 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(20px);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+        }
+
+        .logo-sub {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .live-badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--success-glow);
+            color: var(--success);
+            padding: 6px 14px;
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .live-badge::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: scale(0.8);
+            }
+        }
+
+        /* ─── LAYOUT ─────────────────────────────────────── */
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 24px 32px;
+        }
+
+        /* ─── STATS CARDS ────────────────────────────────── */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+        }
+
+        .stat-card.accent::before {
+            background: var(--gradient-1);
+        }
+
+        .stat-card.success::before {
+            background: var(--gradient-2);
+        }
+
+        .stat-card.warning::before {
+            background: var(--gradient-3);
+        }
+
+        .stat-card.danger::before {
+            background: var(--gradient-danger);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .stat-card.accent .stat-value {
+            color: var(--accent-light);
+        }
+
+        .stat-card.success .stat-value {
+            color: var(--success);
+        }
+
+        .stat-card.warning .stat-value {
+            color: var(--warning);
+        }
+
+        .stat-card.danger .stat-value {
+            color: var(--danger);
+        }
+
+        .stat-sub {
+            font-size: 11px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        /* ─── STAT DETAILS ROW ───────────────────────────── */
+        .stats-detail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .stats-detail-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+        }
+
+        .stats-detail-card h3 {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+
+        .detail-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .detail-value {
+            font-size: 14px;
+            font-weight: 600;
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* ─── FILTER BAR ─────────────────────────────────── */
+        .filter-bar {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px 20px;
+            margin-bottom: 16px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .filter-label {
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .filter-input,
+        .filter-select {
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 8px 12px;
+            border-radius: var(--radius-sm);
+            font-size: 13px;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.2s;
+            min-width: 160px;
+        }
+
+        .filter-input:focus,
+        .filter-select:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .filter-toggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .filter-toggle.active {
+            background: var(--accent-glow);
+            border-color: var(--accent);
+            color: var(--accent-light);
+        }
+
+        .filter-toggle:hover {
+            border-color: var(--border-hover);
+        }
+
+        .filter-spacer {
+            flex: 1;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: var(--bg-input);
+            color: var(--text-primary);
+            font-size: 13px;
+            font-family: inherit;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            border-color: var(--border-hover);
+            background: var(--bg-card-hover);
+        }
+
+        .btn-accent {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+
+        .btn-accent:hover {
+            background: var(--accent-light);
+            border-color: var(--accent-light);
+        }
+
+        .btn-danger {
+            background: rgba(255, 107, 107, 0.1);
+            border-color: var(--danger);
+            color: var(--danger);
+        }
+
+        .btn-danger:hover {
+            background: rgba(255, 107, 107, 0.2);
+        }
+
+        .btn-warning {
+            background: rgba(253, 203, 110, 0.1);
+            border-color: var(--warning);
+            color: var(--warning);
+        }
+
+        .btn-warning:hover {
+            background: rgba(253, 203, 110, 0.2);
+        }
+
+        /* ─── TABLE ───────────────────────────────────────── */
+        .table-wrapper {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .table-header h2 {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .table-count {
+            font-size: 12px;
+            color: var(--text-muted);
+            background: var(--bg-input);
+            padding: 4px 10px;
+            border-radius: 100px;
+        }
+
+        .table-scroll {
+            overflow-x: auto;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 1200px;
+        }
+
+        thead {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        thead th {
+            background: var(--bg-secondary);
+            padding: 10px 14px;
+            text-align: left;
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            white-space: nowrap;
+            user-select: none;
+            transition: color 0.2s;
+        }
+
+        thead th:hover {
+            color: var(--accent-light);
+        }
+
+        thead th.sorted {
+            color: var(--accent-light);
+        }
+
+        thead th .sort-arrow {
+            margin-left: 4px;
+            opacity: 0.5;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+            transition: background 0.15s;
+        }
+
+        tbody tr:hover {
+            background: var(--bg-card-hover);
+        }
+
+        tbody td {
+            padding: 10px 14px;
+            font-size: 13px;
+            vertical-align: top;
+        }
+
+        .cell-hood {
+            font-weight: 600;
+            color: var(--text-primary);
+            white-space: nowrap;
+        }
+
+        .cell-rent {
+            font-weight: 700;
+            font-variant-numeric: tabular-nums;
+            color: var(--success);
+        }
+
+        .cell-layout {
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        .cell-note {
+            max-width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: var(--text-secondary);
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .cell-note.has-note {
+            color: var(--text-primary);
+        }
+
+        .cell-user {
+            color: var(--text-secondary);
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
+        .cell-date {
+            color: var(--text-muted);
+            font-size: 12px;
+            white-space: nowrap;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .cell-utils {
+            font-variant-numeric: tabular-nums;
+            color: var(--text-secondary);
+        }
+
+        /* Badges */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 3px 8px;
+            border-radius: 100px;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .badge-danger {
+            background: var(--danger-glow);
+            color: var(--danger);
+            border: 1px solid rgba(255, 107, 107, 0.3);
+        }
+
+        .badge-warning {
+            background: var(--warning-glow);
+            color: var(--warning);
+            border: 1px solid rgba(253, 203, 110, 0.3);
+        }
+
+        .badge-success {
+            background: var(--success-glow);
+            color: var(--success);
+            border: 1px solid rgba(0, 206, 201, 0.3);
+        }
+
+        .badge-info {
+            background: rgba(116, 185, 255, 0.15);
+            color: var(--info);
+            border: 1px solid rgba(116, 185, 255, 0.3);
+        }
+
+        /* Flag Column */
+        .flags {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        /* Severity dot */
+        .severity-dot {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            margin-right: 4px;
+        }
+        .severity-dot.high { background: var(--danger); }
+        .severity-dot.medium { background: var(--warning); }
+        .severity-dot.low { background: var(--info); }
+
+        .badge-severity-high {
+            background: var(--danger-glow);
+            color: var(--danger);
+            border: 1px solid rgba(255, 107, 107, 0.3);
+        }
+        .badge-severity-medium {
+            background: var(--warning-glow);
+            color: var(--warning);
+            border: 1px solid rgba(253, 203, 110, 0.3);
+        }
+        .badge-severity-low {
+            background: rgba(116, 185, 255, 0.15);
+            color: var(--info);
+            border: 1px solid rgba(116, 185, 255, 0.3);
+        }
+
+        /* Category breakdown panel */
+        .category-breakdown {
+            margin-top: 24px;
+        }
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+            gap: 12px;
+            margin-top: 12px;
+        }
+        .category-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 16px;
+            transition: all 0.2s;
+        }
+        .category-card:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-1px);
+        }
+        .category-card .cat-icon {
+            font-size: 20px;
+            margin-bottom: 6px;
+        }
+        .category-card .cat-name {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .category-card .cat-count {
+            font-size: 24px;
+            font-weight: 800;
+            margin-top: 4px;
+        }
+        .category-card.cat-high .cat-count { color: var(--danger); }
+        .category-card.cat-medium .cat-count { color: var(--warning); }
+        .category-card.cat-low .cat-count { color: var(--info); }
+        .category-card.cat-default .cat-count { color: var(--text-primary); }
+
+        .severity-bar {
+            display: flex;
+            gap: 16px;
+            margin-top: 12px;
+            margin-bottom: 8px;
+        }
+        .severity-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .severity-item .sev-count {
+            font-size: 18px;
+            font-weight: 800;
+        }
+        .severity-item.sev-high .sev-count { color: var(--danger); }
+        .severity-item.sev-medium .sev-count { color: var(--warning); }
+        .severity-item.sev-low .sev-count { color: var(--info); }
+
+        /* Tooltip */
+        .tooltip-container {
+            position: relative;
+            cursor: help;
+        }
+
+        .tooltip-container:hover .tooltip-text {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .tooltip-text {
+            position: absolute;
+            bottom: 120%;
+            left: 50%;
+            transform: translateX(-50%) translateY(4px);
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 8px 12px;
+            border-radius: var(--radius-sm);
+            font-size: 11px;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.2s;
+            z-index: 1000;
+            box-shadow: var(--shadow-md);
+            max-width: 300px;
+            white-space: normal;
+            text-align: left;
+        }
+
+        /* ─── LOADING ─────────────────────────────────────── */
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px;
+            color: var(--text-muted);
+            font-size: 14px;
+            gap: 12px;
+        }
+
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* ─── TABS ────────────────────────────────────────── */
+        .tabs {
+            display: flex;
+            gap: 4px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .tab:hover {
+            color: var(--text-secondary);
+        }
+
+        .tab.active {
+            color: var(--accent-light);
+            border-bottom-color: var(--accent);
+        }
+
+        .tab .tab-count {
+            margin-left: 6px;
+            font-size: 10px;
+            background: var(--bg-input);
+            padding: 2px 7px;
+            border-radius: 100px;
+            font-weight: 700;
+        }
+
+        .tab.active .tab-count {
+            background: var(--accent-glow);
+            color: var(--accent-light);
+        }
+
+        /* ─── UNKNOWN ADDRESS LIST ────────────────────────── */
+        .unknown-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .unknown-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 14px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: opacity 0.3s, background 0.3s;
+        }
+
+        .unknown-item.resolved {
+            opacity: 0.45;
+            background: rgba(0, 206, 201, 0.04);
+            border-color: var(--success);
+        }
+
+        .unknown-item.resolved .unknown-name {
+            text-decoration: line-through;
+            color: var(--text-muted);
+        }
+
+        .unknown-item.resolved .unknown-count {
+            background: var(--success-glow);
+            color: var(--success);
+            border-color: rgba(0, 206, 201, 0.3);
+        }
+
+        .unknown-checkbox {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 18px;
+            height: 18px;
+            min-width: 18px;
+            border: 2px solid var(--border);
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.2s;
+            background: var(--bg-input);
+        }
+
+        .unknown-checkbox:hover {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .unknown-checkbox:checked {
+            background: var(--success);
+            border-color: var(--success);
+        }
+
+        .unknown-checkbox:checked::after {
+            content: '✓';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 12px;
+            font-weight: 900;
+            line-height: 1;
+        }
+
+        .unknown-name {
+            font-weight: 600;
+            font-size: 14px;
+            flex: 1;
+        }
+
+        .unknown-count {
+            background: var(--danger-glow);
+            color: var(--danger);
+            padding: 3px 10px;
+            border-radius: 100px;
+            font-size: 11px;
+            font-weight: 700;
+        }
+
+        .unknown-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .unknown-header h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .unknown-toolbar {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .unknown-progress {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .unknown-progress .resolved-count {
+            color: var(--success);
+        }
+
+        /* ─── SUSPICIOUS REVIEW CHECKBOXES ────────────────── */
+        .suspicious-review-cb {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 18px;
+            height: 18px;
+            min-width: 18px;
+            border: 2px solid var(--border);
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.2s;
+            background: var(--bg-input);
+            vertical-align: middle;
+        }
+
+        .suspicious-review-cb:hover {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .suspicious-review-cb:checked {
+            background: var(--success);
+            border-color: var(--success);
+        }
+
+        .suspicious-review-cb:checked::after {
+            content: '\2713';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 12px;
+            font-weight: 900;
+            line-height: 1;
+        }
+
+        tbody tr.row-reviewed {
+            opacity: 0.45;
+            background: rgba(0, 206, 201, 0.04);
+        }
+
+        tbody tr.row-reviewed:hover {
+            opacity: 0.65;
+        }
+
+        tbody tr.row-reviewed .cell-hood {
+            text-decoration: line-through;
+            color: var(--text-muted);
+        }
+
+        .suspicious-toolbar {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .suspicious-progress {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .suspicious-progress .reviewed-count {
+            color: var(--success);
+        }
+
+        .suspicious-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        /* ─── RESPONSIVE ──────────────────────────────────── */
+        @media (max-width: 768px) {
+            .container {
+                padding: 16px;
+            }
+
+            .header {
+                padding: 12px 16px;
+            }
+
+            .filter-bar {
+                flex-direction: column;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* ─── SCROLLBAR ───────────────────────────────────── */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-primary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--border-hover);
+        }
+
+        /* Search highlight */
+        mark {
+            background: var(--accent-glow);
+            color: var(--accent-light);
+            padding: 1px 2px;
+            border-radius: 2px;
+        }
+
+        /* Double occupancy badge */
+        .badge-do {
+            background: rgba(116, 185, 255, 0.1);
+            color: var(--info);
+            border: 1px solid rgba(116, 185, 255, 0.2);
+        }
+
+        /* Reload button */
+        .btn-reload {
+            padding: 6px 14px;
+            border-radius: 100px;
+            border: 1px solid var(--accent);
+            background: var(--accent-glow);
+            color: var(--accent-light);
+            font-size: 12px;
+            font-family: inherit;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-reload:hover {
+            background: var(--accent);
+            color: white;
+            transform: scale(1.02);
+        }
+
+        .btn-reload.loading {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .btn-reload .reload-icon {
+            display: inline-block;
+            transition: transform 0.5s;
+        }
+
+        .btn-reload.loading .reload-icon {
+            animation: spin 0.8s linear infinite;
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 14px 20px;
+            color: var(--text-primary);
+            font-size: 13px;
+            box-shadow: var(--shadow-lg);
+            z-index: 9999;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s;
+            max-width: 360px;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .toast.success {
+            border-color: var(--success);
+        }
+
+        .toast.error {
+            border-color: var(--danger);
+        }
+
+        /* ─── ROW SELECTION ───────────────────────────────── */
+        .row-checkbox {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 16px;
+            height: 16px;
+            min-width: 16px;
+            border: 2px solid var(--border);
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.15s;
+            background: var(--bg-input);
+        }
+
+        .row-checkbox:hover {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .row-checkbox:checked {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .row-checkbox:checked::after {
+            content: '✓';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 11px;
+            font-weight: 900;
+            line-height: 1;
+        }
+
+        tbody tr.row-selected {
+            background: rgba(99, 110, 255, 0.08);
+        }
+
+        tbody tr.row-selected:hover {
+            background: rgba(99, 110, 255, 0.13);
+        }
+
+        thead th.th-checkbox {
+            width: 40px;
+            text-align: center;
+        }
+
+        /* ─── FLOATING SELECTION BAR ──────────────────────── */
+        .selection-bar {
+            position: fixed;
+            bottom: 28px;
+            left: 50%;
+            transform: translateX(-50%) translateY(80px);
+            background: var(--bg-secondary);
+            border: 1px solid var(--accent);
+            border-radius: 100px;
+            padding: 10px 12px 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            z-index: 9998;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(99, 110, 255, 0.2);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+
+        .selection-bar.visible {
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        .selection-bar .sel-count {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+            white-space: nowrap;
+        }
+
+        .selection-bar .sel-count strong {
+            color: var(--accent-light);
+        }
+
+        .selection-bar .sel-btn {
+            padding: 7px 16px;
+            border-radius: 100px;
+            border: 1px solid var(--border);
+            background: var(--bg-input);
+            color: var(--text-primary);
+            font-size: 12px;
+            font-family: inherit;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .selection-bar .sel-btn:hover {
+            border-color: var(--border-hover);
+            background: var(--bg-card-hover);
+        }
+
+        .selection-bar .sel-btn.sel-copy {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+
+        .selection-bar .sel-btn.sel-copy:hover {
+            background: var(--accent-light);
+            border-color: var(--accent-light);
+        }
+
+        .selection-bar .sel-btn.sel-copy.copied {
+            background: var(--success);
+            border-color: var(--success);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <div>
+                <div class="logo">RMR Data Tool</div>
+                <div class="logo-sub">Internal Dashboard</div>
+            </div>
+        </div>
+        <div class="header-right">
+            <button class="btn-reload" id="reloadBtn" title="Reload data from disk (after editing known_addresses.js)">
+                <span class="reload-icon">↻</span> Reload Data
+            </button>
+            <div class="live-badge">Live Data</div>
+            <span id="totalCount" style="color: var(--text-muted); font-size: 12px;">Loading...</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Stats Cards -->
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card accent">
+                <div class="stat-label">Total Submissions</div>
+                <div class="stat-value" id="statTotal">—</div>
+            </div>
+            <div class="stat-card success">
+                <div class="stat-label">Avg Rent</div>
+                <div class="stat-value" id="statAvgRent">—</div>
+                <div class="stat-sub" id="statRentRange"></div>
+            </div>
+            <div class="stat-card warning">
+                <div class="stat-label">Unknown Addresses</div>
+                <div class="stat-value" id="statUnknown">—</div>
+                <div class="stat-sub" id="statUnknownPct"></div>
+            </div>
+            <div class="stat-card danger">
+                <div class="stat-label">Suspicious</div>
+                <div class="stat-value" id="statSuspicious">—</div>
+                <div class="stat-sub">entries flagged</div>
+            </div>
+        </div>
+
+        <!-- Detailed Stats -->
+        <div class="stats-detail-grid" id="statsDetailGrid">
+            <div class="stats-detail-card">
+                <h3>📊 Rent Statistics</h3>
+                <div class="detail-row"><span class="detail-label">Mean</span><span class="detail-value"
+                        id="rentMean">—</span></div>
+                <div class="detail-row"><span class="detail-label">Median</span><span class="detail-value"
+                        id="rentMedian">—</span></div>
+                <div class="detail-row"><span class="detail-label">Std Dev</span><span class="detail-value"
+                        id="rentStdDev">—</span></div>
+                <div class="detail-row"><span class="detail-label">Min</span><span class="detail-value"
+                        id="rentMin">—</span></div>
+                <div class="detail-row"><span class="detail-label">Max</span><span class="detail-value"
+                        id="rentMax">—</span></div>
+            </div>
+            <div class="stats-detail-card">
+                <h3>💡 Utility Statistics</h3>
+                <div class="detail-row"><span class="detail-label">Mean</span><span class="detail-value"
+                        id="utilMean">—</span></div>
+                <div class="detail-row"><span class="detail-label">Median</span><span class="detail-value"
+                        id="utilMedian">—</span></div>
+                <div class="detail-row"><span class="detail-label">Std Dev</span><span class="detail-value"
+                        id="utilStdDev">—</span></div>
+                <div class="detail-row"><span class="detail-label">Min</span><span class="detail-value"
+                        id="utilMin">—</span></div>
+                <div class="detail-row"><span class="detail-label">Max</span><span class="detail-value"
+                        id="utilMax">—</span></div>
+            </div>
+            <div class="stats-detail-card">
+                <h3>🏠 Unique Buildings</h3>
+                <div class="detail-row"><span class="detail-label">Total Buildings</span><span class="detail-value"
+                        id="buildingCount">—</span></div>
+                <div class="detail-row"><span class="detail-label">Most Popular</span><span class="detail-value"
+                        id="topBuilding">—</span></div>
+                <div class="detail-row"><span class="detail-label">Top Count</span><span class="detail-value"
+                        id="topBuildingCount">—</span></div>
+                <div class="detail-row"><span class="detail-label">With Notes</span><span class="detail-value"
+                        id="withNotesCount">—</span></div>
+                <div class="detail-row"><span class="detail-label">Known Addresses</span><span class="detail-value"
+                        id="knownAddrCount">—</span></div>
+            </div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <div class="tab active" data-tab="all" id="tabAll">All Submissions <span class="tab-count"
+                    id="tabAllCount">0</span></div>
+            <div class="tab" data-tab="flagged" id="tabFlagged">⚠️ Unknown Address <span class="tab-count"
+                    id="tabFlaggedCount">0</span></div>
+            <div class="tab" data-tab="suspicious" id="tabSuspicious">🚩 Suspicious <span class="tab-count"
+                    id="tabSuspiciousCount">0</span></div>
+            <div class="tab" data-tab="notes" id="tabNotes">📝 Has Notes <span class="tab-count"
+                    id="tabNotesCount">0</span></div>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <div class="filter-group">
+                <div class="filter-label">Search (Ctrl+F)</div>
+                <input type="text" class="filter-input" id="searchInput" placeholder="Search notes, buildings, users..."
+                    style="min-width: 240px;">
+            </div>
+            <div class="filter-group">
+                <div class="filter-label">Floor Layout</div>
+                <select class="filter-select" id="layoutFilter">
+                    <option value="all">All Layouts</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <div class="filter-label">Building</div>
+                <select class="filter-select" id="hoodFilter" style="min-width: 200px;">
+                    <option value="all">All Buildings</option>
+                </select>
+            </div>
+            <div class="filter-spacer"></div>
+            <button class="btn" id="resetBtn" title="Reset all filters">↺ Reset</button>
+        </div>
+
+        <!-- Data Table -->
+        <div class="table-wrapper">
+            <div class="table-header">
+                <h2>Submissions</h2>
+                <div class="table-count" id="resultCount">0 results</div>
+            </div>
+            <div class="table-scroll" id="tableScroll">
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th class="th-checkbox"><input type="checkbox" class="row-checkbox" id="selectAllCheckbox"
+                                    title="Select all"></th>
+                            <th data-sort="flags" style="width:90px">Flags</th>
+                            <th data-sort="hood">Building</th>
+                            <th data-sort="rent">Rent</th>
+                            <th data-sort="layout">Layout</th>
+                            <th data-sort="utilityCost">Utils</th>
+                            <th data-sort="parkingCost">Parking</th>
+                            <th data-sort="note">Note</th>
+                            <th data-sort="_user.displayName">User</th>
+                            <th data-sort="signingMonth">Signing</th>
+                            <th data-sort="createdAt">Date</th>
+                            <th data-sort="doubleOccupancy">D.O.</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <tr>
+                            <td colspan="12">
+                                <div class="loading">
+                                    <div class="spinner"></div>Loading data...
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Unknown Addresses Section (shown when on Flagged tab) -->
+        <div id="unknownSection" style="display:none; margin-top: 24px;">
+            <div class="unknown-header">
+                <h3>Unknown Address Breakdown</h3>
+                <div class="unknown-toolbar">
+                    <span class="unknown-progress" id="unknownProgress"></span>
+                    <button class="btn" id="clearResolvedBtn" style="font-size: 11px; padding: 4px 10px;">Clear All
+                        ✓</button>
+                </div>
+            </div>
+            <div class="unknown-list" id="unknownList"></div>
+        </div>
+
+        <!-- Suspicious Category Breakdown (shown when on Suspicious tab) -->
+        <div id="suspiciousSection" style="display:none; margin-top: 24px;">
+            <div class="suspicious-header">
+                <h3 style="font-size: 16px; font-weight: 700; margin: 0;">Suspicious Flag Breakdown</h3>
+                <div class="suspicious-toolbar">
+                    <span class="suspicious-progress" id="suspiciousProgress"></span>
+                    <button class="btn" id="clearReviewedBtn" style="font-size: 11px; padding: 4px 10px;">Clear All ✓</button>
+                </div>
+            </div>
+            <div class="severity-bar" id="severityBar"></div>
+            <div class="category-grid" id="categoryGrid"></div>
+        </div>
+    </div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Selection action bar -->
+    <div class="selection-bar" id="selectionBar">
+        <span class="sel-count" id="selCount"><strong>0</strong> selected</span>
+        <button class="sel-btn sel-copy" id="selCopyBtn">📋 Copy JSON</button>
+        <button class="sel-btn" id="selDeselectBtn">✕ Deselect</button>
+    </div>
+
+    <script>
+        const API_BASE = '';
+        let currentSort = { by: 'createdAt', dir: 'desc' };
+        let currentTab = 'all';
+        let allData = [];
+        let allStats = {};
+        let searchTimeout = null;
+        let selectedRows = new Set();
+
+        // ─── UNIFIED REVIEW SYSTEM (syncs unknown addr + suspicious) ──
+        function getReviewedSubmissions() {
+            try {
+                return JSON.parse(localStorage.getItem('rmr_reviewed_submissions') || '[]');
+            } catch { return []; }
+        }
+
+        function saveReviewedSubmissions(ids) {
+            localStorage.setItem('rmr_reviewed_submissions', JSON.stringify(ids));
+        }
+
+        function toggleReviewedSubmission(submissionId) {
+            let reviewed = getReviewedSubmissions();
+            if (reviewed.includes(submissionId)) {
+                reviewed = reviewed.filter(id => id !== submissionId);
+            } else {
+                reviewed.push(submissionId);
+            }
+            saveReviewedSubmissions(reviewed);
+            updateAllReviewedUI();
+        }
+
+        function clearAllReviewed() {
+            saveReviewedSubmissions([]);
+            updateAllReviewedUI();
+        }
+
+        // Update all UI elements showing reviewed state
+        function updateAllReviewedUI() {
+            const reviewed = getReviewedSubmissions();
+
+            // Update suspicious tab table row checkboxes
+            document.querySelectorAll('.suspicious-review-cb').forEach(cb => {
+                const id = cb.dataset.submissionId;
+                const isReviewed = reviewed.includes(id);
+                cb.checked = isReviewed;
+                const row = cb.closest('tr');
+                if (row) row.classList.toggle('row-reviewed', isReviewed);
+            });
+
+            // Sync unknown address checkboxes by looking up which submissions belong to each address
+            // We sync by finding all submission IDs for each unknown address
+            syncUnknownAddressCheckboxes(reviewed);
+
+            // Update suspicious progress counter
+            updateSuspiciousProgress();
+        }
+
+        function syncUnknownAddressCheckboxes(reviewed) {
+            // For each unknown-address item, check if ALL submissions for that address are reviewed
+            document.querySelectorAll('.unknown-item').forEach(item => {
+                const addressName = item.dataset.address;
+                const submissionIds = (item.dataset.submissionIds || '').split(',').filter(Boolean);
+                const allReviewed = submissionIds.length > 0 &&
+                    submissionIds.every(id => reviewed.includes(id));
+                const someReviewed = submissionIds.some(id => reviewed.includes(id));
+
+                const cb = item.querySelector('.unknown-checkbox');
+                if (allReviewed) {
+                    item.classList.add('resolved');
+                    if (cb) cb.checked = true;
+                } else {
+                    item.classList.remove('resolved');
+                    if (cb) cb.checked = false;
+                }
+            });
+
+            // Update unknown address progress counter
+            const totalItems = document.querySelectorAll('.unknown-item').length;
+            const resolvedItems = document.querySelectorAll('.unknown-item.resolved').length;
+            const progressEl = document.getElementById('unknownProgress');
+            if (progressEl) {
+                progressEl.innerHTML = `<span class="resolved-count">${resolvedItems}</span> of ${totalItems} resolved`;
+            }
+        }
+
+        function toggleUnknownAddressReview(addressName) {
+            const item = document.querySelector(`.unknown-item[data-address="${CSS.escape(addressName)}"]`);
+            if (!item) return;
+            const submissionIds = (item.dataset.submissionIds || '').split(',').filter(Boolean);
+            let reviewed = getReviewedSubmissions();
+
+            const allReviewed = submissionIds.every(id => reviewed.includes(id));
+
+            if (allReviewed) {
+                // Un-review all submissions for this address
+                reviewed = reviewed.filter(id => !submissionIds.includes(id));
+            } else {
+                // Review all submissions for this address
+                submissionIds.forEach(id => {
+                    if (!reviewed.includes(id)) reviewed.push(id);
+                });
+            }
+
+            saveReviewedSubmissions(reviewed);
+            updateAllReviewedUI();
+        }
+
+        function updateSuspiciousProgress() {
+            const reviewed = getReviewedSubmissions();
+            const totalSusCbs = document.querySelectorAll('.suspicious-review-cb').length;
+            const reviewedCount = document.querySelectorAll('.suspicious-review-cb:checked').length;
+            const progressEl = document.getElementById('suspiciousProgress');
+            if (progressEl) {
+                progressEl.innerHTML = `<span class="reviewed-count">${reviewedCount}</span> of ${totalSusCbs} reviewed`;
+            }
+        }
+
+        // ─── INITIALIZATION ─────────────────────────────────
+        async function init() {
+            await loadFilters();
+            await Promise.all([
+                fetchData(),
+                fetchStats()
+            ]);
+            // fetchFlaggedSummary depends on allData being populated for unknown address ID syncing
+            await fetchFlaggedSummary();
+            setupEventListeners();
+        }
+
+        // ─── FETCH DATA ─────────────────────────────────────
+        async function fetchData() {
+            const params = buildParams();
+            try {
+                const res = await fetch(`${API_BASE}/api/submissions?${params}`);
+                const json = await res.json();
+                allData = json.data;
+                selectedRows.clear();
+                updateSelectionBar();
+                renderTable(json.data);
+                document.getElementById('resultCount').textContent = `${json.total} results`;
+                document.getElementById('totalCount').textContent = `${json.total} entries loaded`;
+            } catch (err) {
+                console.error('Failed to fetch data:', err);
+                document.getElementById('tableBody').innerHTML =
+                    '<tr><td colspan="12"><div class="loading" style="color: var(--danger)">❌ Failed to load data</div></td></tr>';
+            }
+        }
+
+        async function fetchStats() {
+            const layout = document.getElementById('layoutFilter').value;
+            const hood = document.getElementById('hoodFilter').value;
+            const params = new URLSearchParams();
+            if (layout !== 'all') params.set('layout', layout);
+            if (hood !== 'all') params.set('hood', hood);
+
+            try {
+                const res = await fetch(`${API_BASE}/api/stats?${params}`);
+                allStats = await res.json();
+                renderStats(allStats);
+            } catch (err) {
+                console.error('Failed to fetch stats:', err);
+            }
+        }
+
+        async function fetchFlaggedSummary() {
+            try {
+                const res = await fetch(`${API_BASE}/api/flagged-summary`);
+                const summary = await res.json();
+
+                document.getElementById('statTotal').textContent = summary.totalSubmissions.toLocaleString();
+                document.getElementById('statUnknown').textContent = summary.unknownAddresses.toLocaleString();
+                document.getElementById('statUnknownPct').textContent =
+                    `${((summary.unknownAddresses / summary.totalSubmissions) * 100).toFixed(1)}% of total`;
+                document.getElementById('statSuspicious').textContent = summary.suspiciousSubmissions.toLocaleString();
+
+                document.getElementById('tabAllCount').textContent = summary.totalSubmissions;
+                document.getElementById('tabFlaggedCount').textContent = summary.unknownAddresses;
+                document.getElementById('tabSuspiciousCount').textContent = summary.suspiciousSubmissions;
+
+                // Render unknown breakdown
+                renderUnknownBreakdown(summary.unknownHoodBreakdown);
+                // Render suspicious category breakdown
+                renderSuspiciousBreakdown(summary.suspiciousByCategory || {}, summary.suspiciousBySeverity || {});
+            } catch (err) {
+                console.error('Failed to fetch flagged summary:', err);
+            }
+        }
+
+        async function loadFilters() {
+            try {
+                const [layoutsRes, hoodsRes] = await Promise.all([
+                    fetch(`${API_BASE}/api/layouts`),
+                    fetch(`${API_BASE}/api/hoods`)
+                ]);
+                const layouts = await layoutsRes.json();
+                const hoods = await hoodsRes.json();
+
+                const layoutSelect = document.getElementById('layoutFilter');
+                layouts.forEach(l => {
+                    if (l && l.trim()) {
+                        const opt = document.createElement('option');
+                        opt.value = l;
+                        opt.textContent = l;
+                        layoutSelect.appendChild(opt);
+                    }
+                });
+
+                const hoodSelect = document.getElementById('hoodFilter');
+                hoods.forEach(h => {
+                    if (h && h.trim()) {
+                        const opt = document.createElement('option');
+                        opt.value = h;
+                        opt.textContent = h;
+                        hoodSelect.appendChild(opt);
+                    }
+                });
+            } catch (err) {
+                console.error('Failed to load filters:', err);
+            }
+        }
+
+        // ─── BUILD QUERY PARAMS ─────────────────────────────
+        function buildParams() {
+            const params = new URLSearchParams();
+            const layout = document.getElementById('layoutFilter').value;
+            const hood = document.getElementById('hoodFilter').value;
+            const search = document.getElementById('searchInput').value;
+
+            if (layout !== 'all') params.set('layout', layout);
+            if (hood !== 'all') params.set('hood', hood);
+            if (search) params.set('search', search);
+
+            if (currentTab === 'flagged') params.set('flagged', 'true');
+            if (currentTab === 'suspicious') params.set('suspicious', 'true');
+            if (currentTab === 'notes') params.set('hasNotes', 'true');
+
+            if (currentSort.by) {
+                params.set('sortBy', currentSort.by);
+                params.set('sortDir', currentSort.dir);
+            }
+
+            return params.toString();
+        }
+
+        // ─── RENDER TABLE ───────────────────────────────────
+        function renderTable(data) {
+            const tbody = document.getElementById('tableBody');
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+            if (data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="12"><div class="loading" style="color: var(--text-muted)">No matching entries found</div></td></tr>';
+                return;
+            }
+
+            const reviewedIds = getReviewedSubmissions();
+
+            tbody.innerHTML = data.map((row, idx) => {
+                const flags = [];
+                if (!row._addressValid) flags.push('<span class="badge badge-danger">Unknown</span>');
+                if (row._suspicious) {
+                    const sev = row._suspiciousSeverity || 'medium';
+                    const sevClass = `badge-severity-${sev}`;
+                    const sevLabel = sev === 'high' ? '🚨 High' : sev === 'medium' ? '⚠️ Med' : 'ℹ️ Low';
+                    const tooltipLines = (row._suspiciousFlags || []).map(f => {
+                        const dot = `<span class="severity-dot ${f.severity}"></span>`;
+                        return `${dot}${escapeHtml(f.reason)}`;
+                    }).join('<br>');
+                    flags.push(`<span class="badge ${sevClass} tooltip-container">${sevLabel}<span class="tooltip-text">${tooltipLines}</span></span>`);
+                    // Show category badges
+                    (row._suspiciousCategories || []).forEach(cat => {
+                        const catLabels = {
+                            layout_invalid: '📐 Layout',
+                            rent_outlier: '💰 Rent',
+                            total_rent: '🔢 Total?',
+                            cost_logic: '⚖️ Cost',
+                            text_spam: '🗑️ Spam',
+                            year_invalid: '📅 Year',
+                            spam_rate: '⏱️ Rate'
+                        };
+                        flags.push(`<span class="badge badge-info">${catLabels[cat] || cat}</span>`);
+                    });
+                }
+
+                const hood = highlightSearch(escapeHtml(row.hood || 'N/A'), searchTerm);
+                const rent = row.rent != null ? `$${row.rent.toLocaleString()}` : '—';
+                const utils = row.utilityCost != null ? `$${row.utilityCost}` : (row.utils ? 'Incl.' : '—');
+                const parking = row.parkingCost ? `$${row.parkingCost}` : (row.parking ? 'Yes' : '—');
+                const note = row.note ? highlightSearch(escapeHtml(row.note), searchTerm) : '';
+                const noteClass = row.note && row.note.trim() ? 'cell-note has-note' : 'cell-note';
+                const userName = highlightSearch(escapeHtml(row._user?.displayName || 'Unknown'), searchTerm);
+                const signing = row.signingMonth ? `${row.signingMonth} ${row.signingYear || ''}` : '—';
+                const dateStr = row.createdAt ? new Date(row.createdAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: '2-digit' }) : '—';
+                const doBadge = row.doubleOccupancy ? '<span class="badge badge-do">DO</span>' : '—';
+
+                // Show review checkbox on suspicious tab
+                const showReviewCb = (currentTab === 'suspicious' || currentTab === 'flagged') && (row._suspicious || !row._addressValid);
+                const isReviewed = row.id && reviewedIds.includes(row.id);
+                const reviewCbHtml = showReviewCb && row.id
+                    ? `<input type="checkbox" class="suspicious-review-cb" data-submission-id="${escapeHtml(row.id)}" ${isReviewed ? 'checked' : ''} title="Mark as reviewed">`
+                    : '';
+                const reviewedClass = isReviewed && showReviewCb ? ' row-reviewed' : '';
+
+                return `<tr class="${selectedRows.has(idx) ? 'row-selected' : ''}${reviewedClass}" data-row-index="${idx}">
+      <td style="text-align:center"><input type="checkbox" class="row-checkbox row-select-cb" data-index="${idx}" ${selectedRows.has(idx) ? 'checked' : ''}>${reviewCbHtml}</td>
+      <td><div class="flags">${flags.join('') || '<span class="badge badge-success">✓</span>'}</div></td>
+      <td class="cell-hood">${hood}</td>
+      <td class="cell-rent">${rent}</td>
+      <td class="cell-layout">${escapeHtml(row.layout || '—')}</td>
+      <td class="cell-utils">${utils}</td>
+      <td class="cell-utils">${parking}</td>
+      <td class="${noteClass}" title="${escapeHtml(row.note || '')}">${note || '<span style="color: var(--text-muted)">—</span>'}</td>
+      <td class="cell-user">${userName}</td>
+      <td class="cell-date">${signing}</td>
+      <td class="cell-date">${dateStr}</td>
+      <td>${doBadge}</td>
+    </tr>`;
+            }).join('');
+
+            // Update notes count
+            const notesCount = data.filter(d => d.note && d.note.trim()).length;
+            document.getElementById('tabNotesCount').textContent = notesCount;
+
+            // Wire up row checkboxes
+            tbody.querySelectorAll('.row-select-cb').forEach(cb => {
+                cb.addEventListener('change', (e) => {
+                    const index = parseInt(e.target.dataset.index);
+                    toggleRowSelection(index, e.target.checked);
+                });
+            });
+
+            // Wire up review checkboxes (suspicious/flagged tabs)
+            tbody.querySelectorAll('.suspicious-review-cb').forEach(cb => {
+                cb.addEventListener('change', (e) => {
+                    const submissionId = e.target.dataset.submissionId;
+                    toggleReviewedSubmission(submissionId);
+                });
+            });
+
+            // Update select-all checkbox state
+            updateSelectAllCheckbox();
+
+            // Update suspicious progress if on that tab
+            if (currentTab === 'suspicious' || currentTab === 'flagged') {
+                updateSuspiciousProgress();
+            }
+        }
+
+        // ─── ROW SELECTION ──────────────────────────────────
+        function toggleRowSelection(index, isSelected) {
+            if (isSelected) {
+                selectedRows.add(index);
+            } else {
+                selectedRows.delete(index);
+            }
+            // Update the row visual
+            const row = document.querySelector(`tr[data-row-index="${index}"]`);
+            if (row) {
+                row.classList.toggle('row-selected', isSelected);
+            }
+            updateSelectionBar();
+            updateSelectAllCheckbox();
+        }
+
+        function toggleSelectAll(checked) {
+            const checkboxes = document.querySelectorAll('.row-select-cb');
+            checkboxes.forEach(cb => {
+                const idx = parseInt(cb.dataset.index);
+                cb.checked = checked;
+                if (checked) {
+                    selectedRows.add(idx);
+                } else {
+                    selectedRows.delete(idx);
+                }
+                const row = cb.closest('tr');
+                if (row) row.classList.toggle('row-selected', checked);
+            });
+            updateSelectionBar();
+        }
+
+        function updateSelectAllCheckbox() {
+            const selectAll = document.getElementById('selectAllCheckbox');
+            const total = document.querySelectorAll('.row-select-cb').length;
+            const checked = selectedRows.size;
+            if (selectAll) {
+                selectAll.checked = total > 0 && checked === total;
+                selectAll.indeterminate = checked > 0 && checked < total;
+            }
+        }
+
+        function updateSelectionBar() {
+            const bar = document.getElementById('selectionBar');
+            const countEl = document.getElementById('selCount');
+            const count = selectedRows.size;
+            if (count > 0) {
+                bar.classList.add('visible');
+                countEl.innerHTML = `<strong>${count}</strong> selected`;
+            } else {
+                bar.classList.remove('visible');
+            }
+        }
+
+        function copySelectedJSON() {
+            const selected = Array.from(selectedRows)
+                .sort((a, b) => a - b)
+                .map(idx => allData[idx])
+                .filter(Boolean)
+                .map(row => {
+                    // Build a clean object with the useful fields
+                    const clean = {};
+                    if (row.hood) clean.building = row.hood;
+                    if (row.rent != null) clean.rent = row.rent;
+                    if (row.layout) clean.layout = row.layout;
+                    if (row.utilityCost != null) clean.utilityCost = row.utilityCost;
+                    if (row.parkingCost != null) clean.parkingCost = row.parkingCost;
+                    if (row.note) clean.note = row.note;
+                    if (row._user?.displayName) clean.user = row._user.displayName;
+                    if (row.signingMonth) clean.signing = `${row.signingMonth} ${row.signingYear || ''}`.trim();
+                    if (row.createdAt) clean.date = row.createdAt;
+                    if (row.doubleOccupancy) clean.doubleOccupancy = true;
+                    if (row._addressValid === false) clean.unknownAddress = true;
+                    if (row._suspicious) clean.suspicious = true;
+                    return clean;
+                });
+
+            const json = JSON.stringify(selected, null, 2);
+
+            navigator.clipboard.writeText(json).then(() => {
+                const btn = document.getElementById('selCopyBtn');
+                btn.classList.add('copied');
+                btn.textContent = '✅ Copied!';
+                setTimeout(() => {
+                    btn.classList.remove('copied');
+                    btn.textContent = '📋 Copy JSON';
+                }, 2000);
+                showToast(`📋 Copied ${selected.length} item${selected.length !== 1 ? 's' : ''} as JSON`, 'success');
+            }).catch(err => {
+                showToast('❌ Copy failed: ' + err.message, 'error');
+            });
+        }
+
+        function deselectAll() {
+            selectedRows.clear();
+            document.querySelectorAll('.row-select-cb').forEach(cb => {
+                cb.checked = false;
+            });
+            document.querySelectorAll('tr.row-selected').forEach(tr => {
+                tr.classList.remove('row-selected');
+            });
+            updateSelectionBar();
+            updateSelectAllCheckbox();
+        }
+
+        // ─── RENDER STATS ───────────────────────────────────
+        function renderStats(stats) {
+            if (stats.rent) {
+                document.getElementById('statAvgRent').textContent = `$${Math.round(stats.rent.mean).toLocaleString()}`;
+                document.getElementById('statRentRange').textContent = `$${stats.rent.min} – $${stats.rent.max}`;
+                document.getElementById('rentMean').textContent = `$${stats.rent.mean.toLocaleString()}`;
+                document.getElementById('rentMedian').textContent = `$${stats.rent.median.toLocaleString()}`;
+                document.getElementById('rentStdDev').textContent = `$${stats.rent.stdDev.toLocaleString()}`;
+                document.getElementById('rentMin').textContent = `$${stats.rent.min.toLocaleString()}`;
+                document.getElementById('rentMax').textContent = `$${stats.rent.max.toLocaleString()}`;
+            }
+            if (stats.utility) {
+                document.getElementById('utilMean').textContent = `$${stats.utility.mean}`;
+                document.getElementById('utilMedian').textContent = `$${stats.utility.median}`;
+                document.getElementById('utilStdDev').textContent = `$${stats.utility.stdDev}`;
+                document.getElementById('utilMin').textContent = `$${stats.utility.min}`;
+                document.getElementById('utilMax').textContent = `$${stats.utility.max}`;
+            }
+            document.getElementById('buildingCount').textContent = stats.count || '—';
+        }
+
+        // ─── RESOLVED ADDRESSES (now powered by unified review system) ──
+        function renderUnknownBreakdown(breakdown, allSubmissions) {
+            const list = document.getElementById('unknownList');
+            const sorted = Object.entries(breakdown || {}).sort((a, b) => b[1] - a[1]);
+            const reviewed = getReviewedSubmissions();
+
+            // Build map of address -> submission IDs from allData
+            // We'll need submission IDs for each unknown address to sync
+            const addressSubmissionIds = {};
+            (allData || []).forEach(s => {
+                if (!s._addressValid && s.id) {
+                    const h = s.hood || 'N/A';
+                    if (!addressSubmissionIds[h]) addressSubmissionIds[h] = [];
+                    addressSubmissionIds[h].push(s.id);
+                }
+            });
+
+            list.innerHTML = sorted.map(([name, count]) => {
+                const ids = addressSubmissionIds[name] || [];
+                const allReviewed = ids.length > 0 && ids.every(id => reviewed.includes(id));
+                return `<div class="unknown-item${allReviewed ? ' resolved' : ''}" data-address="${escapeHtml(name)}" data-submission-ids="${ids.join(',')}">
+      <input type="checkbox" class="unknown-checkbox" ${allReviewed ? 'checked' : ''}
+             onchange="toggleUnknownAddressReview('${escapeHtml(name).replace(/'/g, "\\'")}')" 
+             title="Mark all submissions for this address as reviewed">
+      <span class="unknown-name">${escapeHtml(name)}</span>
+      <span class="unknown-count">${count}×</span>
+    </div>`;
+            }).join('');
+
+            // Wire up clear button
+            const clearBtn = document.getElementById('clearResolvedBtn');
+            if (clearBtn) {
+                clearBtn.onclick = clearAllReviewed;
+            }
+
+            // Update progress
+            syncUnknownAddressCheckboxes(reviewed);
+        }
+
+        // ─── RENDER SUSPICIOUS BREAKDOWN ────────────────────
+        function renderSuspiciousBreakdown(byCategory, bySeverity) {
+            // Severity bar
+            const sevBar = document.getElementById('severityBar');
+            sevBar.innerHTML = `
+                <div class="severity-item sev-high">
+                    <span class="severity-dot high"></span>
+                    <span>High:</span>
+                    <span class="sev-count">${bySeverity.high || 0}</span>
+                </div>
+                <div class="severity-item sev-medium">
+                    <span class="severity-dot medium"></span>
+                    <span>Medium:</span>
+                    <span class="sev-count">${bySeverity.medium || 0}</span>
+                </div>
+                <div class="severity-item sev-low">
+                    <span class="severity-dot low"></span>
+                    <span>Low:</span>
+                    <span class="sev-count">${bySeverity.low || 0}</span>
+                </div>
+            `;
+
+            // Category cards
+            const catMeta = {
+                layout_invalid: { icon: '📐', label: 'Invalid Layout', desc: 'Missing beds/baths or impossible counts' },
+                rent_outlier:   { icon: '💰', label: 'Rent Outlier', desc: 'Rent outside normal range or deviates from building median' },
+                total_rent:     { icon: '🔢', label: 'Total Rent?', desc: 'Possibly entered total unit rent instead of per-person' },
+                cost_logic:     { icon: '⚖️', label: 'Cost Logic', desc: 'Contradictions in utility/parking costs' },
+                text_spam:      { icon: '🗑️', label: 'Text/Spam', desc: 'Gibberish building names, test data, or profanity' },
+                year_invalid:   { icon: '📅', label: 'Invalid Year', desc: 'Signing year outside realistic range' },
+                spam_rate:      { icon: '⏱️', label: 'Spam Rate', desc: 'Rapid-fire submissions from same user' },
+            };
+
+            const grid = document.getElementById('categoryGrid');
+            const entries = Object.entries(byCategory).sort((a, b) => b[1] - a[1]);
+
+            if (entries.length === 0) {
+                grid.innerHTML = '<div style="color: var(--text-muted); padding: 20px;">No suspicious flags detected \u2705</div>';
+                return;
+            }
+
+            grid.innerHTML = entries.map(([cat, count]) => {
+                const meta = catMeta[cat] || { icon: '❓', label: cat, desc: '' };
+                return `<div class="category-card cat-default">
+                    <div class="cat-icon">${meta.icon}</div>
+                    <div class="cat-name">${meta.label}</div>
+                    <div class="cat-count">${count}</div>
+                    <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">${meta.desc}</div>
+                </div>`;
+            }).join('');
+        }
+
+        // Wire up clear reviewed button for suspicious section
+        setTimeout(() => {
+            const clearReviewedBtn = document.getElementById('clearReviewedBtn');
+            if (clearReviewedBtn) {
+                clearReviewedBtn.onclick = clearAllReviewed;
+            }
+        }, 500);
+
+        // ─── EVENT LISTENERS ────────────────────────────────
+        function setupEventListeners() {
+            // Reload data button
+            document.getElementById('reloadBtn').addEventListener('click', reloadData);
+
+            // Search input with debounce
+            document.getElementById('searchInput').addEventListener('input', () => {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(() => {
+                    fetchData();
+                }, 300);
+            });
+
+            // Filter dropdowns
+            document.getElementById('layoutFilter').addEventListener('change', () => {
+                fetchData();
+                fetchStats();
+            });
+
+            document.getElementById('hoodFilter').addEventListener('change', () => {
+                fetchData();
+                fetchStats();
+            });
+
+            // Reset button
+            document.getElementById('resetBtn').addEventListener('click', () => {
+                document.getElementById('searchInput').value = '';
+                document.getElementById('layoutFilter').value = 'all';
+                document.getElementById('hoodFilter').value = 'all';
+                currentTab = 'all';
+                currentSort = { by: 'createdAt', dir: 'desc' };
+                updateTabs();
+                fetchData();
+                fetchStats();
+            });
+
+            // Tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    currentTab = tab.dataset.tab;
+                    updateTabs();
+                    fetchData();
+                    document.getElementById('unknownSection').style.display =
+                        currentTab === 'flagged' ? 'block' : 'none';
+                    document.getElementById('suspiciousSection').style.display =
+                        currentTab === 'suspicious' ? 'block' : 'none';
+                });
+            });
+
+            // Sort headers
+            document.querySelectorAll('thead th[data-sort]').forEach(th => {
+                th.addEventListener('click', () => {
+                    const sortKey = th.dataset.sort;
+                    if (sortKey === 'flags') return;
+                    if (currentSort.by === sortKey) {
+                        currentSort.dir = currentSort.dir === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        currentSort.by = sortKey;
+                        currentSort.dir = 'asc';
+                    }
+                    updateSortHeaders();
+                    fetchData();
+                });
+            });
+
+            // Global ctrl+f redirect
+            document.addEventListener('keydown', (e) => {
+                if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                    e.preventDefault();
+                    document.getElementById('searchInput').focus();
+                }
+            });
+
+            // Select all checkbox
+            document.getElementById('selectAllCheckbox').addEventListener('change', (e) => {
+                toggleSelectAll(e.target.checked);
+            });
+
+            // Selection bar buttons
+            document.getElementById('selCopyBtn').addEventListener('click', copySelectedJSON);
+            document.getElementById('selDeselectBtn').addEventListener('click', deselectAll);
+        }
+
+        function updateTabs() {
+            document.querySelectorAll('.tab').forEach(t => {
+                t.classList.toggle('active', t.dataset.tab === currentTab);
+            });
+        }
+
+        function updateSortHeaders() {
+            document.querySelectorAll('thead th').forEach(th => {
+                th.classList.remove('sorted');
+                const arrow = th.querySelector('.sort-arrow');
+                if (arrow) arrow.remove();
+            });
+            const activeTh = document.querySelector(`thead th[data-sort="${currentSort.by}"]`);
+            if (activeTh) {
+                activeTh.classList.add('sorted');
+                const arrow = document.createElement('span');
+                arrow.className = 'sort-arrow';
+                arrow.textContent = currentSort.dir === 'asc' ? '↑' : '↓';
+                activeTh.appendChild(arrow);
+            }
+        }
+
+        // ─── HELPERS ────────────────────────────────────────
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        function highlightSearch(text, term) {
+            if (!term) return text;
+            const regex = new RegExp(`(${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+            return text.replace(regex, '<mark>$1</mark>');
+        }
+
+        // ─── RELOAD DATA ────────────────────────────────────
+        async function reloadData() {
+            const btn = document.getElementById('reloadBtn');
+            btn.classList.add('loading');
+            try {
+                const res = await fetch(`${API_BASE}/api/reload`, { method: 'POST' });
+                const result = await res.json();
+                if (result.success) {
+                    showToast(`✅ Reloaded! ${result.totalAddresses} addresses, ${result.totalSubmissions} submissions, ${result.unknownAddresses} unknown`, 'success');
+                    // Re-fetch everything
+                    await Promise.all([
+                        fetchData(),
+                        fetchStats(),
+                        fetchFlaggedSummary()
+                    ]);
+                    // Update building stats
+                    await updateBuildingStats();
+                } else {
+                    showToast('❌ Reload failed', 'error');
+                }
+            } catch (err) {
+                showToast('❌ Reload error: ' + err.message, 'error');
+            } finally {
+                btn.classList.remove('loading');
+            }
+        }
+
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = `toast ${type} show`;
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 4000);
+        }
+
+        async function updateBuildingStats() {
+            try {
+                const res = await fetch(`${API_BASE}/api/hoods`);
+                const hoods = await res.json();
+                document.getElementById('buildingCount').textContent = hoods.length;
+
+                const hoodCounts = {};
+                allData.forEach(d => {
+                    const h = d.hood || '';
+                    hoodCounts[h] = (hoodCounts[h] || 0) + 1;
+                });
+                const sorted = Object.entries(hoodCounts).sort((a, b) => b[1] - a[1]);
+                if (sorted.length > 0) {
+                    document.getElementById('topBuilding').textContent = sorted[0][0];
+                    document.getElementById('topBuildingCount').textContent = sorted[0][1] + ' entries';
+                }
+
+                const withNotes = allData.filter(d => d.note && d.note.trim()).length;
+                document.getElementById('withNotesCount').textContent = withNotes;
+
+                const addrRes = await fetch(`${API_BASE}/api/addresses`);
+                const addresses = await addrRes.json();
+                document.getElementById('knownAddrCount').textContent = addresses.length;
+            } catch (err) { }
+        }
+
+        // ─── BOOT ───────────────────────────────────────────
+        init();
+
+        // Fetch building-level stats after initial data loads
+        setTimeout(updateBuildingStats, 1500);
+    </script>
+
+</body>
+
+</html>

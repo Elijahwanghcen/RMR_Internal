@@ -1,0 +1,29 @@
+{
+  "ranAt": "2026-07-20T04:59:46.850Z",
+  "source": "bundled",
+  "snapshotDate": "2026-07-19",
+  "buildings": 142,
+  "units": 2569,
+  "submissions": 1542,
+  "ratings": 112,
+  "surveys": 68,
+  "matched": {
+    "alias": 0,
+    "exact": 1632,
+    "fuzzy": 28,
+    "unmatched": 62
+  },
+  "unmatchedNames": 39,
+  "outliersFlagged": 108,
+  "zoneAssignments": {
+    "West Campus": 104,
+    "Other": 13,
+    "North Campus": 11,
+    "Riverside": 9,
+    "Hyde Park": 2,
+    "East Austin": 2,
+    "Downtown": 1
+  },
+  "csvOnlyNames": [],
+  "errors": []
+}

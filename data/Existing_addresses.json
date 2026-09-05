@@ -1,0 +1,884 @@
+  var _static = useRef(null);
+  if (!_static.current) {
+    _static.current = {
+      // 🏢 APARTMENT/CONDO AUTOCOMPLETE DATASET (with geocoded coordinates)
+      APARTMENT_DATA: [
+        // WEST CAMPUS - The Block
+        { canonical_name: "The Block on 25th East", area: "west_campus", property_type: "apartment", lat: 30.2896, lng: -97.7452, aliases: [
+            "Block 25 East",
+            "Block 25th E",
+            "Block 25E"
+          ]
+        },
+        { canonical_name: "The Block on 25th West", area: "west_campus", property_type: "apartment", lat: 30.2896, lng: -97.7459, aliases: [
+            "Block 25 West",
+            "Block 25th W",
+            "Block 25W"
+          ]
+        },
+        { canonical_name: "The Block on 28th", area: "west_campus", property_type: "apartment", lat: 30.2933, lng: -97.7446, aliases: [
+            "Block 28",
+            "Block Twenty Eight"
+          ]
+        },
+        { canonical_name: "The Block on Leon", area: "west_campus", property_type: "apartment", lat: 30.2900, lng: -97.7498, aliases: [
+            "Block Leon"
+          ]
+        },
+        { canonical_name: "The Block on Pearl North", area: "west_campus", property_type: "apartment", lat: 30.2896, lng: -97.7462, aliases: [
+            "Block Pearl North",
+            "Block Pearl N"
+          ]
+        },
+        { canonical_name: "The Block on Pearl South", area: "west_campus", property_type: "apartment", lat: 30.2856, lng: -97.7467, aliases: [
+            "Block Pearl South",
+            "Block Pearl S"
+          ]
+        },
+        // WEST CAMPUS - Quarters
+        { canonical_name: "Quarters on Campus – Grayson", area: "west_campus", property_type: "apartment", lat: 30.2856, lng: -97.7463, aliases: [
+            "Quarters Grayson",
+            "Grayson House",
+            "Grayson"
+          ]
+        },
+        { canonical_name: "Quarters on Campus – Rio", area: "west_campus", property_type: "apartment", lat: 30.2865, lng: -97.7457, aliases: [
+            "Quarters Rio"
+          ]
+        },
+        { canonical_name: "Quarters on Campus – Nueces", area: "west_campus", property_type: "apartment", lat: 30.2868, lng: -97.7439, aliases: [
+            "Quarters Nueces"
+          ]
+        },
+        { canonical_name: "Quarters on Campus – Leon", area: "west_campus", property_type: "apartment", lat: 30.2900, lng: -97.7498, aliases: [
+            "Quarters Leon"
+          ]
+        },
+        { canonical_name: "Quarters on Campus – 26th", area: "west_campus", property_type: "apartment", lat: 30.2865, lng: -97.7457, aliases: [
+            "Quarters 26th",
+            "Quarters Twenty Sixth"
+          ]
+        },
+        { canonical_name: "Quarters on Campus – 28th", area: "west_campus", property_type: "apartment", lat: 30.2932, lng: -97.7435, aliases: [
+            "Quarters 28th",
+            "Quarters Twenty Eighth"
+          ]
+        },
+        { canonical_name: "Quarters on Campus – Karnes House", area: "west_campus", property_type: "apartment", lat: 30.2863, lng: -97.7457, aliases: [
+            "Quarters Karnes",
+            "Karnes House",
+            "Karnes"
+          ]
+        },
+        { canonical_name: "Quarters on Campus – Sterling House", area: "west_campus", property_type: "apartment", lat: 30.2849, lng: -97.7461, aliases: [
+            "Quarters Sterling",
+            "Sterling House",
+            "Sterling"
+          ]
+        },
+        // WEST CAMPUS - Other Major Apartments
+        { canonical_name: "26 West", area: "west_campus", property_type: "apartment", lat: 30.2911, lng: -97.7435, aliases: [
+            "26West"
+          ]
+        },
+        { canonical_name: "2400 Nueces", area: "west_campus", property_type: "apartment", lat: 30.2885, lng: -97.7434, aliases: [
+            "2400 Nueces Apartments"
+          ]
+        },
+        { canonical_name: "21 Rio", area: "west_campus", property_type: "apartment", lat: 30.2843, lng: -97.7447, aliases: [
+            "Twenty One Rio"
+          ]
+        },
+        { canonical_name: "22 Rio", area: "west_campus", property_type: "apartment", lat: 30.2850, lng: -97.7447, aliases: [
+            "Twenty Two Rio"
+          ]
+        },
+        { canonical_name: "Dobie Twenty21", area: "west_campus", property_type: "apartment", lat: 30.2834, lng: -97.7412, aliases: [
+            "Dobie",
+            "Dobie 21",
+            "Dobie Twenty One"
+          ]
+        },
+        { canonical_name: "Crest at Pearl", area: "west_campus", property_type: "apartment", lat: 30.2833, lng: -97.7465, aliases: [
+            "Crest Pearl"
+          ]
+        },
+        { canonical_name: "Villas on Guadalupe", area: "west_campus", property_type: "apartment", lat: 30.2938, lng: -97.7415, aliases: [
+            "Villas Guadalupe"
+          ]
+        },
+        { canonical_name: "The Castilian", area: "west_campus", property_type: "apartment", lat: 30.2873, lng: -97.7424, aliases: [
+            "Castilian"
+          ]
+        },
+        { canonical_name: "Skyloft Austin", area: "west_campus", property_type: "apartment", lat: 30.2862, lng: -97.7435, aliases: [
+            "Skyloft"
+          ]
+        },
+        { canonical_name: "Ruckus on Rio", area: "west_campus", property_type: "apartment", lat: 30.2883, lng: -97.7444, aliases: [
+            "Ruckus Rio"
+          ]
+        },
+        { canonical_name: "University House Austin", area: "west_campus", property_type: "apartment", lat: 30.2879, lng: -97.7419, aliases: [
+            "UHouse",
+            "U House"
+          ]
+        },
+        { canonical_name: "The Standard", area: "west_campus", property_type: "apartment", lat: 30.2869, lng: -97.7458, aliases: [
+            "Standard Austin"
+          ]
+        },
+        { canonical_name: "Callaway House", area: "west_campus", property_type: "apartment", lat: 30.2848, lng: -97.7434, aliases: [
+            "Callaway",
+            "The Callaway"
+          ]
+        },
+        { canonical_name: "West Campus Living", area: "west_campus", property_type: "apartment", lat: 30.2868, lng: -97.7419, aliases: [
+            "WCL"
+          ]
+        },
+        { canonical_name: "Rambler Apartments", area: "west_campus", property_type: "apartment", lat: 30.2902, lng: -97.7431, aliases: [
+            "Rambler ATX",
+            "Rambler",
+            "Rambler Apartments"
+          ]
+        },
+        // WEST CAMPUS - Condominium Clusters
+        { canonical_name: "Vanderbilt Condominiums", area: "west_campus", property_type: "condo", lat: 30.2857, lng: -97.7476, aliases: [
+            "Vanderbilt",
+            "Vanderbilt Condos"
+          ]
+        },
+        { canonical_name: "Robins Place Condominiums", area: "west_campus", property_type: "condo", lat: 30.2848, lng: -97.7496, aliases: [
+            "Robins Place",
+            "Robins Condos"
+          ]
+        },
+        { canonical_name: "Sabina Condominiums", area: "west_campus", property_type: "condo", lat: 30.2929, lng: -97.7226, aliases: [
+            "Sabina",
+            "Sabina Condos"
+          ]
+        },
+        { canonical_name: "Texan Shoal Creek Condominiums", area: "west_campus", property_type: "condo", lat: 30.2900, lng: -97.7498, aliases: [
+            "Texan Shoal Creek",
+            "Texan Condos"
+          ]
+        },
+        { canonical_name: "Centennial Condominiums West", area: "west_campus", property_type: "condo", lat: 30.2900, lng: -97.7423, aliases: [
+            "Centennial West"
+          ]
+        },
+        { canonical_name: "Escala Condominiums", area: "west_campus", property_type: "condo", lat: 30.2911, lng: -97.7478, aliases: [
+            "Escala"
+          ]
+        },
+        { canonical_name: "Cambridge Tower Condominiums", area: "west_campus", property_type: "condo", lat: 30.2807, lng: -97.7404, aliases: [
+            "Cambridge Tower"
+          ]
+        },
+        { canonical_name: "St. Thomas Condominiums", area: "west_campus", property_type: "condo", lat: 30.2891, lng: -97.7464, aliases: [
+            "St Thomas Condos"
+          ]
+        },
+        { canonical_name: "Vista West Condominiums", area: "west_campus", property_type: "condo", lat: 30.3738, lng: -97.7745, aliases: [
+            "Vista West"
+          ]
+        },
+        { canonical_name: "Montage Apartments", area: "west_campus", property_type: "apartment", lat: 30.2946, lng: -97.7444, aliases: [
+            "Montage West Campus",
+            "Montage Austin",
+            "Montage"
+          ]
+        },
+        // WEST CAMPUS - Fringe / Small Condo Clusters
+        { canonical_name: "Landmark Place Condominiums", area: "west_campus", property_type: "condo", lat: 30.2856, lng: -97.7456, aliases: [
+            "Landmark Place",
+            "Landmark Condos"
+          ]
+        },
+        { canonical_name: "Wedgewood Condominiums", area: "west_campus", property_type: "condo", lat: 30.2937, lng: -97.7429, aliases: [
+            "Wedgewood",
+            "Wedgwood Condos"
+          ]
+        },
+        { canonical_name: "Piazza Navona Condominiums", area: "west_campus", property_type: "condo", lat: 30.2905, lng: -97.7455, aliases: [
+            "Piazza Navona",
+            "Navona Condos"
+          ]
+        },
+        { canonical_name: "Greenwood Condominiums", area: "west_campus", property_type: "condo", lat: 30.2805, lng: -97.7411, aliases: [
+            "Greenwood Condos"
+          ]
+        },
+        { canonical_name: "Seton Square Condominiums", area: "west_campus", property_type: "condo", lat: 30.2878, lng: -97.7441, aliases: [
+            "Seton Square"
+          ]
+        },
+        { canonical_name: "Oak Grove Condominiums", area: "west_campus", property_type: "condo", lat: 30.2298, lng: -97.7669, aliases: [
+            "Oak Grove"
+          ]
+        },
+        { canonical_name: "Longview Condominiums", area: "west_campus", property_type: "condo", lat: 30.2877, lng: -97.7502, aliases: [
+            "Longview Condos"
+          ]
+        },
+        { canonical_name: "San Pedro Oaks Condominiums", area: "west_campus", property_type: "condo", lat: 30.2932, lng: -97.7456, aliases: [
+            "San Pedro Oaks"
+          ]
+        },
+        // NORTH CAMPUS - Apartments
+        { canonical_name: "San Gabriel Square", area: "north_campus", property_type: "apartment", lat: 30.2865, lng: -97.7487, aliases: []
+        },
+        { canonical_name: "Duval Villas", area: "north_campus", property_type: "apartment", lat: 30.3349, lng: -97.7076, aliases: [
+            "Duval lofts"
+          ]
+        },
+        { canonical_name: "Pearl Street Co-ops", area: "north_campus", property_type: "coop", lat: 30.2841, lng: -97.7469, aliases: [
+            "Pearl Coops"
+          ]
+        },
+        // NORTH CAMPUS - Condominium Clusters
+        { canonical_name: "Orange Tree Condominiums", area: "north_campus", property_type: "condo", lat: 30.2900, lng: -97.7441, aliases: [
+            "Orange Tree"
+          ]
+        },
+        { canonical_name: "Hyde Park Oaks Condominiums", area: "north_campus", property_type: "condo", lat: 30.2951, lng: -97.7359, aliases: [
+            "Hyde Park Oaks"
+          ]
+        },
+        { canonical_name: "Forty One Waller Condominiums", area: "north_campus", property_type: "condo", lat: 30.2545, lng: -97.7349, aliases: [
+            "41 Waller",
+            "Forty-One Waller"
+          ]
+        },
+        { canonical_name: "Lenox Boardwalk Condominiums", area: "north_campus", property_type: "condo", lat: 30.2388, lng: -97.7207, aliases: [
+            "Lenox Boardwalk"
+          ]
+        },
+        { canonical_name: "Rosedale Condominiums", area: "north_campus", property_type: "condo", lat: 30.3256, lng: -97.7413, aliases: [
+            "Rosedale Condos"
+          ]
+        },
+        { canonical_name: "Park Place Condominiums", area: "north_campus", property_type: "condo", lat: 30.2870, lng: -97.7720, aliases: [
+            "Park Place"
+          ]
+        },
+        { canonical_name: "University Park Condominiums", area: "north_campus", property_type: "condo", lat: 30.2841, lng: -97.7166, aliases: [
+            "University Park"
+          ]
+        },
+        { canonical_name: "French Place Condominiums", area: "north_campus", property_type: "condo", lat: 30.2845, lng: -97.7210, aliases: [
+            "French Place"
+          ]
+        },
+        { canonical_name: "Centennial Condos", area: "north_campus", property_type: "condo", lat: 30.2900, lng: -97.7423, aliases: [
+            "Centennial"
+          ]
+        },
+        // NORTH CAMPUS - Fringe / Small Condo Clusters
+        { canonical_name: "Waterford Condominiums", area: "north_campus", property_type: "condo", lat: 30.2884, lng: -97.7492, aliases: [
+            "Waterford"
+          ]
+        },
+        { canonical_name: "Casa Granada Condominiums", area: "north_campus", property_type: "condo", lat: 30.2981, lng: -97.7224, aliases: [
+            "Casa Granada"
+          ]
+        },
+        { canonical_name: "Brentwood Villas Condominiums", area: "north_campus", property_type: "condo", lat: 30.3272, lng: -97.7374, aliases: [
+            "Brentwood Villas"
+          ]
+        },
+        { canonical_name: "The Draper Condominiums", area: "north_campus", property_type: "condo", lat: 30.4105, lng: -97.7529, aliases: [
+            "Draper Condos"
+          ]
+        },
+        { canonical_name: "Heritage Condominiums", area: "north_campus", property_type: "condo", lat: 30.2939, lng: -97.7339, aliases: [
+            "Heritage Condos"
+          ]
+        },
+        { canonical_name: "Shoal Creek ", area: "north_campus", property_type: "condo", lat: 30.2900, lng: -97.7498, aliases: [
+            "Shoal Creek Condos"
+          ]
+        },
+        // RIVERSIDE
+        { canonical_name: "Estates at East Riverside", area: "riverside", property_type: "apartment", lat: 30.2383, lng: -97.7135, aliases: [
+            "Estates Riverside"
+          ]
+        },
+        { canonical_name: "Quad Apartments", area: "riverside", property_type: "apartment", lat: 30.2365, lng: -97.7187, aliases: [
+            "The Quad"
+          ]
+        },
+        { canonical_name: "Ballpark East", area: "riverside", property_type: "apartment", lat: 30.2350, lng: -97.7183, aliases: []
+        },
+        { canonical_name: "Water Marq", area: "riverside", property_type: "apartment", lat: 30.2545, lng: -97.7434, aliases: [
+            "Watermark Riverside"
+          ]
+        },
+        { canonical_name: "Town Lake Condos", area: "riverside", property_type: "condo", lat: 30.2404, lng: -97.7181, aliases: [
+            "Town Lake"
+          ]
+        },
+        // =========================
+        // WEST CAMPUS - Apartments (Additional)
+        // =========================
+        { canonical_name: "24 Longview", area: "west_campus", property_type: "apartment", lat: 30.2887, lng: -97.7505, aliases: [
+            "Twenty Four Longview"
+          ]
+        },
+        { canonical_name: "21 Pearl", area: "west_campus", property_type: "condo", lat: 30.2845, lng: -97.7468, aliases: [
+            "21Pearl",
+            "Twenty One Pearl",
+            "21 Pearl Condos"
+          ]
+        },
+        { canonical_name: "2700 Nueces", area: "west_campus", property_type: "apartment", lat: 30.2921, lng: -97.7432, aliases: []
+        },
+        { canonical_name: "2819 Rio", area: "west_campus", property_type: "apartment", lat: 30.2951, lng: -97.7438, aliases: [
+            "2819 Rio Grande"
+          ]
+        },
+        { canonical_name: "311 Rio", area: "west_campus", property_type: "apartment", lat: 30.2966, lng: -97.7436, aliases: [
+            "311 Rio Grande"
+          ]
+        },
+        { canonical_name: "34 West", area: "west_campus", property_type: "apartment", lat: 30.3018, lng: -97.7424, aliases: [
+            "Thirty Four West"
+          ]
+        },
+        { canonical_name: "Axis West Campus", area: "west_campus", property_type: "apartment", lat: 30.2902, lng: -97.7501, aliases: [
+            "Axis"
+          ]
+        },
+        { canonical_name: "Balcones Club", area: "west_campus", property_type: "apartment", lat: 30.4431, lng: -97.7875, aliases: []
+        },
+        { canonical_name: "Elan 24", area: "west_campus", property_type: "apartment", aliases: [
+            "Elan"
+          ]
+        },
+        { canonical_name: "GrandMarc Austin", area: "west_campus", property_type: "apartment", lat: 30.2909, lng: -97.7422, aliases: [
+            "GrandMarc"
+          ]
+        },
+        { canonical_name: "Haus 535", area: "west_campus", property_type: "apartment", lat: 30.3276, lng: -97.7404, aliases: [
+            "Haus535"
+          ]
+        },
+        { canonical_name: "Ion Austin", area: "west_campus", property_type: "apartment", lat: 30.2842, lng: -97.7433, aliases: [
+            "Ion"
+          ]
+        },
+        { canonical_name: "Legacy on Rio", area: "west_campus", property_type: "apartment", lat: 30.2918, lng: -97.7448, aliases: [
+            "Legacy Rio"
+          ]
+        },
+        { canonical_name: "The Mark Austin", area: "west_campus", property_type: "apartment", lat: 30.2874, lng: -97.7465, aliases: [
+            "The Mark",
+            "Mark on 23rd",
+            "Mark Austin"
+          ]
+        },
+        { canonical_name: "Moontower", area: "west_campus", property_type: "apartment", lat: 30.2857, lng: -97.7431, aliases: [
+            "Moontower Austin"
+          ]
+        },
+        { canonical_name: "Nineteen24", area: "west_campus", property_type: "apartment", aliases: [
+            "1924"
+          ]
+        },
+        { canonical_name: "Plaza on University", area: "west_campus", property_type: "apartment", aliases: [
+            "Plaza on Univ",
+            "Plaza University"
+          ]
+        },
+        { canonical_name: "Regents West at 24th", area: "west_campus", property_type: "apartment", lat: 30.2884, lng: -97.7475, aliases: [
+            "Regents West 24th"
+          ]
+        },
+        { canonical_name: "Regents West at 26th", area: "west_campus", property_type: "apartment", lat: 30.2910, lng: -97.7465, aliases: [
+            "Regents West 26th"
+          ]
+        },
+        { canonical_name: "The Nine at Rio", area: "west_campus", property_type: "apartment", lat: 30.2844, lng: -97.7452, aliases: [
+            "Nine at Rio",
+            "The Nine Rio"
+          ]
+        },
+        { canonical_name: "Signature 1909", area: "west_campus", property_type: "apartment", lat: 30.2837, lng: -97.7448, aliases: [
+            "Signature",
+            "1909 Rio"
+          ]
+        },
+        { canonical_name: "Rise at West Campus", area: "west_campus", property_type: "apartment", lat: 30.2859, lng: -97.7441, aliases: [
+            "Rise West Campus",
+            "RISE"
+          ]
+        },
+        { canonical_name: "Torre", area: "west_campus", property_type: "apartment", lat: 30.2836, lng: -97.7444, aliases: [
+            "Torre Austin"
+          ]
+        },
+        { canonical_name: "Twenty Two15", area: "west_campus", property_type: "apartment", lat: 30.2863, lng: -97.7444, aliases: [
+            "2215 Rio",
+            "TwentyTwo15",
+            "Twenty Two 15"
+          ]
+        },
+        { canonical_name: "Union on 24th", area: "west_campus", property_type: "apartment", lat: 30.2876, lng: -97.7453, aliases: [
+            "Union 24th"
+          ]
+        },
+        { canonical_name: "Union on San Antonio", area: "west_campus", property_type: "apartment", lat: 30.2833, lng: -97.7428, aliases: [
+            "Union San Antonio"
+          ]
+        },
+        { canonical_name: "University Towers", area: "west_campus", property_type: "apartment", lat: 30.2879, lng: -97.7463, aliases: [
+            "UT Towers",
+            "University Tower"
+          ]
+        },
+        { canonical_name: "Venue on Guadalupe", area: "west_campus", property_type: "apartment", lat: 30.2942, lng: -97.7420, aliases: [
+            "Venue Guadalupe"
+          ]
+        },
+        { canonical_name: "Vintage West Campus", area: "west_campus", property_type: "apartment", lat: 30.2879, lng: -97.7474, aliases: [
+            "Vintage"
+          ]
+        },
+        { canonical_name: "Villas on 24th", area: "west_campus", property_type: "apartment", lat: 30.2877, lng: -97.7444, aliases: [
+            "Villas 24th"
+          ]
+        },
+        { canonical_name: "Villas on 26th", area: "west_campus", property_type: "apartment", lat: 30.2910, lng: -97.7456, aliases: [
+            "Villas 26th"
+          ]
+        },
+        { canonical_name: "Villas on Nueces", area: "west_campus", property_type: "apartment", lat: 30.2855, lng: -97.7436, aliases: [
+            "Villas Nueces"
+          ]
+        },
+        { canonical_name: "Villas on Rio", area: "west_campus", property_type: "apartment", lat: 30.2848, lng: -97.7447, aliases: [
+            "Villas Rio"
+          ]
+        },
+        { canonical_name: "Yugo Austin Corner", area: "west_campus", property_type: "apartment", lat: 30.2901, lng: -97.7477, aliases: [
+            "The Corner",
+            "Yugo Corner"
+          ]
+        },
+        { canonical_name: "Yugo Austin Nueces", area: "west_campus", property_type: "apartment", lat: 30.2896, lng: -97.7432, aliases: [
+            "Yugo Nueces"
+          ]
+        },
+        { canonical_name: "Yugo Austin Rio", area: "west_campus", property_type: "apartment", lat: 30.2883, lng: -97.7444, aliases: [
+            "Yugo Rio",
+            "Ruckus on Rio",
+            "The Ruckus"
+          ]
+        },
+        { canonical_name: "Yugo Waterloo", area: "west_campus", property_type: "apartment", lat: 30.2882, lng: -97.7441, aliases: [
+            "Yugo Waterloop"
+          ]
+        },
+        { canonical_name: "Inspire on 22nd", area: "west_campus", property_type: "apartment", lat: 30.2854, lng: -97.7442, aliases: [
+            "Inspire 22nd"
+          ]
+        },
+        { canonical_name: "Lark Austin", area: "west_campus", property_type: "apartment", lat: 30.2841, lng: -97.7443, aliases: [
+            "Lark"
+          ]
+        },
+        // =========================
+        // WEST CAMPUS - Condos / Lofts / Clusters (Additional)
+        // =========================
+        { canonical_name: "Croix Condominiums", area: "west_campus", property_type: "condo", lat: 30.2887, lng: -97.7460, aliases: [
+            "Croix",
+            "The Croix"
+          ]
+        },
+        { canonical_name: "Lone Star Lofts", area: "west_campus", property_type: "condo", lat: 30.2891, lng: -97.7496, aliases: [
+            "Lone Star Loft"
+          ]
+        },
+        { canonical_name: "Palmetto Condominiums", area: "west_campus", property_type: "condo", lat: 30.2848, lng: -97.7453, aliases: [
+            "Palmetto",
+            "Palmetto Condos"
+          ]
+        },
+        { canonical_name: "Parapet Condominiums", area: "west_campus", property_type: "condo", lat: 30.2937, lng: -97.7437, aliases: [
+            "Parapet",
+            "Parapet Condos"
+          ]
+        },
+        { canonical_name: "Pointe on Rio", area: "west_campus", property_type: "apartment", lat: 30.2830, lng: -97.7450, aliases: [
+            "The Pointe on Rio",
+            "Pointe Rio"
+          ]
+        },
+        { canonical_name: "Rio West", area: "west_campus", property_type: "apartment", lat: 30.2930, lng: -97.7445, aliases: [
+            "Rio West Apartments"
+          ]
+        },
+        { canonical_name: "Texan Tower", area: "west_campus", property_type: "condo", lat: 30.2901, lng: -97.7474, aliases: [
+            "Texan Tower Condos"
+          ]
+        },
+        { canonical_name: "Texan Pearl", area: "west_campus", property_type: "condo", lat: 30.2906, lng: -97.7463, aliases: [
+            "Texan Pearl Condos"
+          ]
+        },
+        { canonical_name: "Centennial Condominiums (Pearl St)", area: "west_campus", property_type: "condo", lat: 30.2900, lng: -97.7423, aliases: [
+            "Centennial on Pearl",
+            "Centennial Pearl",
+            "Centennial Condos Pearl"
+          ]
+        },
+        { canonical_name: "Noble 2500", area: "west_campus", property_type: "apartment", lat: 30.2897, lng: -97.7478, aliases: [
+            "Noble",
+            "Noble Apartments",
+            "Noble 2500 Austin"
+          ]
+        },
+        { canonical_name: "Sparq on Rio", area: "west_campus", property_type: "apartment", lat: 30.2927, lng: -97.7443, aliases: [
+            "Sparq",
+            "Rio West",
+            "Sparq on Rio Apartments"
+          ]
+        },
+        { canonical_name: "Texan West Campus", area: "west_campus", property_type: "apartment", lat: 30.2924, lng: -97.7452, aliases: [
+            "The Texan",
+            "Texan Apartments",
+            "Texan & Vintage",
+            "Texan West Campus Apartments"
+          ]
+        },
+        { canonical_name: "Delphi Condominiums", area: "west_campus", property_type: "condominium", lat: 30.2883, lng: -97.7455, aliases: [
+            "Delphi",
+            "Delphi Condos",
+            "Delphi Apartments",
+            "Delphi Austin"
+          ]
+        },
+        { canonical_name: "Nueces Corner Condos", area: "west_campus", property_type: "condominium", lat: 30.2932, lng: -97.7431, aliases: [
+            "Nueces Corner",
+            "Nueces Corner Condominiums",
+            "Nueces Corner Austin"
+          ]
+        },
+        { canonical_name: "Buena Vista Condominiums", area: "west_campus", property_type: "condominium", lat: 30.2830, lng: -97.7434, aliases: [
+            "Buena Vista",
+            "Buena Vista Condos",
+            "Buena Vista Austin"
+          ]
+        },
+        { canonical_name: "Texan 26", area: "west_campus", property_type: "apartment", lat: 30.2908, lng: -97.7481, aliases: [
+            "Texan26",
+            "Texan 26 Apartments",
+            "Texan 26 Austin",
+            "Student | Texan26"
+          ]
+        },
+        { canonical_name: "Tradition on Rio", area: "west_campus", property_type: "apartment", lat: 30.2832, lng: -97.7449, aliases: [
+            "The Tradition",
+            "Tradition",
+            "Tradition Apartments",
+            "Tradition on Rio Austin"
+          ]
+        },
+        { canonical_name: "Gamma Phi Beta House", area: "west_campus", property_type: "greek_housing", lat: 30.2872, lng: -97.7507, aliases: [
+            "Gamma Phi",
+            "GPhi",
+            "Gamma Phi Beta Austin",
+            "Alpha Zeta Chapter"
+          ]
+        },
+        { canonical_name: "Envoy Apartments", area: "west_campus", property_type: "apartment", lat: 30.2853, lng: -97.7483, aliases: [
+            "The Envoy",
+            "Envoy West Campus",
+            "Envoy Austin"
+          ]
+        },
+        { canonical_name: "Camino Flats", area: "west_campus", property_type: "apartment", lat: 30.2945, lng: -97.7454, aliases: [
+            "Camino",
+            "Camino Flats Austin",
+            "Camino West Campus"
+          ]
+        },
+        { canonical_name: "East Campus Graduate Apartments", area: "east_campus", property_type: "apartment", lat: 30.2825, lng: -97.7225, aliases: [
+            "East Graduate Apartments",
+            "ECGA",
+            "UT Graduate Housing"
+          ]
+        },
+        { canonical_name: "Leon Place Condominiums", area: "west_campus", property_type: "condominium", lat: 30.2858, lng: -97.7490, aliases: [
+            "Leon St Condominiums",
+            "Leon Place",
+            "2207 Leon"
+          ]
+        },
+        { canonical_name: "Yugo Austin Rio", area: "west_campus", property_type: "apartment", lat: 30.2891, lng: -97.7443, aliases: [
+            "Yugo Rio",
+            "Rio Grande Apartments",
+            "2511 Rio Grande"
+          ]
+        },
+        { canonical_name: "Legacy on Rio", area: "west_campus", property_type: "apartment", lat: 30.2917, lng: -97.7443, aliases: [
+            "Legacy",
+            "Legacy on Rio Austin"
+          ]
+        },
+        { canonical_name: "Hilltop", area: "west_campus", property_type: "apartment", lat: 30.2878, lng: -97.7478, aliases: [
+            "Hilltop Austin",
+            "Hilltop Apartments",
+            "2400 San Gabriel"
+          ]
+        },
+        { canonical_name: "Rise at West Campus", area: "west_campus", property_type: "apartment", lat: 30.2855, lng: -97.7431, aliases: [
+            "The Rise",
+            "Rise",
+            "2206 Nueces"
+          ]
+        },
+        { canonical_name: "The Block on Rio", area: "west_campus", property_type: "apartment", lat: 30.2946, lng: -97.7441, aliases: [
+            "Block on Rio",
+            "The Block at 28th"
+          ]
+        },
+        { canonical_name: "Waterloo", area: "west_campus", property_type: "apartment", lat: 30.2874, lng: -97.7432, aliases: [
+            "Waterloo Austin",
+            "Waterloo Apartments",
+            "2400 Nueces St"
+          ]
+        },
+        { canonical_name: "The Block on Leon", area: "west_campus", property_type: "apartment", lat: 30.2902, lng: -97.7490, aliases: [
+            "Block on Leon",
+            "2510 Leon"
+          ]
+        },
+        { canonical_name: "Icon at Austin", area: "west_campus", property_type: "apartment", lat: 30.2853, lng: -97.7431, aliases: [
+            "Icon",
+            "Icon Apartments"
+          ]
+        },
+        { canonical_name: "Regents West at 24th", area: "west_campus", property_type: "apartment", lat: 30.2878, lng: -97.7478, aliases: [
+            "Regents on 24th",
+            "Regents West 24th"
+          ]
+        },
+        { canonical_name: "Town Lake Apartments", area: "riverside", property_type: "apartment", lat: 30.2443, lng: -97.7161, aliases: [
+            "Town Lake",
+            "Town Lake at Austin",
+            "Town Lake Student Housing"
+          ]
+        },
+        { canonical_name: "Kappa Kappa Gamma House", area: "west_campus", property_type: "greek_housing", lat: 30.2826, lng: -97.7395, aliases: [
+            "Texas Kappa",
+            "Kappa House",
+            "KKG",
+            "Beta Xi Chapter"
+          ]
+        },
+        { canonical_name: "1883 at Montgomery House", area: "west_campus", property_type: "apartment", lat: 30.2925, lng: -97.7441, aliases: [
+            "Montgomery House",
+            "The Quarters - Montgomery House",
+            "1883 Montgomery"
+          ]
+        },
+        { canonical_name: "Marq Uptown", area: "hancock", property_type: "apartment", lat: 30.2974, lng: -97.7228, aliases: [
+            "The Marq Uptown",
+            "Marq Uptown Austin",
+            "Uptown at University Park",
+            "3320 Harmon"
+          ]
+        },
+        // =========================
+        // NORTH CAMPUS - Apartments (Additional)
+        // =========================
+        { canonical_name: "1900 San Gabriel", area: "north_campus", property_type: "apartment", lat: 30.2838, lng: -97.7486, aliases: []
+        },
+        { canonical_name: "2400 Leon", area: "north_campus", property_type: "apartment", lat: 30.2886, lng: -97.7498, aliases: []
+        },
+        { canonical_name: "Aster House", area: "north_campus", property_type: "apartment", lat: 30.3059, lng: -97.7430, aliases: [
+            "Aster"
+          ]
+        },
+        { canonical_name: "Crown Apartments", area: "north_campus", property_type: "apartment", lat: 30.3263, lng: -97.6956, aliases: [
+            "The Crown"
+          ]
+        },
+        { canonical_name: "Glen Oaks Apartments", area: "north_campus", property_type: "apartment", lat: 30.2686, lng: -97.7113, aliases: [
+            "Glen Oaks"
+          ]
+        },
+        { canonical_name: "Hyde Park Court", area: "north_campus", property_type: "apartment", lat: 30.3019, lng: -97.7354, aliases: [
+            "Hyde Park Ct"
+          ]
+        },
+        { canonical_name: "Oakwood Place", area: "north_campus", property_type: "apartment", lat: 30.2861, lng: -97.7490, aliases: []
+        },
+        { canonical_name: "Royal Arms Apartments", area: "north_campus", property_type: "apartment", lat: 30.2884, lng: -97.7720, aliases: [
+            "Royal Arms"
+          ]
+        },
+        { canonical_name: "University Estates", area: "north_campus", property_type: "apartment", lat: 30.2383, lng: -97.7135, aliases: []
+        },
+        { canonical_name: "Waterloo Place", area: "north_campus", property_type: "apartment", lat: 30.2882, lng: -97.7441, aliases: [
+            "Waterloo Pl"
+          ]
+        },
+        // =========================
+        // NORTH CAMPUS - Condos (Additional)
+        // =========================
+        { canonical_name: "Juliet Condominiums", area: "north_campus", property_type: "condo", lat: 30.2873, lng: -97.7482, aliases: [
+            "Juliet Condos"
+          ]
+        },
+        { canonical_name: "Meridian Condominiums", area: "north_campus", property_type: "condo", lat: 30.2905, lng: -97.7431, aliases: [
+            "Meridian Condos"
+          ]
+        },
+        { canonical_name: "Windtree Condominiums", area: "north_campus", property_type: "condo", lat: 30.2943, lng: -97.7370, aliases: [
+            "Windtree Condos",
+            "Wind Tree",
+            "Windtree"
+          ]
+        },
+        // =========================
+        // RIVERSIDE - Apartments (Additional)
+        // =========================
+        { canonical_name: "Ballpark North", area: "riverside", property_type: "apartment", lat: 30.2385, lng: -97.7169, aliases: [
+            "Ballpark Apts North"
+          ]
+        },
+        { canonical_name: "Ballpark South", area: "riverside", property_type: "apartment", lat: 30.2319, lng: -97.7191, aliases: [
+            "Ballpark Apts South"
+          ]
+        },
+        { canonical_name: "Village at East Riverside", area: "riverside", property_type: "apartment", lat: 30.2359, lng: -97.7115, aliases: [
+            "University Village",
+            "Village East Riverside"
+          ]
+        },
+        { canonical_name: "Town Lake at Austin", area: "riverside", property_type: "apartment", lat: 30.2404, lng: -97.7181, aliases: [
+            "Town Lake Apartments"
+          ]
+        },
+        { canonical_name: "Melrose Place Apartments", area: "riverside", property_type: "apartment", lat: 30.4408, lng: -97.7497, aliases: [
+            "Melrose Place"
+          ]
+        },
+        { canonical_name: "Belara", area: "riverside", property_type: "apartment", lat: 30.2351, lng: -97.7156, aliases: []
+        },
+        { canonical_name: "Lexington Hills", area: "riverside", property_type: "apartment", lat: 30.2267, lng: -97.7209, aliases: [
+            "Lexington Hills Apartments"
+          ]
+        },
+        { canonical_name: "The Connection", area: "riverside", property_type: "apartment", lat: 30.2305, lng: -97.7213, aliases: [
+            "Connection",
+            "The Connection Austin"
+          ]
+        },
+        { canonical_name: "Bridge Hollow", area: "riverside", property_type: "apartment", lat: 30.2316, lng: -97.7327, aliases: []
+        },
+        { canonical_name: "Point South", area: "riverside", property_type: "apartment", lat: 30.2316, lng: -97.7327, aliases: [
+            "Point South Apartments"
+          ]
+        },
+        { canonical_name: "Gateway Apartments", area: "clarksville", property_type: "apartment", lat: 30.2778, lng: -97.7637, aliases: [
+            "UT Apartments",
+            "UT Graduate Apartments",
+            "University Apartments",
+            "Gateway"
+          ]
+        },
+        { canonical_name: "Laurel House Co-op", area: "west_campus", property_type: "co_op", lat: 30.28285, lng: -97.74325, aliases: [
+            "Laurel House",
+            "Laurel Co-op",
+            "Super Co-op Floors 1-2"
+          ]
+        },
+        { canonical_name: "Nueces Co-op", area: "west_campus", property_type: "co_op", lat: 30.28275, lng: -97.74325, aliases: [
+            "Nueces House",
+            "Super Co-op Floor 3"
+          ]
+        },
+        { canonical_name: "Halstead Co-op", area: "west_campus", property_type: "co_op", lat: 30.28280, lng: -97.74315, aliases: [
+            "Halstead House",
+            "Super Co-op Floors 4-5"
+          ]
+        },
+        { canonical_name: "North Loop House", area: "north_loop", property_type: "apartment", lat: 30.3148, lng: -97.7148, aliases: [
+            "North Loop",
+            "North Loop Apartments",
+            "North Loop Austin"
+          ]
+        },
+      ],
+      // 📍 BUILDING HIGHLIGHTS - Sample data for Location cards (fake data for now)
+      BUILDING_HIGHLIGHTS: [
+        { name: "26 West", avgRent: 1250, avgParking: 150, avgUtils: 35, pros: [
+            "Pool",
+            "Gym",
+            "Study rooms"
+          ], cons: [
+            "Small rooms"
+          ], emoji: "🏢"
+        },
+        { name: "Union on San Antonio", avgRent: 1280, avgParking: 180, avgUtils: 15, pros: [
+            "New building",
+            "Clean",
+            "Great amenities"
+          ], cons: [
+            "Elevators break",
+            "Pricey"
+          ], emoji: "🏙️"
+        },
+        { name: "Union on 24th", avgRent: 1400, avgParking: 195, avgUtils: 35, pros: [
+            "Amazing amenities",
+            "Study areas",
+            "Dog park"
+          ], cons: [
+            "Pricey",
+            "Thin countertops"
+          ], emoji: "✨"
+        },
+        { name: "Twenty Two15", avgRent: 1150, avgParking: 150, avgUtils: 0, pros: [
+            "Great location",
+            "Good maintenance"
+          ], cons: [
+            "Double occupancy common"
+          ], emoji: "🏠"
+        },
+        { name: "Skyloft Austin", avgRent: 1250, avgParking: 125, avgUtils: 45, pros: [
+            "Super close to campus",
+            "Big living rooms"
+          ], cons: [
+            "Dark hallways",
+            "Random fees"
+          ], emoji: "🌆"
+        },
+        { name: "The Standard", avgRent: 1300, avgParking: 150, avgUtils: 50, pros: [
+            "Rooftop",
+            "Prime location"
+          ], cons: [
+            "Pricey",
+            "Noisy"
+          ], emoji: "💎"
+        },
+        { name: "Rise at West Campus", avgRent: 1350, avgParking: 285, avgUtils: 12, pros: [
+            "Modern",
+            "Furnished"
+          ], cons: [
+            "Water issues",
+            "Front office"
+          ], emoji: "🔥"
+        },
+        { name: "21 Pearl", avgRent: 1260, avgParking: 135, avgUtils: 45, pros: [
+            "No hidden fees",
+            "Great units"
+          ], cons: [
+            "Stairs",
+            "Elevator walk"
+          ], emoji: "💰"
+        },
+      ],

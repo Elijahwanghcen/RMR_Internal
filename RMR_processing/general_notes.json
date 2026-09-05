@@ -1,0 +1,475 @@
+{
+  "1883 at Cameron House": [
+    {"text": "Elevator frequently reported broken (3 mentions)", "sentiment": "negative"},
+    {"text": "Gym, pool, and study room included (3 mentions)", "sentiment": "positive"}
+  ],
+  "1883 at Montgomery House": [
+    {"text": "Elevators break often, though maintenance is quick (4 mentions)", "sentiment": "negative"},
+    {"text": "Very spacious rooms (3 mentions)", "sentiment": "positive"}
+  ],
+  "21 Pearl": [
+    {"text": "Rent raised at every renewal, plus new hidden fees like a \"community fee\" (2 mentions)", "sentiment": "negative"},
+    {"text": "Good pricing compared to other West Campus options, no hidden fees per some residents (3 mentions)", "sentiment": "positive"},
+    {"text": "Only one elevator, occasionally broken (3 mentions)", "sentiment": "negative"},
+    {"text": "More relaxed, low-key building than typical West Campus (3 mentions)", "sentiment": "positive"},
+    {"text": "No pool; modest amenity set (2 mentions)", "sentiment": "neutral"}
+  ],
+  "21 Rio": [
+    {"text": "Close to campus (5 mentions)", "sentiment": "positive"},
+    {"text": "Rooftop gym, pool, grills; parking secured on game days (8 mentions)", "sentiment": "positive"},
+    {"text": "Elevators break every couple weeks and often smell (4 mentions)", "sentiment": "negative"},
+    {"text": "Roaches reported (2 mentions)", "sentiment": "negative"},
+    {"text": "Some bedrooms have no window; window units cost ~$130 more (2 mentions)", "sentiment": "neutral"},
+    {"text": "Utility overbilling dispute — 10x water usage billed on a vacant unit, management unresponsive (1 detailed report)", "sentiment": "negative"}
+  ],
+  "24 Longview": [
+    {"text": "Recently renovated: new lobby, gym, study rooms, mail room (3 mentions)", "sentiment": "positive"},
+    {"text": "Rent increased ~$60/month because of the renovation (2 mentions)", "sentiment": "negative"},
+    {"text": "Gym, pool, and study lounges included (6 mentions)", "sentiment": "positive"},
+    {"text": "Small roach problem (2 mentions)", "sentiment": "negative"},
+    {"text": "Far from campus (2 mentions)", "sentiment": "negative"}
+  ],
+  "2400 Nueces": [
+    {"text": "UT-owned; utilities and internet included (5 mentions)", "sentiment": "positive"},
+    {"text": "Maintenance extremely fast (3 mentions)", "sentiment": "positive"},
+    {"text": "Gym and pool included; 5-min walk to campus (6 mentions)", "sentiment": "positive"},
+    {"text": "Elevators slow or down sometimes (4 mentions)", "sentiment": "negative"},
+    {"text": "Bathrooms lack vents so mold can be an issue (1 report)", "sentiment": "negative"}
+  ],
+  "26 West": [
+    {"text": "Older building, somewhat run down (3 mentions)", "sentiment": "negative"},
+    {"text": "Resign discounts — one resident's rent dropped $130 (2 mentions)", "sentiment": "positive"},
+    {"text": "Fast, responsive maintenance (3 mentions)", "sentiment": "positive"},
+    {"text": "Dim lighting / dark rooms (2 mentions)", "sentiment": "negative"},
+    {"text": "Roaches reported on lower floors (1 report)", "sentiment": "negative"}
+  ],
+  "9HUNDRED": [
+    {"text": "No amenities (3 mentions)", "sentiment": "negative"},
+    {"text": "Pretty spacious rooms (1 report)", "sentiment": "positive"}
+  ],
+  "Axis West Campus": [
+    {"text": "Far from campus — 15-30 min walk (7 mentions)", "sentiment": "negative"},
+    {"text": "Hidden fees: trash, green, furniture, renters insurance (4 mentions)", "sentiment": "negative"},
+    {"text": "Pool, gym, study areas, free printing (7 mentions)", "sentiment": "positive"},
+    {"text": "Elevator issues — one broken for a while (4 mentions)", "sentiment": "negative"},
+    {"text": "Cheap for what you get; big rooms (3 mentions)", "sentiment": "positive"},
+    {"text": "Maintenance fixes things quickly (2 mentions)", "sentiment": "positive"}
+  ],
+  "Callaway House": [
+    {"text": "Unlimited meal plan included (4 mentions)", "sentiment": "positive"},
+    {"text": "Smells and cleanliness complaints (3 mentions)", "sentiment": "negative"},
+    {"text": "Lots of broken elevators (2 mentions)", "sentiment": "negative"},
+    {"text": "Staff is nice; heavy Greek-life presence, loud (2 mentions)", "sentiment": "neutral"}
+  ],
+  "Camino Flats": [
+    {"text": "Well-maintained; maintenance responds quickly (2 mentions)", "sentiment": "positive"},
+    {"text": "A bit far from campus (2 mentions)", "sentiment": "negative"},
+    {"text": "Water is metered building-wide and averaged, so bills depend on neighbors (1 report)", "sentiment": "neutral"}
+  ],
+  "Crest at Pearl": [
+    {"text": "Gym and pool included (5 mentions)", "sentiment": "positive"},
+    {"text": "Far-ish from the engineering side of campus (2 mentions)", "sentiment": "negative"},
+    {"text": "Slow or broken elevator (2 mentions)", "sentiment": "negative"},
+    {"text": "Utilities on the expensive side (1 report)", "sentiment": "negative"}
+  ],
+  "Dobie Twenty21": [
+    {"text": "Elevators broken constantly (12+ mentions)", "sentiment": "negative"},
+    {"text": "Very close to campus; dining plan option, Target nearby, big rooms (3 mentions)", "sentiment": "positive"},
+    {"text": "Concrete floors and exposed pipes; loud (3 mentions)", "sentiment": "negative"}
+  ],
+  "East Campus Graduate Apartments": [
+    {"text": "All utilities and internet included (1 report)", "sentiment": "positive"}
+  ],
+  "Estates at East Riverside": [
+    {"text": "Far from campus but direct bus route takes ~25 min (1 report)", "sentiment": "neutral"}
+  ],
+  "GrandMarc Austin": [
+    {"text": "One of the closest buildings to campus; gated garage and secure entry (2 mentions)", "sentiment": "positive"},
+    {"text": "Gym, pool, and study rooms included (2 mentions)", "sentiment": "positive"}
+  ],
+  "High Point Preserve": [
+    {"text": "Not close to campus, but has 2 gyms and 2 pools (1 report)", "sentiment": "neutral"}
+  ],
+  "Hillside Creek": [
+    {"text": "No elevators, laundry frequently out of order, sketchy area (1 report)", "sentiment": "negative"}
+  ],
+  "Hilltop": [
+    {"text": "Gym and pool included; gym larger than most West Campus buildings (16 mentions)", "sentiment": "positive"},
+    {"text": "Pool closed for renovation most of the year (6 mentions)", "sentiment": "negative"},
+    {"text": "Thin walls — neighbors and nearby frat parties are audible (4 mentions)", "sentiment": "negative"},
+    {"text": "SMART housing discounts (~$150), though new management removing from some units (3 mentions)", "sentiment": "neutral"},
+    {"text": "Management great, maintenance quick; good resign deals (2 mentions)", "sentiment": "positive"}
+  ],
+  "Icon at Austin": [
+    {"text": "New building with nice gym, views, and amenities (7 mentions)", "sentiment": "positive"},
+    {"text": "Build-quality issues — ceiling fans fell from ceilings, crooked installs, floors peeling (2 reports)", "sentiment": "negative"},
+    {"text": "Elevator hiccups, usually fixed quickly (4 mentions)", "sentiment": "neutral"},
+    {"text": "Close to campus (3 mentions)", "sentiment": "positive"},
+    {"text": "Small rooms and kitchens for the price (3 mentions)", "sentiment": "negative"}
+  ],
+  "Inspire on 22nd": [
+    {"text": "Gym, rooftop pool, and study spaces included (7 mentions)", "sentiment": "positive"},
+    {"text": "Maintenance very fast; elevator issues fixed same day (3 mentions)", "sentiment": "positive"},
+    {"text": "Game room equipment half broken (2 mentions)", "sentiment": "negative"},
+    {"text": "Management reviews mixed — attentive vs 'sus' (2 mentions)", "sentiment": "neutral"}
+  ],
+  "Ion Austin": [
+    {"text": "Elevators constantly broken or extremely slow — often 1 working for 18 floors (20 mentions)", "sentiment": "negative"},
+    {"text": "Close to campus (4 mentions)", "sentiment": "positive"},
+    {"text": "Windowless rooms common; window costs ~$30/month extra, plus high-floor fees (3 mentions)", "sentiment": "negative"},
+    {"text": "Utilities included for some leases (2 mentions)", "sentiment": "positive"},
+    {"text": "Maintenance responsive (2 mentions)", "sentiment": "positive"}
+  ],
+  "Landmark Square": [
+    {"text": "Utilities run ~$70-80/month plus $30 wifi (1 report)", "sentiment": "neutral"}
+  ],
+  "Lantern Lane Condominiums": [
+    {"text": "Older building close to campus; free parking but old appliances (2 mentions)", "sentiment": "neutral"}
+  ],
+  "Lark Austin": [
+    {"text": "Elevators break often (4 mentions)", "sentiment": "negative"},
+    {"text": "Double-occupancy setups common — cheap but shared rooms/baths (4 mentions)", "sentiment": "neutral"},
+    {"text": "No weekend staff — lobby gets dirty, security is weak (2 mentions)", "sentiment": "negative"},
+    {"text": "Older building, hallways not the cleanest (2 mentions)", "sentiment": "negative"},
+    {"text": "Pet-friendly including large dogs; lax guest policy (1 report)", "sentiment": "positive"}
+  ],
+  "Laurel House Co-op": [
+    {"text": "Co-op: required labor (cooking, cleaning) but food included and very cheap (1 report)", "sentiment": "neutral"}
+  ],
+  "Legacy on Rio": [
+    {"text": "Gym, study rooms, rooftop, free printing — but no pool (8 mentions)", "sentiment": "positive"},
+    {"text": "Close to campus (5 mentions)", "sentiment": "positive"},
+    {"text": "Hidden fees (2 mentions)", "sentiment": "negative"},
+    {"text": "Signing promos: waived app fees, gift cards (2 mentions)", "sentiment": "neutral"},
+    {"text": "Slow elevators (1 report)", "sentiment": "negative"}
+  ],
+  "Lone Star Lofts": [
+    {"text": "No amenities — just an apartment (2 mentions)", "sentiment": "neutral"}
+  ],
+  "Marq Uptown": [
+    {"text": "Gym and pool included; away from West Campus noise (3 mentions)", "sentiment": "positive"}
+  ],
+  "Moontower": [
+    {"text": "Very close to campus (8 mentions)", "sentiment": "positive"},
+    {"text": "Elevators often broken (4 mentions)", "sentiment": "negative"},
+    {"text": "Pool closed for renovation throughout leases (2 mentions)", "sentiment": "negative"},
+    {"text": "Dirty common areas — nasty carpet, broken trash chute (2 mentions)", "sentiment": "negative"},
+    {"text": "Water damage forced some units into a hotel temporarily (1 report)", "sentiment": "negative"},
+    {"text": "Nice study space, gym, cycle/yoga studios; helpful staff (4 mentions)", "sentiment": "positive"}
+  ],
+  "Noble 2500": [
+    {"text": "Location split: close to Moody side of campus, ~20 min walk otherwise (8 mentions)", "sentiment": "neutral"},
+    {"text": "Great study spaces; quiet community (3 mentions)", "sentiment": "positive"},
+    {"text": "Parking price keeps increasing and the paid spots aren't protected (2 mentions)", "sentiment": "negative"},
+    {"text": "Broken elevators and front door (2 mentions)", "sentiment": "negative"},
+    {"text": "Fire alarms went off ~3x/month for a stretch (1 report)", "sentiment": "negative"}
+  ],
+  "Nueces Co-op": [
+    {"text": "Co-op: 2 hours/week required labor; student-run with communal kitchens on most floors (1 detailed report)", "sentiment": "neutral"},
+    {"text": "Not modern — \"at least you have a head to rest\" — but you can make it work (1 detailed report)", "sentiment": "neutral"}
+  ],
+  "Orange Tree Condominiums": [
+    {"text": "Close to campus — ~10 min walk (2 mentions)", "sentiment": "positive"},
+    {"text": "Most utilities included in some units; furnished, hardwood, 1000+ sq ft (1 report)", "sentiment": "positive"},
+    {"text": "Roaches reported (1 report)", "sentiment": "negative"}
+  ],
+  "Palmetto Condominiums": [
+    {"text": "Close to campus and bus stops (2 mentions)", "sentiment": "positive"},
+    {"text": "No amenities, but parking and in-unit washer/dryer included (1 report)", "sentiment": "neutral"}
+  ],
+  "Penthouse Apartments": [
+    {"text": "5-min walk to campus; pool, spa, sauna, gym — but 1-2 of the 5 elevators down weekly (1 report)", "sentiment": "neutral"}
+  ],
+  "Point North": [
+    {"text": "Parking, all utilities, and gym included in rent (2 mentions)", "sentiment": "positive"},
+    {"text": "Maintenance slow — 2-4 week response times (2 mentions)", "sentiment": "negative"},
+    {"text": "A little far from main campus (1 report)", "sentiment": "negative"}
+  ],
+  "Quarters on Campus – Grayson": [
+    {"text": "Decent gym and study areas, close to campus (2 mentions)", "sentiment": "positive"},
+    {"text": "\"Everything is a hidden fee\" (1 report)", "sentiment": "negative"},
+    {"text": "High ceilings; some rooms have downtown views (1 report)", "sentiment": "positive"}
+  ],
+  "Quarters on Campus – Nueces": [
+    {"text": "Elevators frequently broken (5 mentions)", "sentiment": "negative"},
+    {"text": "Close to campus (4 mentions)", "sentiment": "positive"},
+    {"text": "Pool, gym, study rooms, coffee station (7 mentions)", "sentiment": "positive"},
+    {"text": "Package theft issues (1 report)", "sentiment": "negative"},
+    {"text": "Mold grows easily in bathrooms; thin walls (1 report)", "sentiment": "negative"}
+  ],
+  "Quarters on Campus – Sterling House": [
+    {"text": "\"TONS of hidden fees\" — not worth the price per one resident (1 detailed report)", "sentiment": "negative"},
+    {"text": "Elevators can be broken for a week at a time; garage door broken constantly (2 mentions)", "sentiment": "negative"},
+    {"text": "Maintenance fixes problems within 48 hours (2 mentions)", "sentiment": "positive"},
+    {"text": "Nice study rooms and outdoor area; resign gift cards (2 mentions)", "sentiment": "positive"}
+  ],
+  "Rambler Apartments": [
+    {"text": "Standout amenities: 24hr gym, saunas, cold plunge, coffee shop, study spots (11 mentions)", "sentiment": "positive"},
+    {"text": "Parking outrageously expensive — ~$330/month; some park at GrandMarc instead (2 mentions)", "sentiment": "negative"},
+    {"text": "Hidden fees (3 mentions)", "sentiment": "negative"},
+    {"text": "Small rooms, some without windows; window/balcony adds ~$150 (4 mentions)", "sentiment": "negative"},
+    {"text": "Elevators break commonly (3 mentions)", "sentiment": "negative"},
+    {"text": "Mold reported (2 mentions)", "sentiment": "negative"}
+  ],
+  "Regents West at 24th": [
+    {"text": "Gym, gated parking, security system included (2 mentions)", "sentiment": "positive"},
+    {"text": "Crickets, broken elevators, smelly garage, loud frats nearby (1 report)", "sentiment": "negative"}
+  ],
+  "Regents West at 26th": [
+    {"text": "Management transparency issues; fire-code problems preceded inspections; a pest issue took 2.5 years to resolve (1 detailed report)", "sentiment": "negative"},
+    {"text": "Good maintenance (2 mentions)", "sentiment": "positive"},
+    {"text": "Few amenities, but rooftop patio; good for the price (2 mentions)", "sentiment": "neutral"}
+  ],
+  "Rise at West Campus": [
+    {"text": "Previous issue: recurring water outages — including two weeks with no running water — reported fixed since (20 mentions)", "sentiment": "negative"},
+    {"text": "Poor compensation for outages; front office hard to deal with (5 mentions)", "sentiment": "negative"},
+    {"text": "Close to campus (11 mentions)", "sentiment": "positive"},
+    {"text": "Elevators broken or slow (7 mentions)", "sentiment": "negative"},
+    {"text": "Nice amenities: gym, pools, sauna, jacuzzi, penthouse study area (5 mentions)", "sentiment": "positive"},
+    {"text": "Small rooms, some windowless — window costs ~$50 more (3 mentions)", "sentiment": "negative"}
+  ],
+  "San Gabriel Square": [
+    {"text": "Persistent roach issues — weekly pest control recommended (3 mentions)", "sentiment": "negative"},
+    {"text": "Very cheap; good value if you make it your own (3 mentions)", "sentiment": "positive"},
+    {"text": "$15 fee just to pay rent online (1 report)", "sentiment": "negative"}
+  ],
+  "Signature 1909": [
+    {"text": "Elevators break down often — 3 for 18 floors (9 mentions)", "sentiment": "negative"},
+    {"text": "Paper-thin walls (3 mentions)", "sentiment": "negative"},
+    {"text": "Pool, gym, study offices, grill area (6 mentions)", "sentiment": "positive"},
+    {"text": "Hidden fees: green fee, higher-floor fee, website payment fee (3 mentions)", "sentiment": "negative"},
+    {"text": "Security concerns reported (2 mentions)", "sentiment": "negative"},
+    {"text": "Year-long pool renovation caused water damage; some residents moved to a hotel (1 report)", "sentiment": "negative"}
+  ],
+  "Skyloft Austin": [
+    {"text": "Very close to campus (5 mentions)", "sentiment": "positive"},
+    {"text": "Random fees: trash can fines, boiler fee, maintenance fees (4 mentions)", "sentiment": "negative"},
+    {"text": "Elevators broken often (4 mentions)", "sentiment": "negative"},
+    {"text": "Rooftop gym and pool; furnished units (7 mentions)", "sentiment": "positive"},
+    {"text": "Interior-facing rooms have bad views (2 mentions)", "sentiment": "neutral"}
+  ],
+  "Sparq on Rio": [
+    {"text": "Poor security — building fully accessible to anyone via unlocked doors (3 mentions)", "sentiment": "negative"},
+    {"text": "Elevator slow, broken, or making alarming noises (3 mentions)", "sentiment": "negative"},
+    {"text": "Complex often dirty (2 mentions)", "sentiment": "negative"},
+    {"text": "Gym, pool, dog park, study rooms (7 mentions)", "sentiment": "positive"},
+    {"text": "Pest problems — gnats, fruit flies (2 mentions)", "sentiment": "negative"},
+    {"text": "Management churn — new management every couple years (2 mentions)", "sentiment": "negative"}
+  ],
+  "Texan & Vintage West Campus": [
+    {"text": "Elevator broken for months; tiny gym often locked; management refuses to work with residents (1 detailed report)", "sentiment": "negative"}
+  ],
+  "Texan 26": [
+    {"text": "No amenities — just an unmaintained courtyard (4 mentions)", "sentiment": "negative"},
+    {"text": "Thin walls — the whole building shakes when people stomp (3 mentions)", "sentiment": "negative"},
+    {"text": "Only one elevator, slow or broken most of the time (3 mentions)", "sentiment": "negative"},
+    {"text": "Utilities not a set price — anywhere from $25 to $95/month (2 mentions)", "sentiment": "neutral"},
+    {"text": "Furnishing costs an extra ~$75/month (2 mentions)", "sentiment": "neutral"},
+    {"text": "Huge rooms; quick maintenance; refurbished recently (2 mentions)", "sentiment": "positive"}
+  ],
+  "Texan Tower": [
+    {"text": "Elevator broken constantly — hasn't worked all year per one resident (4 mentions)", "sentiment": "negative"},
+    {"text": "Free parking; pool and locking gate (2 mentions)", "sentiment": "positive"}
+  ],
+  "The Block 23": [
+    {"text": "Elevators break monthly (4 mentions)", "sentiment": "negative"},
+    {"text": "Basically no amenities — bare rooftop, tiny study area (2 mentions)", "sentiment": "negative"},
+    {"text": "Spacious units with lots of windows; quick maintenance (2 mentions)", "sentiment": "positive"}
+  ],
+  "The Block on 25th East": [
+    {"text": "Older building but spacious rooms (3 mentions)", "sentiment": "neutral"},
+    {"text": "Responsive maintenance, fast elevator (2 mentions)", "sentiment": "positive"},
+    {"text": "Bugs reported; front office sometimes clueless (2 mentions)", "sentiment": "negative"}
+  ],
+  "The Block on 25th West": [
+    {"text": "Few amenities but great for the price (3 mentions)", "sentiment": "positive"},
+    {"text": "Quick maintenance (3 mentions)", "sentiment": "positive"},
+    {"text": "Slight roach problem (1 report)", "sentiment": "negative"},
+    {"text": "Late-signing promos can cut rent significantly (1 report)", "sentiment": "neutral"}
+  ],
+  "The Block on 28th": [
+    {"text": "One of two elevators always broken (2 mentions)", "sentiment": "negative"},
+    {"text": "Gym is at another Block location; on-site gym mid (2 mentions)", "sentiment": "neutral"},
+    {"text": "Resign discount dropped one resident's rent ~$130 (1 report)", "sentiment": "positive"},
+    {"text": "Some units have no exterior-facing windows (1 report)", "sentiment": "neutral"}
+  ],
+  "The Block on Leon": [
+    {"text": "Far from campus (4 mentions)", "sentiment": "negative"},
+    {"text": "Cheap; wifi, in-unit washer/dryer, and furniture included (2 mentions)", "sentiment": "positive"},
+    {"text": "Maintenance responds quickly, replaces broken appliances free (3 mentions)", "sentiment": "positive"},
+    {"text": "Frat across the street is loud at times (1 report)", "sentiment": "negative"}
+  ],
+  "The Block on Pearl North": [
+    {"text": "Access to amenities at all Block locations (2 mentions)", "sentiment": "positive"},
+    {"text": "Close to campus (2 mentions)", "sentiment": "positive"},
+    {"text": "Resign discounts ~$100/month (1 report)", "sentiment": "neutral"}
+  ],
+  "The Block on Rio": [
+    {"text": "Garage structural crack drew an official city notice (1 report)", "sentiment": "negative"},
+    {"text": "Frequent promotions (~$100 off rent); metered utilities, no hidden fees (1 report)", "sentiment": "positive"}
+  ],
+  "The Castilian": [
+    {"text": "Meal plan / dining hall included — quality gets mixed reviews (5 mentions)", "sentiment": "neutral"},
+    {"text": "Elevators really slow (3 mentions)", "sentiment": "negative"},
+    {"text": "Washers and dryers work poorly (3 mentions)", "sentiment": "negative"},
+    {"text": "Very close to campus (2 mentions)", "sentiment": "positive"},
+    {"text": "Dorm-style: no kitchen, shared bathrooms in some layouts (1 report)", "sentiment": "neutral"}
+  ],
+  "The Marian Condominiums": [
+    {"text": "Extra fees; parking included but water is not; dim lighting (1 report)", "sentiment": "neutral"}
+  ],
+  "The Mark Austin": [
+    {"text": "Standout amenity list: bowling alley, sauna, tanning beds, 2-story gym, jumbotron pool deck (13 mentions)", "sentiment": "positive"},
+    {"text": "Amenities frequently broken — bowling alley, sauna, printer (5 mentions)", "sentiment": "negative"},
+    {"text": "New management problems: room allocation mistakes, mail chaos, slow wifi (1 detailed report)", "sentiment": "negative"},
+    {"text": "Previous issue: fire damaged part of the building last year, displacing a floor of residents (2 mentions)", "sentiment": "negative"},
+    {"text": "Elevators slow at busy hours (2 mentions)", "sentiment": "neutral"}
+  ],
+  "The Nine at Rio": [
+    {"text": "Serious mold problems — one resident displaced a month with no compensation (3 mentions)", "sentiment": "negative"},
+    {"text": "Elevators down often — once 2 weeks with none working (5 mentions)", "sentiment": "negative"},
+    {"text": "Dirty hallways and bad smells (2 mentions)", "sentiment": "negative"},
+    {"text": "Gym and pool included (3 mentions)", "sentiment": "positive"}
+  ],
+  "The Nine at West Campus": [
+    {"text": "No pool despite being advertised (2 mentions)", "sentiment": "negative"},
+    {"text": "Fast maintenance; recent renovations well received (3 mentions)", "sentiment": "positive"},
+    {"text": "A little far from campus (2 mentions)", "sentiment": "negative"}
+  ],
+  "The Sondery": [
+    {"text": "Riverside location; well-reviewed apartment and amenities (3 mentions)", "sentiment": "positive"}
+  ],
+  "The Standard": [
+    {"text": "Big amenity list (gym, pool, sauna, rooftop) but poor upkeep — broken treadmills, dirty hallways (6 mentions)", "sentiment": "neutral"},
+    {"text": "Elevators break often; people get stuck (3 mentions)", "sentiment": "negative"},
+    {"text": "Front desk staff rude or unresponsive (2 mentions)", "sentiment": "negative"},
+    {"text": "Mail room is a free-for-all; paid parking garage door broken and open to the public (1 detailed report)", "sentiment": "negative"},
+    {"text": "Signing deals ($175 off) common (2 mentions)", "sentiment": "neutral"}
+  ],
+  "Tom Green Condominiums": [
+    {"text": "40-year-old building with poor insulation (1 report)", "sentiment": "negative"}
+  ],
+  "Torre": [
+    {"text": "Very close to campus (5 mentions)", "sentiment": "positive"},
+    {"text": "Elevators break regularly (5 mentions)", "sentiment": "negative"},
+    {"text": "Small / underwhelming gym (3 mentions)", "sentiment": "negative"},
+    {"text": "Rooftop pool; spacious 6x6 layouts with two living rooms (2 mentions)", "sentiment": "positive"},
+    {"text": "Thin walls; trash room overflows and smells (1 report)", "sentiment": "negative"}
+  ],
+  "Town Lake Apartments": [
+    {"text": "\"You get what you pay for\" — cheap but mid (3 mentions)", "sentiment": "neutral"},
+    {"text": "Management hard to reach, especially on billing issues (2 mentions)", "sentiment": "negative"},
+    {"text": "Older building; amenities okay at best, gym equipment broken (3 mentions)", "sentiment": "negative"},
+    {"text": "Close to lake walking trails (1 report)", "sentiment": "positive"}
+  ],
+  "Tradition on Rio": [
+    {"text": "Elevators always broken — main elevator down most of a semester (13 mentions)", "sentiment": "negative"},
+    {"text": "Roach problems, including an infestation at move-in (3 mentions)", "sentiment": "negative"},
+    {"text": "Only the lobby was renovated — rest of the building old and poorly maintained (5 mentions)", "sentiment": "negative"},
+    {"text": "Maintenance itself responds quickly (3 mentions)", "sentiment": "positive"},
+    {"text": "Staff reviews split — friendly vs unhelpful new management (4 mentions)", "sentiment": "neutral"},
+    {"text": "Toured room didn't match the actual room received (1 report)", "sentiment": "negative"}
+  ],
+  "Troubadour": [
+    {"text": "Very reliable: appliances never broken, 1-day max maintenance turnaround (1 detailed report)", "sentiment": "positive"}
+  ],
+  "Twenty Two15": [
+    {"text": "Really solid maintenance (3 mentions)", "sentiment": "positive"},
+    {"text": "Minimal gym, no pool; two decent study rooms (2 mentions)", "sentiment": "neutral"},
+    {"text": "Double-occupancy options and signing bonuses (~$600) available (2 mentions)", "sentiment": "neutral"},
+    {"text": "Great location (2 mentions)", "sentiment": "positive"},
+    {"text": "Courtyard often used for parties (1 report)", "sentiment": "neutral"}
+  ],
+  "Union on 24th": [
+    {"text": "Massive amenity list: golf simulator, boxing gym, theater, basketball court, dog spa, sky garden (10+ mentions)", "sentiment": "positive"},
+    {"text": "Small rooms and kitchens for the price (5 mentions)", "sentiment": "negative"},
+    {"text": "Service fees on top of rent — including a 9% utility service fee (3 mentions)", "sentiment": "negative"},
+    {"text": "Units under amenity floors get constant noise 10am-10pm; management dismissive (2 reports)", "sentiment": "negative"},
+    {"text": "8 elevators — rarely a wait (3 mentions)", "sentiment": "positive"},
+    {"text": "Early-signing discounts up to $300/month; quoted price can change at signing (3 mentions)", "sentiment": "neutral"}
+  ],
+  "Union on San Antonio": [
+    {"text": "New building with some of the best amenities in West Campus (11 mentions)", "sentiment": "positive"},
+    {"text": "Elevators broken or slow regularly (9 mentions)", "sentiment": "negative"},
+    {"text": "Clean and quiet; nice study rooms (3 mentions)", "sentiment": "positive"},
+    {"text": "Free coffee (3 mentions)", "sentiment": "positive"},
+    {"text": "Awkward layouts — small closets, inefficient use of space (2 mentions)", "sentiment": "negative"},
+    {"text": "Rent concessions given right after some residents signed (1 report)", "sentiment": "neutral"}
+  ],
+  "Vanderbilt Condominiums": [
+    {"text": "Older walk-up building — no elevator, older appliances (2 mentions)", "sentiment": "neutral"},
+    {"text": "Further from campus (2 mentions)", "sentiment": "negative"}
+  ],
+  "Venue on Guadalupe": [
+    {"text": "Shared amenity access with Villas on Guadalupe (2 mentions)", "sentiment": "positive"},
+    {"text": "No application fee; maintenance has been nice (1 report)", "sentiment": "positive"}
+  ],
+  "Village at East Riverside": [
+    {"text": "Bus commute 20-40 min depending on traffic; pest issues (1 report)", "sentiment": "negative"}
+  ],
+  "Villas at San Gabriel": [
+    {"text": "Elevators always broken (3 mentions)", "sentiment": "negative"},
+    {"text": "Gym, pool, basketball court, movie room (2 mentions)", "sentiment": "positive"},
+    {"text": "Rent raised $100+/month at renewal (1 report)", "sentiment": "negative"}
+  ],
+  "Villas on 24th": [
+    {"text": "Clean and new (3 mentions)", "sentiment": "positive"},
+    {"text": "Greek-life crowd makes messes, but complex cleans up fast (2 mentions)", "sentiment": "neutral"},
+    {"text": "Gym, basketball court, pool, sauna; night security (2 mentions)", "sentiment": "positive"},
+    {"text": "Thin walls; occasional elevator issues (1 report)", "sentiment": "negative"}
+  ],
+  "Villas on 26th": [
+    {"text": "Things break frequently — weekly maintenance requests for some (3 mentions)", "sentiment": "negative"},
+    {"text": "Bad cockroach problem reported (1 report)", "sentiment": "negative"},
+    {"text": "$80 amenity fee at move-in (1 report)", "sentiment": "negative"}
+  ],
+  "Villas on Guadalupe": [
+    {"text": "Well-kept gym, pool, and frequent community events (10 mentions)", "sentiment": "positive"},
+    {"text": "Fast maintenance, helpful staff (3 mentions)", "sentiment": "positive"},
+    {"text": "App-based entry (Geo Key) locks you out if your phone dies (1 report)", "sentiment": "negative"},
+    {"text": "No security (2 mentions)", "sentiment": "negative"},
+    {"text": "Pricing quirks: loft rooms cheaper, larger/furnished rooms +$100 (2 mentions)", "sentiment": "neutral"}
+  ],
+  "Villas on Nueces": [
+    {"text": "Elevators break often and are slow (4 mentions)", "sentiment": "negative"},
+    {"text": "Close to campus (4 mentions)", "sentiment": "positive"},
+    {"text": "Gym is poor quality (2 mentions)", "sentiment": "negative"},
+    {"text": "Big rooms; spacious studios (2 mentions)", "sentiment": "positive"}
+  ],
+  "Villas on Rio": [
+    {"text": "Elevators ALWAYS broken — 2-3 for a 19-floor building (9 mentions)", "sentiment": "negative"},
+    {"text": "Great amenities: indoor + rooftop pools, sauna, cold plunge, basketball court (8 mentions)", "sentiment": "positive"},
+    {"text": "Greek-life building — loud parties and screaming at night (3 mentions)", "sentiment": "negative"},
+    {"text": "Trash chute overflows and smells on weekends; halls dirty after parties (3 mentions)", "sentiment": "negative"},
+    {"text": "Hidden premium fees (2 mentions)", "sentiment": "negative"},
+    {"text": "Maintenance crew hardworking and kind but badly understaffed (2 mentions)", "sentiment": "neutral"}
+  ],
+  "Waterford Condominiums": [
+    {"text": "Parking included; maintenance basically nonexistent but the price makes it worth it (1 report)", "sentiment": "neutral"}
+  ],
+  "West Campus Elloras": [
+    {"text": "Things break often; management slow unless urgent (2 mentions)", "sentiment": "negative"}
+  ],
+  "West Campus Flats": [
+    {"text": "Older building, no amenities, community laundry; surrounded by frats and co-ops (3 mentions)", "sentiment": "neutral"}
+  ],
+  "Yugo Austin Corner": [
+    {"text": "Far from campus, but bus stop right outside the door (4 mentions)", "sentiment": "neutral"},
+    {"text": "Elevator outages were common but improved after a contractor change (2 mentions)", "sentiment": "neutral"},
+    {"text": "No gym or dedicated study rooms (3 mentions)", "sentiment": "negative"},
+    {"text": "Dedicated bike cage and private dog park (1 report)", "sentiment": "positive"},
+    {"text": "Expensive parking (1 report)", "sentiment": "negative"}
+  ],
+  "Yugo Austin Rio": [
+    {"text": "Maintenance quick and friendly (3 mentions)", "sentiment": "positive"},
+    {"text": "Maintenance enters rooms without knocking (1 report)", "sentiment": "negative"},
+    {"text": "Elevators sometimes malfunction (1 report)", "sentiment": "neutral"}
+  ],
+  "Yugo Austin Waterloo": [
+    {"text": "Previous issue: major elevator crisis first semester (2 of 4 working for 3 months, 30 floors) — fixed since (7 mentions)", "sentiment": "negative"},
+    {"text": "Fees: $35/month green fee, premium floor fee, collective trash-room fines (4 mentions)", "sentiment": "negative"},
+    {"text": "Strong amenities: 30th-floor rooftop pool, saunas, cycling room, free printing (5 mentions)", "sentiment": "positive"},
+    {"text": "Tiny bedrooms — offset by floor-to-ceiling windows and campus views (3 mentions)", "sentiment": "neutral"},
+    {"text": "Extremely tight parking garage — scraped cars common (1 report)", "sentiment": "negative"}
+  ]
+}
