@@ -143,6 +143,7 @@ whitelist building becomes one record (`objectID` = canonical name) so
 repeat runs upsert instead of duplicating.
 
 ```bash
+python3 upload_to_algolia.py --dry-run  # validate records locally, no API calls
 python3 upload_to_algolia.py            # clear index, then replace contents
 python3 upload_to_algolia.py --no-clear # upsert only, keep existing records
 ```
@@ -156,9 +157,12 @@ local untracked `.env` — never commit keys):
 | `ALGOLIA_WRITE_KEY` | yes      | Algolia **admin/write** API key (not search) |
 
 `upload_to_algolia.py` currently falls back to in-repo defaults if the
-env vars are unset. Prefer exporting the env vars so keys are not
-relied on from source. A search-only key will fail the clear/batch
-write calls.
+env vars are unset. Prefer exporting the env vars (see `.env.example`)
+so keys are not relied on from source. A search-only key will fail the
+clear/batch write calls. The in-repo default write key returned HTTP 403
+("Invalid Application-ID or API key") when this pipeline was run on
+2026-09-05 — a live `ALGOLIA_WRITE_KEY` must be provided to finish the
+upload.
 
 ---
 
