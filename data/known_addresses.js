@@ -181,6 +181,7 @@ const APARTMENT_DATA = [
     // =========================
     { canonical_name: "Aster House", area: "north_campus", property_type: "apartment", lat: 30.3059, lng: -97.7430, aliases: ["Aster"] },
     { canonical_name: "Hyde Park Court", area: "north_campus", property_type: "apartment", lat: 30.3019, lng: -97.7354, aliases: ["Hyde Park Ct"] },
+    { canonical_name: "Monticello Studios at Hyde Park", area: "north_campus", property_type: "apartment", lat: 30.30209, lng: -97.73569, aliases: ["Monticello Studios", "Monticello Apartments", "306 W 38th St", "Monticello Hyde Park"] },
     // =========================
     // NORTH CAMPUS - Condos (Additional)
     // =========================
