@@ -8927,11 +8927,6 @@
       "utils": false
     },
     {
-      "_comment": "This is checkpoint two for data before March 25th 7:30pm CST",
-      "status": "active",
-      "username": "Elijah"
-    },
-    {
       "_timestamp": 1772687619725,
       "_user": {
         "displayName": "Guest",
@@ -11782,11 +11777,6 @@
       "signingYear": "2025",
       "utilityCost": 0,
       "utils": false
-    },
-    {
-      "_comment": "This is checkpoint one for data before March 9th 10:00pm CST",
-      "status": "active",
-      "username": "Elijah"
     },
     {
       "_timestamp": 1773109467690,
@@ -16352,7 +16342,7 @@
       },
       "createdAt": 1773860469945,
       "doubleOccupancy": false,
-      "hood": "Wynnwood Condominums",
+      "hood": "Wynnwood Condos",
       "id": "1773860469945m9dgi3mc4",
       "isOwnPlace": true,
       "layout": "2 Bed / 2 Bath",
@@ -27475,11 +27465,6 @@
       "utils": false
     },
     {
-      "_comment": "This is checkpoint 2.5 to put in data from the seed entries 10 to 141 on April 19th 4:57 CST",
-      "status": "active",
-      "username": "Elijah"
-    },
-    {
       "_timestamp": 1771302916000,
       "_user": {
         "displayName": "Guest",
@@ -29925,7 +29910,7 @@
       },
       "createdAt": 1771878214000,
       "doubleOccupancy": false,
-      "hood": "Graham Pl Condomimiums",
+      "hood": "Graham Place Condos",
       "id": "seed_1771878214000_2514a0",
       "isOwnPlace": true,
       "layout": "2 bed/ 2 bath",
@@ -30166,11 +30151,6 @@
       "rent": 1400,
       "utilityCost": 0,
       "utils": false
-    },
-    {
-      "_comment": "This is checkpoint 3 to verify data put in before April 19th 5:08 CST",
-      "status": "active",
-      "username": "Elijah"
     },
     {
       "_timestamp": 1776638146459,
@@ -34290,11 +34270,6 @@
       "utils": false
     },
     {
-      "_comment": "This is checkpoint 4 to verify data put in before June 23rd 11:21am CST",
-      "status": "active",
-      "username": "Elijah"
-    },
-    {
       "_timestamp": 1782199107835,
       "_user": {
         "displayName": "Guest",
@@ -36480,11 +36455,6 @@
       "utils": false
     },
     {
-      "_comment": "This is checkpoint 5 to input wampus.fyi data",
-      "status": "active",
-      "username": "Elijah"
-    },
-    {
       "_timestamp": 1782339859690,
       "_user": {
         "displayName": "Guest",
@@ -36563,7 +36533,7 @@
       },
       "createdAt": 1782344454900,
       "doubleOccupancy": false,
-      "hood": "The hive red river",
+      "hood": "Hive Red River",
       "id": "1782344454900rfasr4f0k",
       "isOwnPlace": true,
       "layout": "1 Bed / 1 Bath",
@@ -37023,7 +36993,7 @@
       },
       "createdAt": 1783775437039,
       "doubleOccupancy": false,
-      "hood": "red river place apartments",
+      "hood": "3301 Red River St Apartments",
       "id": "1783775437039t3l6n7maq",
       "isOwnPlace": true,
       "layout": "1 Bed / 1 Bath",
@@ -38380,7 +38350,7 @@
       },
       "createdAt": 1787071450872,
       "doubleOccupancy": false,
-      "hood": "Lyv austin",
+      "hood": "Lyv Austin",
       "id": "1787071450872vrxoitz0u",
       "isOwnPlace": true,
       "layout": "1 Bed / 1 Bath",
@@ -39162,7 +39132,7 @@
       },
       "createdAt": 1787590635180,
       "doubleOccupancy": false,
-      "hood": "Starwest",
+      "hood": "Star West Condos",
       "id": "1787590635180mmygd4f0c",
       "isOwnPlace": true,
       "layout": "2 Bed / 1 Bath",
@@ -39541,29 +39511,6 @@
       "signingMonth": "September",
       "signingYear": "2024",
       "utilityCost": 70,
-      "utils": false
-    },
-    {
-      "_timestamp": 1787622146364,
-      "_user": {
-        "displayName": "Guest",
-        "handle": null,
-        "id": "anon_1787621873208_kes7l05vm",
-        "profileImageUrl": null
-      },
-      "createdAt": 1787622145586,
-      "doubleOccupancy": false,
-      "hood": "Valley Park",
-      "id": "1787622145587ntog3kp0t",
-      "isOwnPlace": true,
-      "layout": "2 Bed / 1 Bath",
-      "note": "No elevator, the hallways smell like weed, had a few minor issues in the apartment, older building, no dishwasher or microwave, laundry is $2 to wash and another $2 to dry, but there's machines on all 3 levels. There are garages available but for an extra fee. No light fixture in the living room. Bedrooms just barely hold a king bed. Free parking spot for only 1 vehicle per unit, even if you have multiple bedrooms/tenants .",
-      "parking": true,
-      "parkingCost": 0,
-      "rent": 753,
-      "signingMonth": "August",
-      "signingYear": "2026",
-      "utilityCost": 140,
       "utils": false
     },
     {
@@ -40289,7 +40236,7 @@
       },
       "createdAt": 1787726105008,
       "doubleOccupancy": false,
-      "hood": "Villages",
+      "hood": "Villages at the Domain",
       "id": "1787726105008g519rap0b",
       "isOwnPlace": true,
       "layout": "1 Bed / 1 Bath",
