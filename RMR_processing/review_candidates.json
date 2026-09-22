@@ -1,6 +1,22 @@
 {
   "1883 at Cameron House": [
     {
+      "text": "gym and patio",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 675,
+      "signed": "October 2026",
+      "date": "2026-08-29"
+    },
+    {
+      "text": "Close to Campus",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1240,
+      "signed": "April 2026",
+      "date": "2026-07-28"
+    },
+    {
       "text": ".",
       "source": "submission",
       "layout": "4 Bed / 2 Bath",
@@ -66,6 +82,30 @@
     }
   ],
   "1883 at Montgomery House": [
+    {
+      "text": "Includes gym",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 720,
+      "signed": "August 2026",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "Close to campus",
+      "source": "submission",
+      "layout": "2 Bed / 1 Bath",
+      "rent": 920,
+      "signed": "October 2025",
+      "date": "2026-08-19"
+    },
+    {
+      "text": "Study lounge, two closets and two sinks",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1290,
+      "signed": "July 2026",
+      "date": "2026-08-19"
+    },
     {
       "text": "Very spacious rooms",
       "source": "submission",
@@ -183,6 +223,54 @@
   ],
   "21 Pearl": [
     {
+      "text": "N/A",
+      "source": "submission",
+      "layout": "Studio",
+      "rent": 1100,
+      "signed": "September 2026",
+      "date": "2026-09-18"
+    },
+    {
+      "text": "Ok",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 2395,
+      "signed": "December 2025",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Small gym",
+      "source": "submission",
+      "layout": "2 Bed / 3 Bath",
+      "rent": 1310,
+      "signed": "November 2025",
+      "date": "2026-08-25"
+    },
+    {
+      "text": "Small gym",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1665,
+      "signed": "March 2026",
+      "date": "2026-08-20"
+    },
+    {
+      "text": "only one elevator, cheap parking, small gym and study room",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1210,
+      "signed": "December 2025",
+      "date": "2026-08-04"
+    },
+    {
+      "text": "quick response",
+      "source": "survey_maintenance",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-08-04"
+    },
+    {
       "text": "far from campus, always ups the rent every time it is time to renew",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -195,6 +283,14 @@
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
       "rent": 1265,
+      "signed": "August 2024",
+      "date": "2026-06-28"
+    },
+    {
+      "text": "e",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1135,
       "signed": "August 2024",
       "date": "2026-06-28"
     },
@@ -424,6 +520,14 @@
     }
   ],
   "21 Rio": [
+    {
+      "text": "Close to campus",
+      "source": "submission",
+      "layout": "2 Bed / 1 Bath",
+      "rent": 1260,
+      "signed": "September 2025",
+      "date": "2026-08-19"
+    },
     {
       "text": "Haven’t lived yet",
       "source": "submission",
@@ -707,14 +811,6 @@
   ],
   "24 Longview": [
     {
-      "text": "f",
-      "source": "submission",
-      "layout": "50 Bed / 50 Bath",
-      "rent": 1190,
-      "signed": "March 2026",
-      "date": "2026-07-13"
-    },
-    {
       "text": "N/a",
       "source": "submission",
       "layout": "4 Bed / 2 Bath",
@@ -868,6 +964,38 @@
     }
   ],
   "2400 Nueces": [
+    {
+      "text": "Includes gymnastics and pool",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1460,
+      "signed": "October 2025",
+      "date": "2026-08-25"
+    },
+    {
+      "text": "UT owned",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1495,
+      "signed": "January 2026",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "close to campus, goated apt",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1291,
+      "signed": "October 2024",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "Quiet, clean, responsive maintenance, super cold A/C, plenty of hot water. Mailroom has odd hours but otherwise perfect",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1789,
+      "signed": "August 2026",
+      "date": "2026-08-24"
+    },
     {
       "text": "none",
       "source": "submission",
@@ -1062,6 +1190,38 @@
     }
   ],
   "26 West": [
+    {
+      "text": "Includes gym, pool, and grills",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1200,
+      "signed": "June 2026",
+      "date": "2026-09-01"
+    },
+    {
+      "text": "Older apartment but nice",
+      "source": "submission",
+      "layout": "2 Bed / 1 Bath",
+      "rent": 1385,
+      "signed": "August 2026",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Finesse",
+      "source": "submission",
+      "layout": "2 Bed / 1 Bath",
+      "rent": 1330,
+      "signed": "November 2026",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "Basketball court is a big plus",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 1235,
+      "signed": "November 2024",
+      "date": "2026-08-22"
+    },
     {
       "text": "kinda run down",
       "source": "submission",
@@ -1329,6 +1489,14 @@
   ],
   "3000 Guadalupe St": [
     {
+      "text": "Negotiate!",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 900,
+      "signed": "January 2026",
+      "date": "2026-09-02"
+    },
+    {
       "text": "N/a",
       "source": "submission",
       "layout": "1 Bed / 1 Bath",
@@ -1399,6 +1567,14 @@
   ],
   "Avon at 22nd": [
     {
+      "text": "None",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 630,
+      "signed": "August 2026",
+      "date": "2026-08-25"
+    },
+    {
       "text": "Rent split between 2 people so the total is 2300",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -1416,6 +1592,30 @@
     }
   ],
   "Axis West Campus": [
+    {
+      "text": "nice",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 825,
+      "signed": "July 2026",
+      "date": "2026-07-21"
+    },
+    {
+      "text": "Good apartment",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1080,
+      "signed": "March 2025",
+      "date": "2026-07-20"
+    },
+    {
+      "text": "chill",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 815,
+      "signed": "July 2026",
+      "date": "2026-07-20"
+    },
     {
       "text": "15 mins from campus, pool, gym, parking garage",
       "source": "submission",
@@ -1667,6 +1867,14 @@
   ],
   "Ballpark North": [
     {
+      "text": "Far from campus. Old buildings and furniture. Dust everywhere.",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 435,
+      "signed": "August 2026",
+      "date": "2026-08-29"
+    },
+    {
       "text": "N/A",
       "source": "submission",
       "layout": "4 Bed / 4 Bath",
@@ -1865,6 +2073,14 @@
   ],
   "Camino Flats": [
     {
+      "text": "N/A",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1005,
+      "signed": "August 2025",
+      "date": "2026-08-12"
+    },
+    {
       "text": "Marla was nice shoutout",
       "source": "submission",
       "layout": "3 Bed / 2 Bath",
@@ -1996,6 +2212,38 @@
     }
   ],
   "Crest at Pearl": [
+    {
+      "text": "Thin walls, but the location and price are worth it",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1114,
+      "signed": "October 2025",
+      "date": "2026-09-07"
+    },
+    {
+      "text": ".",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1115,
+      "signed": "November 2025",
+      "date": "2026-08-19"
+    },
+    {
+      "text": "Gym and pool",
+      "source": "submission",
+      "layout": "2 Bed / 1 Bath",
+      "rent": 1255,
+      "signed": "July 2026",
+      "date": "2026-08-13"
+    },
+    {
+      "text": "na",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1460,
+      "signed": "August 2026",
+      "date": "2026-08-07"
+    },
     {
       "text": "Na",
       "source": "submission",
@@ -2175,6 +2423,14 @@
   ],
   "Croix Condominiums": [
     {
+      "text": "Great cozy spot with a spacious patio, quiet neighborhood and greenery all around!",
+      "source": "submission",
+      "layout": "2 Bed / 1 Bath",
+      "rent": 1650,
+      "signed": "August 2025",
+      "date": "2026-08-24"
+    },
+    {
       "text": "N/a",
       "source": "submission",
       "layout": "1 Bed / 1 Bath",
@@ -2218,6 +2474,46 @@
     }
   ],
   "Dobie Twenty21": [
+    {
+      "text": "On campus, free unlimited dining hall swipes",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 1180,
+      "signed": "August 2026",
+      "date": "2026-09-08"
+    },
+    {
+      "text": "Elevator can be broken sometimes, floor/building can be cold",
+      "source": "submission",
+      "layout": "2 Bed / 1 Bath",
+      "rent": 877,
+      "signed": "November 2025",
+      "date": "2026-08-11"
+    },
+    {
+      "text": "Not bad",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1500,
+      "signed": "August 2025",
+      "date": "2026-07-30"
+    },
+    {
+      "text": "One elevator is always broken",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1500,
+      "signed": "August 2025",
+      "date": "2026-07-27"
+    },
+    {
+      "text": "Close to campus",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1900,
+      "signed": "May 2025",
+      "date": "2026-07-22"
+    },
     {
       "text": "sdjfskdfjsdf",
       "source": "submission",
@@ -2495,6 +2791,14 @@
   ],
   "Duval Villas": [
     {
+      "text": "Rent split, No elevator",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 2800,
+      "signed": "December 2025",
+      "date": "2026-08-26"
+    },
+    {
       "text": "Broken elevator rest is good",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -2513,12 +2817,38 @@
   ],
   "East Campus Graduate Apartments": [
     {
+      "text": "none",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1525,
+      "signed": "August 2026",
+      "date": "2026-08-20"
+    },
+    {
+      "text": "none",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1525,
+      "signed": "August 2025",
+      "date": "2026-08-20"
+    },
+    {
       "text": "All utilities and internet included.",
       "source": "submission",
       "layout": "1 Bed / 1 Bath",
       "rent": 1566,
       "signed": "July 2025",
       "date": "2026-03-03"
+    }
+  ],
+  "Elan East Apartments": [
+    {
+      "text": "N",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1815,
+      "signed": "May 2026",
+      "date": "2026-03-25"
     }
   ],
   "Envoy Apartments": [
@@ -2586,6 +2916,14 @@
     }
   ],
   "GrandMarc Austin": [
+    {
+      "text": "Pool is resort style, gym is nice. Small building so not very loud or overwhelming",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1350,
+      "signed": "November 2025",
+      "date": "2026-09-19"
+    },
     {
       "text": "One of the closest apartments to campus and includes gated garage and a secure building. Occasionally an elevator breaks down but they typically fix it pretty fast.",
       "source": "submission",
@@ -2655,6 +2993,14 @@
   ],
   "Halstead Co-op": [
     {
+      "text": "Gym, food included. Must do labor (4 hours/week)",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1100,
+      "signed": "June 2026",
+      "date": "2026-08-25"
+    },
+    {
       "text": "Elevator bad",
       "source": "submission",
       "layout": "1 Bed / 1 Bath",
@@ -2664,6 +3010,14 @@
     }
   ],
   "Haus 535": [
+    {
+      "text": "H",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 700,
+      "signed": "March 2026",
+      "date": "2026-08-29"
+    },
     {
       "text": "Ue",
       "source": "submission",
@@ -2710,6 +3064,46 @@
     }
   ],
   "Hilltop": [
+    {
+      "text": "Average amenities (when compared to other Wampus apartments).",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1250,
+      "signed": "September 2026",
+      "date": "2026-09-20"
+    },
+    {
+      "text": "minimal",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1115,
+      "signed": "November 2025",
+      "date": "2026-08-29"
+    },
+    {
+      "text": "fast fixes",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1265,
+      "signed": "March 2026",
+      "date": "2026-08-29"
+    },
+    {
+      "text": "gym and pool",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1185,
+      "signed": "October 2025",
+      "date": "2026-08-25"
+    },
+    {
+      "text": "Gym, pool, study space. Further from campus",
+      "source": "submission",
+      "layout": "4 Bed / 3 Bath",
+      "rent": 1210,
+      "signed": "December 2025",
+      "date": "2026-08-22"
+    },
     {
       "text": "Cheaper with smart housing",
       "source": "submission",
@@ -2985,6 +3379,30 @@
   ],
   "Icon at Austin": [
     {
+      "text": "gym and pool",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1610,
+      "signed": "March 2026",
+      "date": "2026-09-06"
+    },
+    {
+      "text": "small gym",
+      "source": "submission",
+      "layout": "5 Bed / 5 Bath",
+      "rent": 1269,
+      "signed": "August 2025",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Amenities are great.",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 960,
+      "signed": "September 2025",
+      "date": "2026-08-16"
+    },
+    {
       "text": "Haven’t moved in yet",
       "source": "submission",
       "layout": "5 Bed / 5 Bath",
@@ -3163,6 +3581,46 @@
   ],
   "Inspire on 22nd": [
     {
+      "text": "Decent management, price may be too high.. lack of amenities compared to other apartments and small rooms.",
+      "source": "submission",
+      "layout": "5 Bed / 5 Bath",
+      "rent": 1300,
+      "signed": "April 2026",
+      "date": "2026-09-17"
+    },
+    {
+      "text": "none",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1505,
+      "signed": "August 2026",
+      "date": "2026-08-28"
+    },
+    {
+      "text": "gym, pool, lounge",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1460,
+      "signed": "March 2026",
+      "date": "2026-08-27"
+    },
+    {
+      "text": "Pool closed last 3 months, quiet, good management, apartment had mold though",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1310,
+      "signed": "April 2025",
+      "date": "2026-07-25"
+    },
+    {
+      "text": "Pretty quick",
+      "source": "survey_maintenance",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-07-25"
+    },
+    {
       "text": "Idk",
       "source": "submission",
       "layout": "4 Bed / 4 Bath",
@@ -3292,6 +3750,46 @@
     }
   ],
   "Ion Austin": [
+    {
+      "text": "N/A",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1305,
+      "signed": "February 2026",
+      "date": "2026-09-09"
+    },
+    {
+      "text": "Close to campus",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1900,
+      "signed": "October 2025",
+      "date": "2026-08-27"
+    },
+    {
+      "text": "Not bad",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1150,
+      "signed": "February 2026",
+      "date": "2026-08-27"
+    },
+    {
+      "text": "broken elevator",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1220,
+      "signed": "October 2025",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Very quiet",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1910,
+      "signed": "October 2025",
+      "date": "2026-08-24"
+    },
     {
       "text": "Elevators never work!",
       "source": "submission",
@@ -3649,6 +4147,14 @@
   ],
   "Landmark Square": [
     {
+      "text": "None",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 2350,
+      "signed": "April 2026",
+      "date": "2026-08-07"
+    },
+    {
       "text": "Wifi 30, Utilities (water and electricty) is about $70 during the summer and $80 in winter",
       "source": "submission",
       "layout": "1 Bed / 1 Bath",
@@ -3684,6 +4190,30 @@
     }
   ],
   "Lark Austin": [
+    {
+      "text": "The middle elevator has bern broken for a while",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1175,
+      "signed": "August 2026",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "Had a package stolen once from the lobby, gym is a bit outdated, elevators started to have issues during spring semester, and when move-out came, they charged ridiculous amounts of fees for things that were simply not true.",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1295,
+      "signed": "May 2025",
+      "date": "2026-08-17"
+    },
+    {
+      "text": "Double occupancy",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 800,
+      "signed": "February 2026",
+      "date": "2026-08-06"
+    },
     {
       "text": "N/A",
       "source": "submission",
@@ -3993,6 +4523,30 @@
   ],
   "Legacy on Rio": [
     {
+      "text": "Hidden fees and broken appliances",
+      "source": "submission",
+      "layout": "5 Bed / 4 Bath",
+      "rent": 950,
+      "signed": "October 2026",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "All good so far",
+      "source": "submission",
+      "layout": "5 Bed / 4 Bath",
+      "rent": 950,
+      "signed": "September 2025",
+      "date": "2026-08-25"
+    },
+    {
+      "text": "Idk",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 1005,
+      "signed": "March 2026",
+      "date": "2026-08-17"
+    },
+    {
       "text": "Gym",
       "source": "submission",
       "layout": "4 Bed / 2 Bath",
@@ -4243,6 +4797,14 @@
   ],
   "Leon Place Condominiums": [
     {
+      "text": "N/A",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1200,
+      "signed": "May 2026",
+      "date": "2026-08-25"
+    },
+    {
       "text": "Condominium is in condition.",
       "source": "submission",
       "layout": "1 Bed / 1 Bath",
@@ -4253,6 +4815,14 @@
   ],
   "Littlefield Apartments": [
     {
+      "text": "The place is a little old and showing its age for sure. Not the best maintained. There’s paint splatter on things, grime, and the landlord special. There are some gaps in the walls and doors. But it’s not a terrible place to live especially given the price.",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 935,
+      "signed": "April 2026",
+      "date": "2026-09-20"
+    },
+    {
       "text": "N/A",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -4262,6 +4832,14 @@
     }
   ],
   "Lone Star Lofts": [
+    {
+      "text": "Broken elevator",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1325,
+      "signed": "May 2026",
+      "date": "2026-08-26"
+    },
     {
       "text": "Terrible living conditions",
       "source": "submission",
@@ -4358,6 +4936,22 @@
     }
   ],
   "Moontower": [
+    {
+      "text": "Horrible communication",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1260,
+      "signed": "October 2025",
+      "date": "2026-08-28"
+    },
+    {
+      "text": "Dirty apartment",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1530,
+      "signed": "August 2026",
+      "date": "2026-08-26"
+    },
     {
       "text": "no",
       "source": "submission",
@@ -4560,6 +5154,22 @@
     }
   ],
   "Noble 2500": [
+    {
+      "text": "Overall nice property, a little further from campus but it’s on the bus route.",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1250,
+      "signed": "May 2026",
+      "date": "2026-08-22"
+    },
+    {
+      "text": "kinda dirty",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1375,
+      "signed": "February 2026",
+      "date": "2026-08-16"
+    },
     {
       "text": "Hidden fees",
       "source": "submission",
@@ -4787,6 +5397,14 @@
   ],
   "Orange Tree Condominiums": [
     {
+      "text": "Unfurnished",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1200,
+      "signed": "July 2026",
+      "date": "2026-08-25"
+    },
+    {
       "text": "roaches",
       "source": "submission",
       "layout": "2 Bed / 1 Bath",
@@ -4821,6 +5439,14 @@
   ],
   "Palmetto Condominiums": [
     {
+      "text": "None",
+      "source": "submission",
+      "layout": "Studio",
+      "rent": 1000,
+      "signed": "June 2026",
+      "date": "2026-08-18"
+    },
+    {
       "text": "Close to campus",
       "source": "submission",
       "layout": "1 Bed / 1 Bath",
@@ -4846,6 +5472,14 @@
     }
   ],
   "Parapet Condominiums": [
+    {
+      "text": "No amenities, parking included, several balconies.",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 920,
+      "signed": "December 2025",
+      "date": "2026-09-09"
+    },
     {
       "text": "free parking",
       "source": "submission",
@@ -4912,6 +5546,14 @@
     }
   ],
   "Piazza Navona Condominiums": [
+    {
+      "text": "n/a",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1200,
+      "signed": "January 2026",
+      "date": "2026-08-19"
+    },
     {
       "text": "idk fr",
       "source": "submission",
@@ -4987,6 +5629,30 @@
   ],
   "Quarters on Campus – Grayson": [
     {
+      "text": "Includes gym",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1318,
+      "signed": "February 2026",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "He",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1970,
+      "signed": "February 2024",
+      "date": "2026-08-23"
+    },
+    {
+      "text": "Good apartment",
+      "source": "submission",
+      "layout": "Studio",
+      "rent": 1500,
+      "signed": "April 2026",
+      "date": "2026-08-18"
+    },
+    {
       "text": "pretty close to campus, decent sized gym",
       "source": "submission",
       "layout": "Unknown",
@@ -5054,6 +5720,14 @@
     }
   ],
   "Quarters on Campus – Nueces": [
+    {
+      "text": "good",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 695,
+      "signed": "February 2026",
+      "date": "2026-08-26"
+    },
     {
       "text": "there’s a nice pool and study area",
       "source": "submission",
@@ -5241,6 +5915,22 @@
   ],
   "Quarters on Campus – Sterling House": [
     {
+      "text": "So far so goood.",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1330,
+      "signed": "April 2026",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Close to campus",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1689,
+      "signed": "February 2026",
+      "date": "2026-08-01"
+    },
+    {
       "text": "TONS of hidden fees. Amenities are average (patio, clubhouse, coffee machine) elevators usually work but can be broken for a week at a time. Maintenance problems get fixed within 48 hours. Overall not bad but def not worth the price. Right now I am in a 2x2 shared and pay average $950 total.",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -5322,6 +6012,46 @@
     }
   ],
   "Rambler Apartments": [
+    {
+      "text": "Great amenities",
+      "source": "submission",
+      "layout": "6 Bed / 6 Bath",
+      "rent": 1300,
+      "signed": "October 2024",
+      "date": "2026-08-29"
+    },
+    {
+      "text": "Seems fine",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 1200,
+      "signed": "April 2026",
+      "date": "2026-08-29"
+    },
+    {
+      "text": "Na",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 600,
+      "signed": "August 2026",
+      "date": "2026-08-28"
+    },
+    {
+      "text": "None",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 1245,
+      "signed": "November 2025",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "great amenities",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 1250,
+      "signed": "May 2026",
+      "date": "2026-08-18"
+    },
     {
       "text": "Mold, Broken elevator.",
       "source": "submission",
@@ -5607,6 +6337,30 @@
   ],
   "Regents West at 24th": [
     {
+      "text": "Amenities aren’t spectacular but offers a ton of space for the price, high ceilings, a loft in addition to the rooms, and a large balcony.",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1250,
+      "signed": "August 2026",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "Gym,study room",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 899,
+      "signed": "July 2026",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Great so far, not many amenities",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1250,
+      "signed": "October 2025",
+      "date": "2026-08-25"
+    },
+    {
       "text": "good",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -5680,6 +6434,30 @@
     }
   ],
   "Regents West at 26th": [
+    {
+      "text": "Includes gym",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 1060,
+      "signed": "October 2025",
+      "date": "2026-09-09"
+    },
+    {
+      "text": "Wonderful maintenance",
+      "source": "survey_maintenance",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-09-09"
+    },
+    {
+      "text": "N/A",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 926,
+      "signed": "July 2026",
+      "date": "2026-08-24"
+    },
     {
       "text": "additional $16 fee including trash, amenities, pest control, administration",
       "source": "submission",
@@ -5770,6 +6548,54 @@
     }
   ],
   "Rise at West Campus": [
+    {
+      "text": "good pool",
+      "source": "submission",
+      "layout": "5 Bed / 3 Bath",
+      "rent": 1345,
+      "signed": "October 2025",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "not consistent with water temp",
+      "source": "submission",
+      "layout": "5 Bed / 3 Bath",
+      "rent": 1330,
+      "signed": "October 2025",
+      "date": "2026-08-28"
+    },
+    {
+      "text": "Low water pressure, shower water did not get hot",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1500,
+      "signed": "August 2024",
+      "date": "2026-08-28"
+    },
+    {
+      "text": "Close to campus, gym and pool",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1245,
+      "signed": "April 2026",
+      "date": "2026-08-18"
+    },
+    {
+      "text": "close to campus, gym and po",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1335,
+      "signed": "April 2026",
+      "date": "2026-08-18"
+    },
+    {
+      "text": "fine",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1874,
+      "signed": "July 2026",
+      "date": "2026-08-02"
+    },
     {
       "text": "nah",
       "source": "submission",
@@ -6213,6 +7039,22 @@
   ],
   "San Gabriel Square": [
     {
+      "text": "Nice",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1010,
+      "signed": "July 2026",
+      "date": "2026-08-28"
+    },
+    {
+      "text": "2 months free rent will be 650. There is free parking but there is also the option for reserved parking for $20 a month. No in-unit laundry but there is some in the buildings.",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 799,
+      "signed": "April 2026",
+      "date": "2026-08-08"
+    },
+    {
       "text": "None",
       "source": "submission",
       "layout": "1 Bed / 1 Bath",
@@ -6270,6 +7112,14 @@
     }
   ],
   "San Pedro Flats": [
+    {
+      "text": "condo, comes with backyard, 2 balconies, nothing too bad",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 1100,
+      "signed": "August 2025",
+      "date": "2026-04-18"
+    },
     {
       "text": "Large rooms + furnished",
       "source": "submission",
@@ -6506,6 +7356,70 @@
     }
   ],
   "Skyloft Austin": [
+    {
+      "text": "has a guy, study rooms, and a small pool",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1310,
+      "signed": "April 2026",
+      "date": "2026-09-15"
+    },
+    {
+      "text": "Free printing, close to campus",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 1235,
+      "signed": "October 2025",
+      "date": "2026-09-07"
+    },
+    {
+      "text": "Nothing bad so far",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 1240,
+      "signed": "October 2025",
+      "date": "2026-09-07"
+    },
+    {
+      "text": "⠀",
+      "source": "submission",
+      "layout": "4 Bed / 3 Bath",
+      "rent": 1400,
+      "signed": "December 2025",
+      "date": "2026-08-25"
+    },
+    {
+      "text": "All pretty good",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1250,
+      "signed": "October 2025",
+      "date": "2026-08-25"
+    },
+    {
+      "text": "Includes gym,pool",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1400,
+      "signed": "December 2025",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "Close",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1245,
+      "signed": "October 2025",
+      "date": "2026-08-18"
+    },
+    {
+      "text": "Haven’t started living yet",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 1240,
+      "signed": "September 2025",
+      "date": "2026-08-06"
+    },
     {
       "text": "n-a",
       "source": "submission",
@@ -6789,6 +7703,54 @@
   ],
   "Sparq on Rio": [
     {
+      "text": "idk",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 890,
+      "signed": "September 2025",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "idk",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 875,
+      "signed": "September 2025",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "idk",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 890,
+      "signed": "September 2025",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "Gym and Pool",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 849,
+      "signed": "August 2025",
+      "date": "2026-07-28"
+    },
+    {
+      "text": "Quick Response Time 24-48 hrs",
+      "source": "survey_maintenance",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-07-28"
+    },
+    {
+      "text": "Slow front office, amenities are limited.",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 734,
+      "signed": "May 2025",
+      "date": "2026-07-19"
+    },
+    {
       "text": "GYm included",
       "source": "submission",
       "layout": "4 Bed / 4 Bath",
@@ -6977,6 +7939,14 @@
   ],
   "Texan 26": [
     {
+      "text": "No gym or special amenities besides a bike repair area.",
+      "source": "submission",
+      "layout": "6 Bed / 4 Bath",
+      "rent": 915,
+      "signed": "April 2026",
+      "date": "2026-08-26"
+    },
+    {
       "text": "elevators are slow or broken most of the time. no amenities, a community courtyard that shares the doors to other people’s apartments and also the walls are thin and you can here people stomp loud as heck upstairs and hear people outside the whole building shakes fr it’s annoying wouldn’t recommend",
       "source": "submission",
       "layout": "3 Bed / 2 Bath",
@@ -7083,6 +8053,38 @@
   ],
   "Texan Pearl": [
     {
+      "text": "Good, elevators are a bit slow",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 820,
+      "signed": "August 2026",
+      "date": "2026-09-17"
+    },
+    {
+      "text": "No amenities, large room and balconies",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 960,
+      "signed": "August 2026",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "Quick Response Time and helpgul",
+      "source": "survey_maintenance",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "No amenities but location and price point is great",
+      "source": "survey_extra",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-08-30"
+    },
+    {
       "text": "Nothing",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -7092,6 +8094,22 @@
     }
   ],
   "Texan Shoal Creek Condominiums": [
+    {
+      "text": "elevator breaks if you hold it open",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1000,
+      "signed": "March 2026",
+      "date": "2026-08-27"
+    },
+    {
+      "text": "Pool, large parking garage, unit is a tad outdated but still good",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 3000,
+      "signed": "June 2026",
+      "date": "2026-08-26"
+    },
     {
       "text": "Broken elevator, package theft, swimming pool",
       "source": "submission",
@@ -7195,6 +8213,30 @@
   ],
   "The Block 23": [
     {
+      "text": "Bad amenites",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 1140,
+      "signed": "October 2025",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Idk",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 1125,
+      "signed": "September 2025",
+      "date": "2026-08-15"
+    },
+    {
+      "text": "None",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1385,
+      "signed": "July 2026",
+      "date": "2026-08-07"
+    },
+    {
       "text": "fake data",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -7209,14 +8251,6 @@
       "rent": 1140,
       "signed": "August 2025",
       "date": "2026-04-29"
-    },
-    {
-      "text": "bad elevator",
-      "source": "submission",
-      "layout": "Unknown",
-      "rent": 4500,
-      "signed": "February 2026",
-      "date": "2026-04-27"
     },
     {
       "text": "N/A",
@@ -7325,6 +8359,14 @@
   ],
   "The Block on 25th East": [
     {
+      "text": "Sometimes there a bugs but it’s not too bad. Mold does get pretty bad towards the end of the year",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 560,
+      "signed": "November 2025",
+      "date": "2026-08-17"
+    },
+    {
       "text": "N/A",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -7414,6 +8456,38 @@
     }
   ],
   "The Block on 25th West": [
+    {
+      "text": "meh",
+      "source": "submission",
+      "layout": "4 Bed / 3 Bath",
+      "rent": 1070,
+      "signed": "August 2025",
+      "date": "2026-09-19"
+    },
+    {
+      "text": "awful bro",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1185,
+      "signed": "October 2025",
+      "date": "2026-08-20"
+    },
+    {
+      "text": "gym",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 500,
+      "signed": "August 2026",
+      "date": "2026-08-08"
+    },
+    {
+      "text": "gym, pool, fully furnished",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1445,
+      "signed": "August 2026",
+      "date": "2026-08-02"
+    },
     {
       "text": "unfurnished, small unit",
       "source": "submission",
@@ -7512,6 +8586,14 @@
     }
   ],
   "The Block on 28th": [
+    {
+      "text": "N/a",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1030,
+      "signed": "March 2026",
+      "date": "2026-08-25"
+    },
     {
       "text": "..",
       "source": "submission",
@@ -7669,6 +8751,14 @@
   ],
   "The Block on Pearl North": [
     {
+      "text": "my AC was broken for three months",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1300,
+      "signed": "September 2025",
+      "date": "2026-08-09"
+    },
+    {
       "text": "n/a",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -7761,6 +8851,30 @@
   ],
   "The Block on Rio": [
     {
+      "text": "Gyms are off-site",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 530,
+      "signed": "December 2024",
+      "date": "2026-08-29"
+    },
+    {
+      "text": "Decently quick for unit requests",
+      "source": "survey_maintenance",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-08-29"
+    },
+    {
+      "text": "Absolutely no package security",
+      "source": "survey_extra",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-08-29"
+    },
+    {
       "text": "Nothing special",
       "source": "submission",
       "layout": "4 Bed / 4 Bath",
@@ -7826,6 +8940,22 @@
     }
   ],
   "The Castilian": [
+    {
+      "text": "sucks includes a gym and pretty okay food",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1830,
+      "signed": "September 2026",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "Have not signed leaae This was on the tower view side which is why it was alittle bit more expensive",
+      "source": "submission",
+      "layout": "2 Bed / 1 Bath",
+      "rent": 2760,
+      "signed": "July 2026",
+      "date": "2026-07-06"
+    },
     {
       "text": "New signing",
       "source": "submission",
@@ -7934,6 +9064,22 @@
     }
   ],
   "The Mark Austin": [
+    {
+      "text": "2026 fall",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1515,
+      "signed": "January 2026",
+      "date": "2026-08-25"
+    },
+    {
+      "text": "N/A",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1500,
+      "signed": "February 2026",
+      "date": "2026-08-12"
+    },
     {
       "text": "nice amenities",
       "source": "submission",
@@ -8329,6 +9475,38 @@
   ],
   "The Nine at Rio": [
     {
+      "text": "gym",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1290,
+      "signed": "August 2026",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "Mold",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1150,
+      "signed": "August 2026",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "High humidity, slow maintenance, pool, grill, working elevators",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1320,
+      "signed": "April 2026",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "Broken elevator, trash overflowing from time to time",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1150,
+      "signed": "July 2025",
+      "date": "2026-08-18"
+    },
+    {
       "text": "N/A",
       "source": "submission",
       "layout": "4 Bed / 4 Bath",
@@ -8467,6 +9645,30 @@
   ],
   "The Nine at West Campus": [
     {
+      "text": "Far from campus, has a pool and gym",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1010,
+      "signed": "January 2026",
+      "date": "2026-08-28"
+    },
+    {
+      "text": "N/A",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 999,
+      "signed": "May 2026",
+      "date": "2026-08-27"
+    },
+    {
+      "text": "Close to campus",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1185,
+      "signed": "September 2025",
+      "date": "2026-08-13"
+    },
+    {
       "text": "New renovations honestly make it better everything is very up to date",
       "source": "submission",
       "layout": "4 Bed / 3 Bath",
@@ -8557,6 +9759,30 @@
   ],
   "The Sinclair": [
     {
+      "text": "Includes gym pool sauna",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 2300,
+      "signed": "July 2026",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "Includes gym, pool, and study spaces",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1359,
+      "signed": "May 2026",
+      "date": "2026-07-29"
+    },
+    {
+      "text": "Unsure",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1389,
+      "signed": "May 2026",
+      "date": "2026-07-28"
+    },
+    {
       "text": "N/A",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -8608,6 +9834,46 @@
     }
   ],
   "The Standard": [
+    {
+      "text": "Water damage",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1295,
+      "signed": "September 2025",
+      "date": "2026-08-27"
+    },
+    {
+      "text": "Hidden fees",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1455,
+      "signed": "October 2025",
+      "date": "2026-08-25"
+    },
+    {
+      "text": "Nicr",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 2110,
+      "signed": "January 2024",
+      "date": "2026-08-23"
+    },
+    {
+      "text": "Some mold issues",
+      "source": "submission",
+      "layout": "5 Bed / 5 Bath",
+      "rent": 1260,
+      "signed": "August 2025",
+      "date": "2026-08-20"
+    },
+    {
+      "text": "i bedroom, 1 bathroom not a studio 550 sq foot goof ameneties",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1845,
+      "signed": "December 2025",
+      "date": "2026-08-10"
+    },
     {
       "text": "includes amenities",
       "source": "submission",
@@ -8814,6 +10080,14 @@
     }
   ],
   "Torre": [
+    {
+      "text": "Close to campus, nice gym and rooftop area with pool",
+      "source": "submission",
+      "layout": "4 Bed / 2 Bath",
+      "rent": 905,
+      "signed": "October 2025",
+      "date": "2026-08-26"
+    },
     {
       "text": "None",
       "source": "submission",
@@ -9049,6 +10323,22 @@
   ],
   "Town Lake Apartments": [
     {
+      "text": "Minimal amenities, pool is never open",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 555,
+      "signed": "June 2026",
+      "date": "2026-09-03"
+    },
+    {
+      "text": "Pool isn’t open",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 555,
+      "signed": "July 2026",
+      "date": "2026-09-03"
+    },
+    {
       "text": "Management lowkey doesn’t want to answer or solve problems that have to do with billing for things like utilities. It’s hard to get a hold on them.",
       "source": "submission",
       "layout": "4 Bed / 2 Bath",
@@ -9122,6 +10412,46 @@
     }
   ],
   "Tradition on Rio": [
+    {
+      "text": "Broken elevator",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1425,
+      "signed": "December 2025",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "Rooms are much smaller than what was shown to us when touring. Torn carpet. Liveable but not impressed at all.",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 1150,
+      "signed": "March 2026",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "roaches",
+      "source": "submission",
+      "layout": "4 Bed / 3 Bath",
+      "rent": 1250,
+      "signed": "October 2024",
+      "date": "2026-08-18"
+    },
+    {
+      "text": "Na",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1245,
+      "signed": "January 2025",
+      "date": "2026-08-13"
+    },
+    {
+      "text": "just wanted a 1x1",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1600,
+      "signed": "August 2026",
+      "date": "2026-07-23"
+    },
     {
       "text": "Loud neighbors",
       "source": "submission",
@@ -9457,6 +10787,22 @@
   ],
   "Twenty Two15": [
     {
+      "text": "It's good and comes with a desk chair and low coffee table (plus a couch! and bed frame) It dosen't come with a dining table tho so you have to sit on the ground and eat. The closet and restroom is decently big though",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1720,
+      "signed": "April 2026",
+      "date": "2026-08-28"
+    },
+    {
+      "text": "No pool",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1040,
+      "signed": "August 2026",
+      "date": "2026-08-08"
+    },
+    {
       "text": "na",
       "source": "submission",
       "layout": "4 Bed / 4 Bath",
@@ -9643,6 +10989,54 @@
   ],
   "Union on 24th": [
     {
+      "text": "Good",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1345,
+      "signed": "January 2026",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "About 4 or 5 working elevators of 8. Pool, gym, dog spa, grills, movie theater, yoga/pilates room, basketball hoop, etc.",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1850,
+      "signed": "November 2026",
+      "date": "2026-08-27"
+    },
+    {
+      "text": "Gym, rooftop pool, movie theater",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1320,
+      "signed": "September 2025",
+      "date": "2026-08-27"
+    },
+    {
+      "text": "Nice amenities. Kinda average",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1460,
+      "signed": "August 2026",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Close to campus, good amenities",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1630,
+      "signed": "January 2026",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Includes gym",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1320,
+      "signed": "October 2025",
+      "date": "2026-08-25"
+    },
+    {
       "text": "Big building",
       "source": "submission",
       "layout": "4 Bed / 4 Bath",
@@ -9657,14 +11051,6 @@
       "rent": 855,
       "signed": "February 2024",
       "date": "2026-07-09"
-    },
-    {
-      "text": "Nice amenities",
-      "source": "submission",
-      "layout": "50 Bed / 50 Bath",
-      "rent": 1265,
-      "signed": "March 2026",
-      "date": "2026-06-26"
     },
     {
       "text": "Good",
@@ -10092,6 +11478,54 @@
     }
   ],
   "Union on San Antonio": [
+    {
+      "text": "Close to campus, leasing office sucks",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1475,
+      "signed": "November 2025",
+      "date": "2026-09-10"
+    },
+    {
+      "text": "Na",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1335,
+      "signed": "February 2026",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Very close to campus, elevators are very quick, had some maintenance issues with room that are taking a while to get fixed, right next to Target",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1500,
+      "signed": "October 2025",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "Broken elevator",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1400,
+      "signed": "August 2024",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "N/A",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1275,
+      "signed": "August 2026",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "Close to campus",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1800,
+      "signed": "August 2026",
+      "date": "2026-08-11"
+    },
     {
       "text": "not bad",
       "source": "submission",
@@ -10571,6 +12005,22 @@
   ],
   "Venue on Guadalupe": [
     {
+      "text": "Close to campus. Gym, pool, printing, lounge, coffee",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1200,
+      "signed": "November 2025",
+      "date": "2026-08-27"
+    },
+    {
+      "text": "N/A",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1210,
+      "signed": "March 2026",
+      "date": "2026-08-18"
+    },
+    {
       "text": "Gym, Pool, BBq",
       "source": "submission",
       "layout": "2 Bed / 2 Bath",
@@ -10665,6 +12115,38 @@
   ],
   "Villas on 24th": [
     {
+      "text": "Gym, pool, hot tub",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1705,
+      "signed": "March 2026",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "pool, gym, sauna, work spaces, close to campus",
+      "source": "submission",
+      "layout": "6 Bed / 6 Bath",
+      "rent": 1750,
+      "signed": "January 2026",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "They consider themselves a \"Luxury\" apartment, and while the amenities such as the nice gym, pool area, and basketball court might seem nice. The building is not that great once living here. The noise travel is bad, and you can hear your neighbors next door screaming, crying, or just doing anything. The 1st year they opened their residents were insanely spoiled and such snobs, they don't care about how nice the things they have that they will just destroy them. They'll breakdown elevators, kick walls, scream into hallways, vomit in elevators because they have too much to drink, break glass into the pool, and just hallways a mess because they know that \"someone\" will just clean it for them. Security was also an issue the first year, they would stop you if you did not look like the usual residents that were white and wore lululemon and polos. They would first assume you were a door dasher or a cleaning person, and demand that you show your fob. But if you looked like the \"usual\" resident they wouldn't even ask. Now they ask anyone and everyone for their fob because so many POC were experiencing this same issue. The management team also seem irritated when you have issues with things on their property that should be fixed or cleaned? They also make you pay for a third party delivery service that deliver on their own time, so if you rely on same day shipping, you can't anymore. While the apartment is nice at first and glamorous, once you live here your going to have issues. But if you are low maintenance, a snob, spoiled, and the casual drunk and screamer at 3am in the hallways, oh and not a POC then you would fit right in!",
+      "source": "submission",
+      "layout": "1 Bed / 1 Bath",
+      "rent": 1310,
+      "signed": "September 2024",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "Respond quick, but are actual clueless and try to get stuff half fixed",
+      "source": "survey_maintenance",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-08-24"
+    },
+    {
       "text": "I have SMART Housing so 900… I'm not complaining about anything",
       "source": "submission",
       "layout": "1 Bed / 1 Bath",
@@ -10739,6 +12221,22 @@
   ],
   "Villas on 26th": [
     {
+      "text": "Tight parking garage and small amenities not worth using in my opinion.",
+      "source": "submission",
+      "layout": "Studio",
+      "rent": 1330,
+      "signed": "April 2026",
+      "date": "2026-08-30"
+    },
+    {
+      "text": "Broken elevator, very dirty",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1205,
+      "signed": "July 2024",
+      "date": "2026-08-27"
+    },
+    {
       "text": "Broken Elevator like 50% of the time",
       "source": "submission",
       "layout": "6 Bed / 6 Bath",
@@ -10796,6 +12294,30 @@
     }
   ],
   "Villas on Guadalupe": [
+    {
+      "text": "hot, gym sucks",
+      "source": "submission",
+      "layout": "3 Bed / 2 Bath",
+      "rent": 830,
+      "signed": "November 2025",
+      "date": "2026-09-13"
+    },
+    {
+      "text": "Elevator is slow, doors haven’t been working not sure if fixed,",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1100,
+      "signed": "July 2025",
+      "date": "2026-08-12"
+    },
+    {
+      "text": "Close to campus, two gyms and two pools, also a rooftop area",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 1200,
+      "signed": "March 2026",
+      "date": "2026-08-07"
+    },
     {
       "text": "gym and pool",
       "source": "submission",
@@ -11039,6 +12561,22 @@
   ],
   "Villas on Nueces": [
     {
+      "text": "Slow elevators, Loud garbage truck noises at night, small gym. Although it is close to campus and they give you a massive TV and apple TV.",
+      "source": "submission",
+      "layout": "Studio",
+      "rent": 1255,
+      "signed": "October 2025",
+      "date": "2026-08-20"
+    },
+    {
+      "text": "management never answers their phones/email",
+      "source": "survey_extra",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-08-20"
+    },
+    {
       "text": "Close to campus, gym and hot tub/pool, broken elevator sometimes",
       "source": "submission",
       "layout": "4 Bed / 3 Bath",
@@ -11104,6 +12642,14 @@
     }
   ],
   "Villas on Rio": [
+    {
+      "text": "Gym, pool, Starbucks, and close to campus",
+      "source": "submission",
+      "layout": "2 Bed / 2 Bath",
+      "rent": 900,
+      "signed": "June 2026",
+      "date": "2026-08-10"
+    },
     {
       "text": "good location",
       "source": "submission",
@@ -11415,6 +12961,14 @@
   ],
   "West Campus Flats": [
     {
+      "text": "Not too much amenities, unfurnished",
+      "source": "submission",
+      "layout": "Studio",
+      "rent": 1150,
+      "signed": "August 2025",
+      "date": "2026-08-19"
+    },
+    {
       "text": "No amenities",
       "source": "submission",
       "layout": "Studio",
@@ -11450,6 +13004,46 @@
     }
   ],
   "Yugo Austin Corner": [
+    {
+      "text": "Answers maintenance request within 1 business day.",
+      "source": "survey_maintenance",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-09-20"
+    },
+    {
+      "text": "Construction right next door in the first 2 weeks of moving in, and it was loud. Be prepared for parties every weekend.",
+      "source": "survey_extra",
+      "layout": null,
+      "rent": null,
+      "signed": "",
+      "date": "2026-09-20"
+    },
+    {
+      "text": "No amenities, far from campus but right next to bus stop and rooms are huge",
+      "source": "submission",
+      "layout": "3 Bed / 3 Bath",
+      "rent": 1230,
+      "signed": "October 2025",
+      "date": "2026-09-03"
+    },
+    {
+      "text": "Hidden fees, water & electricity are not included, VERY few amenities",
+      "source": "submission",
+      "layout": "2 Bed / 1 Bath",
+      "rent": 1180,
+      "signed": "October 2025",
+      "date": "2026-07-31"
+    },
+    {
+      "text": "Far from campus (25 min walk from Jester West)",
+      "source": "submission",
+      "layout": "2 Bed / 1 Bath",
+      "rent": 1180,
+      "signed": "October 2025",
+      "date": "2026-07-31"
+    },
     {
       "text": "Broken elevator, little amenities",
       "source": "submission",
@@ -11591,6 +13185,14 @@
   ],
   "Yugo Austin Rio": [
     {
+      "text": "Includes gym, was given the wrong room on move in, a couple WiFi problems, broken dishwasher, faulty kitchen outlets",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1360,
+      "signed": "October 2025",
+      "date": "2026-08-26"
+    },
+    {
       "text": "n/a",
       "source": "submission",
       "layout": "4 Bed / 4 Bath",
@@ -11648,6 +13250,54 @@
     }
   ],
   "Yugo Austin Waterloo": [
+    {
+      "text": "G",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1430,
+      "signed": "August 2024",
+      "date": "2026-08-29"
+    },
+    {
+      "text": "Close to campus, Pool, Elevators broken sometimes",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1360,
+      "signed": "September 2025",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "N/A",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1330,
+      "signed": "October 2025",
+      "date": "2026-08-26"
+    },
+    {
+      "text": "No hidden fees",
+      "source": "submission",
+      "layout": "6 Bed / 6 Bath",
+      "rent": 1435,
+      "signed": "May 2026",
+      "date": "2026-08-24"
+    },
+    {
+      "text": "Close to Campus, small rooms, windows",
+      "source": "submission",
+      "layout": "6 Bed / 6 Bath",
+      "rent": 1430,
+      "signed": "October 2026",
+      "date": "2026-08-19"
+    },
+    {
+      "text": "Close to campus",
+      "source": "submission",
+      "layout": "4 Bed / 4 Bath",
+      "rent": 1395,
+      "signed": "October 2025",
+      "date": "2026-08-12"
+    },
     {
       "text": "Close to campus, includes gym and pool",
       "source": "submission",

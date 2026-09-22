@@ -33,6 +33,7 @@ import statistics
 import sys
 from collections import Counter, defaultdict
 from datetime import date, datetime
+from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_RAW = os.path.join(HERE, "..", "data", "Raw_data.json")
@@ -49,7 +50,10 @@ CSV_COLUMNS = [
     "signingMonth", "signingYear", "note", "createdAt", "created_date", "id",
 ]
 
-CURRENT_YEAR = str(date.today().year)
+# Submission timestamps are Austin-local. Pin the zone so dates do not
+# shift by a day when the pipeline runs on a UTC machine.
+LOCAL_TZ = ZoneInfo("America/Chicago")
+CURRENT_YEAR = str(datetime.now(LOCAL_TZ).year)
 YEAR_ALIASES = {"current year", "current lease"}
 
 
@@ -178,7 +182,7 @@ def to_number(val):
 
 def created_date(ms):
     try:
-        return datetime.fromtimestamp(ms / 1000).strftime("%Y-%m-%d")
+        return datetime.fromtimestamp(ms / 1000, tz=LOCAL_TZ).strftime("%Y-%m-%d")
     except (TypeError, ValueError, OSError):
         return ""
 
