@@ -1817,6 +1817,90 @@
       "id": "1788454255605ajc5wyo67",
       "rating": 4,
       "userId": "k17d9hpwvbtq7k8sj83462btax8dps03"
+    },
+    {
+      "_timestamp": 1789007295133,
+      "_user": {
+        "displayName": "K G",
+        "handle": "heyyyyyyyyyyyy",
+        "id": "k17ewhgvecv550trffx2x6tt5x8e415d",
+        "profileImageUrl": null
+      },
+      "building": "Regents West at 26th",
+      "createdAt": 1789007293876,
+      "id": "1789007293876n76c05y52",
+      "rating": 3,
+      "userId": "k17ewhgvecv550trffx2x6tt5x8e415d"
+    },
+    {
+      "_timestamp": 1789070216921,
+      "_user": {
+        "displayName": "Tom Dang",
+        "handle": "tomdang",
+        "id": "k17a04mt4bbensbvqma62c3d0h8e4yas",
+        "profileImageUrl": null
+      },
+      "building": "nine",
+      "createdAt": 1789070212810,
+      "id": "1789070212809bswfqklqe",
+      "rating": 4,
+      "userId": "k17a04mt4bbensbvqma62c3d0h8e4yas"
+    },
+    {
+      "_timestamp": 1789621182275,
+      "_user": {
+        "displayName": "Daniel Pham",
+        "handle": "kdanielp",
+        "id": "k17cgmfn398vf4t4yge7c9jaf18ek54z",
+        "profileImageUrl": "https://a1zap.s3.us-east-1.amazonaws.com/profile-images/8281fe6e-97b9-4e8a-a06c-af8e0cb3fc8e/1789621040273-a99b187c-f9e5-47fd-b6d1-3cc0d30342c6.png"
+      },
+      "building": "Diplomat West Campus",
+      "createdAt": 1789621182212,
+      "id": "17896211822125wooferf4",
+      "rating": 3,
+      "userId": "8281fe6e-97b9-4e8a-a06c-af8e0cb3fc8e"
+    },
+    {
+      "_timestamp": 1789680864754,
+      "_user": {
+        "displayName": "Eshanthsai Vanam",
+        "handle": "eshubeta",
+        "id": "k17e3sd8cqthv85f5pz50yyht58ekazd",
+        "profileImageUrl": null
+      },
+      "building": "Inspire on 22nd",
+      "createdAt": 1789680862805,
+      "id": "1789680862805lc9a2jg99",
+      "rating": 4,
+      "userId": "k17e3sd8cqthv85f5pz50yyht58ekazd"
+    },
+    {
+      "_timestamp": 1789869098479,
+      "_user": {
+        "displayName": "Denny  Jiang ",
+        "handle": "den",
+        "id": "k17dm4p5m1f3mmxyqhgbrt5h8h8ermag",
+        "profileImageUrl": null
+      },
+      "building": "The Block on 25th West",
+      "createdAt": 1789869098450,
+      "id": "1789869098450u4abmgwvd",
+      "rating": 3,
+      "userId": "k17dm4p5m1f3mmxyqhgbrt5h8h8ermag"
+    },
+    {
+      "_timestamp": 1789877671597,
+      "_user": {
+        "displayName": "Leo Song",
+        "handle": "leo1",
+        "id": "k174yjsg5ez523e615p5tkqw998erqs7",
+        "profileImageUrl": null
+      },
+      "building": "GrandMarc Austin",
+      "createdAt": 1789877671458,
+      "id": "1789877671457tgmgao2qf",
+      "rating": 4,
+      "userId": "k174yjsg5ez523e615p5tkqw998erqs7"
     }
   ],
   "records": [],
@@ -41697,6 +41781,512 @@
       "signingYear": "2025",
       "utilityCost": 35,
       "utils": false
+    },
+    {
+      "_timestamp": 1788747289629,
+      "_user": {
+        "displayName": "nate ikerd",
+        "handle": "nateikerd44",
+        "id": "k17fznrwsnj2afhx2nnqn7h11s8dz7z4",
+        "profileImageUrl": null
+      },
+      "createdAt": 1788747289549,
+      "doubleOccupancy": false,
+      "hood": "axis",
+      "id": "1788747289549pchhaq08i",
+      "isOwnPlace": true,
+      "layout": "4 Bed / 4 Bath",
+      "note": "Pretty far walk from campus, furnished big room with attached bath",
+      "parking": true,
+      "parkingCost": 80,
+      "rent": 1080,
+      "signingMonth": "February",
+      "signingYear": "2026",
+      "utilityCost": 60,
+      "utils": false
+    },
+    {
+      "_timestamp": 1788748993379,
+      "_user": {
+        "displayName": "Carter Chung",
+        "handle": "carter1025",
+        "id": "k17a0dc5nqv1f52desha03mzg58dzc7c",
+        "profileImageUrl": null
+      },
+      "createdAt": 1788748993270,
+      "doubleOccupancy": false,
+      "hood": "Icon at Austin",
+      "id": "1788748993271mdiqeb7wl",
+      "isOwnPlace": true,
+      "layout": "2 Bed / 2 Bath",
+      "note": "gym and pool",
+      "parking": false,
+      "parkingCost": 0,
+      "rent": 1610,
+      "signingMonth": "March",
+      "signingYear": "2026",
+      "utilityCost": 50,
+      "utils": false
+    },
+    {
+      "_timestamp": 1788797082391,
+      "_user": {
+        "displayName": "R C",
+        "handle": "achen",
+        "id": "k17b8jqjsnb1y4ydvqtz36w0098dy1sp",
+        "profileImageUrl": null
+      },
+      "createdAt": 1788797082260,
+      "doubleOccupancy": false,
+      "hood": "Skyloft Austin",
+      "id": "1788797082260fnm3guq8f",
+      "isOwnPlace": true,
+      "layout": "3 Bed / 2 Bath",
+      "note": "Free printing, close to campus",
+      "parking": false,
+      "parkingCost": 0,
+      "rent": 1235,
+      "signingMonth": "October",
+      "signingYear": "2025",
+      "utilityCost": 0,
+      "utils": false
+    },
+    {
+      "_timestamp": 1788802811018,
+      "_user": {
+        "displayName": "Fatima Bautista",
+        "handle": "fatima",
+        "id": "k17dhpgs4xxd534j2mbhnk366h8dy7b9",
+        "profileImageUrl": null
+      },
+      "createdAt": 1788802810950,
+      "doubleOccupancy": false,
+      "hood": "Crest at Pearl",
+      "id": "1788802810950qhorpr6et",
+      "isOwnPlace": true,
+      "layout": "3 Bed / 3 Bath",
+      "note": "Thin walls, but the location and price are worth it",
+      "parking": false,
+      "parkingCost": 0,
+      "rent": 1114,
+      "signingMonth": "October",
+      "signingYear": "2025",
+      "utilityCost": 0,
+      "utils": false
+    },
+    {
+      "_timestamp": 1788805025870,
+      "_user": {
+        "displayName": "Rhea Jain",
+        "handle": "rhea",
+        "id": "k17d2dtg9pfsps9db7zm62chwn8dz806",
+        "profileImageUrl": null
+      },
+      "createdAt": 1788805025727,
+      "doubleOccupancy": false,
+      "hood": "Skyloft Austin",
+      "id": "1788805025727f3pbt9npi",
+      "isOwnPlace": true,
+      "layout": "3 Bed / 2 Bath",
+      "note": "Nothing bad so far",
+      "parking": true,
+      "parkingCost": 210,
+      "rent": 1240,
+      "signingMonth": "October",
+      "signingYear": "2025",
+      "utilityCost": 0,
+      "utils": false
+    },
+    {
+      "_timestamp": 1788845001764,
+      "_user": {
+        "displayName": "Pranavvetrivel Balaji",
+        "handle": "pr8",
+        "id": "k17cgk76grg3b6bybddgzx8h3d8e1t7g",
+        "profileImageUrl": null
+      },
+      "createdAt": 1788845000838,
+      "doubleOccupancy": false,
+      "hood": "Dobie Twenty21",
+      "id": "1788845000838ef4dgbnc0",
+      "isOwnPlace": true,
+      "layout": "4 Bed / 2 Bath",
+      "note": "On campus, free unlimited dining hall swipes",
+      "parking": false,
+      "parkingCost": 0,
+      "rent": 1180,
+      "signingMonth": "August",
+      "signingYear": "2026",
+      "utilityCost": 0,
+      "utils": false
+    },
+    {
+      "_timestamp": 1788994950708,
+      "_user": {
+        "displayName": "Paolo DAndrea",
+        "handle": "paolodandrea",
+        "id": "k170gh8gasr7623xc12vz23ddd8dbtqw",
+        "profileImageUrl": null
+      },
+      "createdAt": 1788994950557,
+      "doubleOccupancy": false,
+      "hood": "Ion Austin",
+      "id": "1788994950557zq65956sy",
+      "isOwnPlace": true,
+      "layout": "4 Bed / 4 Bath",
+      "note": "N/A",
+      "parking": true,
+      "parkingCost": 180,
+      "rent": 1305,
+      "signingMonth": "February",
+      "signingYear": "2026",
+      "utilityCost": 0,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789007252646,
+      "_user": {
+        "displayName": "K G",
+        "handle": "heyyyyyyyyyyyy",
+        "id": "k17ewhgvecv550trffx2x6tt5x8e415d",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789007252607,
+      "doubleOccupancy": false,
+      "hood": "Regents West at 26th",
+      "id": "17890072526070qvrgjyrx",
+      "isOwnPlace": true,
+      "layout": "4 Bed / 2 Bath",
+      "note": "Includes gym",
+      "parking": true,
+      "parkingCost": 85,
+      "rent": 1060,
+      "signingMonth": "October",
+      "signingYear": "2025",
+      "utilityCost": 50,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789008939539,
+      "_user": {
+        "displayName": "Rosalie Jones",
+        "handle": "rosaliejones",
+        "id": "k176ty9h74fqevtvsft7ycrs658e50z8",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789008939473,
+      "doubleOccupancy": false,
+      "hood": "Parapet Condominiums",
+      "id": "1789008939473r8z0phcv7",
+      "isOwnPlace": true,
+      "layout": "2 Bed / 2 Bath",
+      "note": "No amenities, parking included, several balconies.",
+      "parking": true,
+      "parkingCost": 0,
+      "rent": 920,
+      "signingMonth": "December",
+      "signingYear": "2025",
+      "utilityCost": 35,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789070207280,
+      "_user": {
+        "displayName": "Tom Dang",
+        "handle": "tomdang",
+        "id": "k17a04mt4bbensbvqma62c3d0h8e4yas",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789070203175,
+      "doubleOccupancy": false,
+      "hood": "nine",
+      "id": "1789070203175v8bcu9gxk",
+      "isOwnPlace": true,
+      "layout": "4 Bed / 4 Bath",
+      "note": "pet friendly",
+      "parking": true,
+      "parkingCost": 175,
+      "rent": 1295,
+      "signingMonth": "July",
+      "signingYear": "2026",
+      "utilityCost": 0,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789082006515,
+      "_user": {
+        "displayName": "Madeleine Mazingo",
+        "handle": "madeleinemarie",
+        "id": "k17f5mrj6gs87hea2v0g75qpxd8e5e6j",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789082004979,
+      "doubleOccupancy": false,
+      "hood": "Union on San Antonio",
+      "id": "1789082004979hn4ssg16s",
+      "isOwnPlace": true,
+      "layout": "4 Bed / 4 Bath",
+      "note": "Close to campus, leasing office sucks",
+      "parking": true,
+      "parkingCost": 200,
+      "rent": 1475,
+      "signingMonth": "November",
+      "signingYear": "2025",
+      "utilityCost": 0,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789176548691,
+      "_user": {
+        "displayName": "Alan Ortiz",
+        "handle": "alanortiz",
+        "id": "k17c8w3axnmaasw5bha5k3brtx8e90rs",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789176548651,
+      "doubleOccupancy": false,
+      "hood": "Monticello Studios at Hyde Park",
+      "id": "17891765486517eft0di8x",
+      "isOwnPlace": true,
+      "layout": "Studio",
+      "note": "No amenities but it’s really quiet. Have to pay for washing.",
+      "parking": true,
+      "parkingCost": 0,
+      "rent": 995,
+      "signingMonth": "August",
+      "signingYear": "2026",
+      "utilityCost": 100,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789360307714,
+      "_user": {
+        "displayName": "Aidan Nguyen",
+        "handle": "aidanwins",
+        "id": "k17ff4rprvadb9pcrmtnge0zw58ec9tm",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789360307563,
+      "doubleOccupancy": false,
+      "hood": "Villas on Guadalupe",
+      "id": "1789360307563mh9wu5ofn",
+      "isOwnPlace": true,
+      "layout": "3 Bed / 2 Bath",
+      "note": "hot, gym sucks",
+      "parking": true,
+      "parkingCost": 150,
+      "rent": 830,
+      "signingMonth": "November",
+      "signingYear": "2025",
+      "utilityCost": 50,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789494343936,
+      "_user": {
+        "displayName": "Benjamin Mariscal",
+        "handle": "bnyx",
+        "id": "k179msb9ph6p3kqxcb86c6dw3x8eefkr",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789494342913,
+      "doubleOccupancy": false,
+      "hood": "Skyloft Austin",
+      "id": "1789494342913xz4f4nw74",
+      "isOwnPlace": true,
+      "layout": "3 Bed / 3 Bath",
+      "note": "has a guy, study rooms, and a small pool",
+      "parking": true,
+      "parkingCost": 190,
+      "rent": 1310,
+      "signingMonth": "April",
+      "signingYear": "2026",
+      "utilityCost": 0,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789621164641,
+      "_user": {
+        "displayName": "Daniel Pham",
+        "handle": "kdanielp",
+        "id": "k17cgmfn398vf4t4yge7c9jaf18ek54z",
+        "profileImageUrl": "https://a1zap.s3.us-east-1.amazonaws.com/profile-images/8281fe6e-97b9-4e8a-a06c-af8e0cb3fc8e/1789621040273-a99b187c-f9e5-47fd-b6d1-3cc0d30342c6.png"
+      },
+      "createdAt": 1789621164592,
+      "doubleOccupancy": false,
+      "hood": "Diplomat West Campus",
+      "id": "1789621164592su1w2zag1",
+      "isOwnPlace": true,
+      "layout": "1 Bed / 1 Bath",
+      "note": "It is an older building, so it’s nothing modern or special. However, it works and is a decent place to live in.",
+      "parking": true,
+      "parkingCost": 0,
+      "rent": 1350,
+      "signingMonth": "April",
+      "signingYear": "2026",
+      "utilityCost": 80,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789680853382,
+      "_user": {
+        "displayName": "Eshanthsai Vanam",
+        "handle": "eshubeta",
+        "id": "k17e3sd8cqthv85f5pz50yyht58ekazd",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789680851429,
+      "doubleOccupancy": false,
+      "hood": "Inspire on 22nd",
+      "id": "1789680851429p41n1oya8",
+      "isOwnPlace": true,
+      "layout": "5 Bed / 5 Bath",
+      "note": "Decent management, price may be too high.. lack of amenities compared to other apartments and small rooms.",
+      "parking": true,
+      "parkingCost": 0,
+      "rent": 1300,
+      "signingMonth": "April",
+      "signingYear": "2026",
+      "utilityCost": 50,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789703674098,
+      "_user": {
+        "displayName": "Jordan  Henton",
+        "handle": "boknowsj",
+        "id": "k17fkhgbax9pdc9q58x382shm18emnnf",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789703673476,
+      "doubleOccupancy": false,
+      "hood": "Texan Pearl",
+      "id": "1789703673476g7yg9jnmt",
+      "isOwnPlace": true,
+      "layout": "2 Bed / 2 Bath",
+      "note": "Good, elevators are a bit slow",
+      "parking": true,
+      "parkingCost": 75,
+      "rent": 820,
+      "signingMonth": "August",
+      "signingYear": "2026",
+      "utilityCost": 50,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789779908155,
+      "_user": {
+        "displayName": "Tyler Lam",
+        "handle": "canary",
+        "id": "k170aya8b2hhp6bp9awbt6t3dd8dg0dc",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789779908343,
+      "doubleOccupancy": false,
+      "hood": "21 Pearl",
+      "id": "1789779908343b83yzclul",
+      "isOwnPlace": true,
+      "layout": "Studio",
+      "note": "N/A",
+      "parking": false,
+      "parkingCost": 0,
+      "rent": 1100,
+      "signingMonth": "September",
+      "signingYear": "2026",
+      "utilityCost": 0,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789869090377,
+      "_user": {
+        "displayName": "Denny  Jiang ",
+        "handle": "den",
+        "id": "k17dm4p5m1f3mmxyqhgbrt5h8h8ermag",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789869090346,
+      "doubleOccupancy": false,
+      "hood": "The Block on 25th West",
+      "id": "17898690903462khhrguff",
+      "isOwnPlace": true,
+      "layout": "4 Bed / 3 Bath",
+      "note": "meh",
+      "parking": true,
+      "parkingCost": 125,
+      "rent": 1070,
+      "signingMonth": "August",
+      "signingYear": "2025",
+      "utilityCost": 50,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789877658197,
+      "_user": {
+        "displayName": "Leo Song",
+        "handle": "leo1",
+        "id": "k174yjsg5ez523e615p5tkqw998erqs7",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789877658055,
+      "doubleOccupancy": false,
+      "hood": "GrandMarc Austin",
+      "id": "1789877658055yyuukorhs",
+      "isOwnPlace": true,
+      "layout": "4 Bed / 4 Bath",
+      "note": "Pool is resort style, gym is nice. Small building so not very loud or overwhelming",
+      "parking": false,
+      "parkingCost": 0,
+      "rent": 1350,
+      "signingMonth": "November",
+      "signingYear": "2025",
+      "utilityCost": 50,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789884069540,
+      "_user": {
+        "displayName": "Caleb Tran",
+        "handle": "calebtran",
+        "id": "k174d5d3gea1kzh10ybzkfdsvx8espwf",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789884069537,
+      "doubleOccupancy": false,
+      "hood": "Hilltop",
+      "id": "1789884069537tfn5bo879",
+      "isOwnPlace": true,
+      "layout": "4 Bed / 4 Bath",
+      "note": "Average amenities (when compared to other Wampus apartments).",
+      "parking": true,
+      "parkingCost": 250,
+      "rent": 1250,
+      "signingMonth": "September",
+      "signingYear": "2026",
+      "utilityCost": 50,
+      "utils": false
+    },
+    {
+      "_timestamp": 1789926635174,
+      "_user": {
+        "displayName": "Sahil Kulkarni",
+        "handle": "ssk123",
+        "id": "k17f2pb4wd7ed5xqv58j5f16ad8esdmq",
+        "profileImageUrl": null
+      },
+      "createdAt": 1789926631415,
+      "doubleOccupancy": false,
+      "hood": "Littlefield Apartments",
+      "id": "1789926631415a7ij9pgyj",
+      "isOwnPlace": true,
+      "layout": "2 Bed / 2 Bath",
+      "note": "The place is a little old and showing its age for sure. Not the best maintained. There’s paint splatter on things, grime, and the landlord special. There are some gaps in the walls and doors. But it’s not a terrible place to live especially given the price.",
+      "parking": true,
+      "parkingCost": 0,
+      "rent": 935,
+      "signingMonth": "April",
+      "signingYear": "2026",
+      "utilityCost": 60,
+      "utils": false
     }
   ],
   "surveys": [
@@ -43551,6 +44141,79 @@
       "maintenanceRating": 0,
       "quality": "Standard",
       "userId": "k174bafax5ng6a7xytmh3781g582q138"
+    },
+    {
+      "_timestamp": 1788797137885,
+      "_user": {
+        "displayName": "R C",
+        "handle": "achen",
+        "id": "k17b8jqjsnb1y4ydvqtz36w0098dy1sp",
+        "profileImageUrl": null
+      },
+      "building": "Skyloft Austin",
+      "complaintOther": "",
+      "complaints": [
+        "Wall Thickness"
+      ],
+      "createdAt": 1788797137758,
+      "elevatorCount": 0,
+      "elevatorUptime": 50,
+      "extraNotes": "",
+      "id": "1788797137758i3e0dw9x8",
+      "maintenanceNote": "",
+      "maintenanceRating": 6,
+      "quality": "Elite",
+      "userId": "k17b8jqjsnb1y4ydvqtz36w0098dy1sp"
+    },
+    {
+      "_timestamp": 1789007396207,
+      "_user": {
+        "displayName": "K G",
+        "handle": "heyyyyyyyyyyyy",
+        "id": "k17ewhgvecv550trffx2x6tt5x8e415d",
+        "profileImageUrl": null
+      },
+      "building": "Regents West at 26th",
+      "complaintOther": "",
+      "complaints": [
+        "AC/Heater",
+        "Distance",
+        "Amenities"
+      ],
+      "createdAt": 1789007386469,
+      "elevatorCount": 2,
+      "elevatorUptime": 74,
+      "extraNotes": "",
+      "id": "17890073864694jghkonw2",
+      "maintenanceNote": "Wonderful maintenance",
+      "maintenanceRating": 0,
+      "quality": "Standard",
+      "userId": "k17ewhgvecv550trffx2x6tt5x8e415d"
+    },
+    {
+      "_timestamp": 1789884397890,
+      "_user": {
+        "displayName": "Caleb Tran",
+        "handle": "calebtran",
+        "id": "k174d5d3gea1kzh10ybzkfdsvx8espwf",
+        "profileImageUrl": null
+      },
+      "building": "Yugo Austin Corner",
+      "complaintOther": "",
+      "complaints": [
+        "Wifi",
+        "Package Security",
+        "Distance"
+      ],
+      "createdAt": 1789884385412,
+      "elevatorCount": 1,
+      "elevatorUptime": 70,
+      "extraNotes": "Construction right next door in the first 2 weeks of moving in, and it was loud. Be prepared for parties every weekend.",
+      "id": "1789884385411orlszwlil",
+      "maintenanceNote": "Answers maintenance request within 1 business day.",
+      "maintenanceRating": 8,
+      "quality": "Livable",
+      "userId": "k174d5d3gea1kzh10ybzkfdsvx8espwf"
     }
   ],
   "tags": [],
