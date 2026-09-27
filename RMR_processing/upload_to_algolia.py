@@ -8,9 +8,15 @@ becomes one Algolia record; the key is used as objectID (and stored as
 Usage:
     python3 upload_to_algolia.py            # replace index contents
     python3 upload_to_algolia.py --no-clear # upsert only, keep existing records
+    python3 upload_to_algolia.py --dry-run  # validate records locally, no API calls
 
-Credentials default to the values below but can be overridden via env vars
-ALGOLIA_APP_ID / ALGOLIA_WRITE_KEY.
+Credentials (set in the environment; do not commit keys):
+    ALGOLIA_APP_ID      Algolia application ID
+    ALGOLIA_WRITE_KEY   Algolia admin/write API key (search-only keys fail)
+
+If those env vars are unset the script falls back to in-repo defaults.
+A 403 "Invalid Application-ID or API key" means the defaults are stale or
+the env vars were not provided — export a live write key and retry.
 """
 
 import json
@@ -44,7 +50,14 @@ def _request(method, url, payload=None):
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", "replace")
-        sys.exit(f"HTTP {e.code} on {method} {url}\n{body}")
+        hint = ""
+        if e.code in (401, 403):
+            hint = (
+                "\nHint: export ALGOLIA_APP_ID and ALGOLIA_WRITE_KEY with a live "
+                "admin/write key. In-repo defaults are stale or a search-only key "
+                "was used. Do not invent credentials."
+            )
+        sys.exit(f"HTTP {e.code} on {method} {url}\n{body}{hint}")
 
 
 def load_records():
@@ -69,9 +82,30 @@ def load_records():
 
 
 def main():
+    dry_run = "--dry-run" in sys.argv
     clear = "--no-clear" not in sys.argv
     records = load_records()
     print(f"Loaded {len(records)} records from {SRC}")
+    print(f"Target index: {INDEX} (app {APP_ID})")
+    cred_src = []
+    cred_src.append("ALGOLIA_APP_ID=" + ("env" if "ALGOLIA_APP_ID" in os.environ else "default"))
+    cred_src.append("ALGOLIA_WRITE_KEY=" + ("env" if "ALGOLIA_WRITE_KEY" in os.environ else "default"))
+    print("Credential source: " + ", ".join(cred_src))
+
+    missing_id = [r for r in records if not r.get("objectID")]
+    if missing_id:
+        sys.exit(f"ERROR: {len(missing_id)} records are missing objectID")
+    if not WRITE_KEY:
+        sys.exit(
+            "ERROR: ALGOLIA_WRITE_KEY is empty. Export a live Algolia admin/write "
+            "API key (search-only keys cannot clear or batch-write)."
+        )
+
+    if dry_run:
+        print(f"Dry run: would {'clear then ' if clear else ''}upload {len(records)} records.")
+        print(f"  sample objectIDs: {[r['objectID'] for r in records[:8]]}")
+        print("Dry run complete; no Algolia API calls made.")
+        return
 
     if clear:
         print(f"Clearing index {INDEX} ...")
