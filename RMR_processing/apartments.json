@@ -9080,6 +9080,41 @@
     ],
     "last_updated": "2026-07-22"
   },
+  "Tower View Apartments": {
+    "canonical_name": "Tower View Apartments",
+    "website_url": "https://www.rentable.co/austin-tx/926-e-dean-keeton",
+    "sample_count": 2,
+    "layouts": {
+      "1 Bed / 1 Bath": {
+        "count": 2,
+        "avg_rent": 1052,
+        "median_rent": 1052,
+        "min_rent": 1005,
+        "max_rent": 1100,
+        "effective_avg_cost": 1130
+      }
+    },
+    "parking": {
+      "avg_cost": null,
+      "priced_count": 0,
+      "has_parking_count": 0,
+      "note": "avg over reported prices > 0 only; 0/absent is unknown, not free"
+    },
+    "utilities": {
+      "avg_cost": 78,
+      "priced_count": 2,
+      "included_count": 0
+    },
+    "rating": null,
+    "survey": null,
+    "lease_years": {
+      "2026": 1,
+      "2025": 1
+    },
+    "top_reviews": [],
+    "general_notes": [],
+    "last_updated": "2026-09-27"
+  },
   "Town Lake Apartments": {
     "canonical_name": "Town Lake Apartments",
     "website_url": "https://www.townlakeataustin.com/floor-plans",

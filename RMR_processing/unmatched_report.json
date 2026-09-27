@@ -13,7 +13,6 @@
     "Elan East": 2,
     "Vintage West Campus": 2,
     "Park Place": 2,
-    "Tower View Apartments": 2,
     "Quarters on Campus – 28th": 2,
     "Yugo Nueces": 2,
     "University of Texas KA house": 2,
@@ -64,5 +63,5 @@
     "French House Co op": 1,
     "Any": 1
   },
-  "total_records_dropped": 102
+  "total_records_dropped": 100
 }
